@@ -1,73 +1,69 @@
 # HAIMM: Human-AI Maturity Model
 
-A human-centric framework for AI adoption, focused on collaboration, cultural
-shifts, real-world user needs and ethics rather than technological readiness.
+A human-centric framework for AI adoption, focused on collaboration, shared
+understanding, culture and ethics rather than technological readiness.
 Complementary to enterprise AI maturity models (Gartner, Forrester, Deloitte,
 IBM's AI Ladder, Microsoft's Responsible AI Maturity Model) rather than a
 replacement for them.
 
 Author: Carlos Rosemberg
 
-**This commit is v0.1, as published.** It is the baseline. Everything after it
-is a change to the model, and the diff from this tag is the record of what
-changed.
+This repository is the canonical source. The published article is a rendering
+of it. That inversion is deliberate: v0.1 lived in one long document, which
+made revision expensive and made it hard to change one dimension without
+republishing everything.
 
-## What v0.1 is
+## Versions
+
+| Version | State | Where |
+|---|---|---|
+| v0.1 | Released 24 December 2024, frozen | [`versions/v0.1/`](versions/v0.1/) |
+| v0.2 | In progress, not yet in this repository | repository root, once it lands |
+
+Released versions live in [`versions/`](versions/), one folder each, frozen at
+release and never edited afterwards. The version being worked on lives at the
+root, and is snapshotted into `versions/` when it ships.
+
+## Layout
+
+```
+README.md      this file
+versions/      released versions, frozen, one folder each
+  v0.1/        the published article, its figures, and its provenance
+```
+
+Once v0.2 lands, the root also holds the working model (`framework/`, `gates/`,
+`playbook/`, `tools/`) and the files that describe the project rather than any
+one version: the evidence log, open questions, and the changelog. There is one
+of each and they span all versions.
+
+## What HAIMM is
 
 Five stages, describing how a team or organization progresses over time:
+Exploration, Experimentation, Integration, Optimization, Continuous Evolution.
 
-1. Exploration
-2. Experimentation
-3. Integration
-4. Optimization
-5. Continuous Evolution
+Dimensions, the building blocks that keep adoption human-centric. v0.1 has four:
+Solution Fit, Human-AI Collaboration, People, Ethics. v0.2 adds a fifth,
+Knowledge & Context, covering the shared understanding work depends on, both
+between people and AI and among people themselves.
 
-Four dimensions, the building blocks that keep adoption human-centric:
+Dimensions are independent. A team scattered across several stages is the
+diagnosis, not an error.
 
-1. Solution Fit
-2. Human-AI Collaboration
-3. People
-4. Ethics
-
-Each dimension is described at each stage, with an example. Each dimension also
-carries a per-stage list of suggested metrics. v0.1 is descriptive: it tells a
-team what a stage looks like, but gives them no way to fail a check, so
-placement rests on self-assessment.
-
-## Contents
-
-```
-article.md    the published text, verbatim, defects preserved
-SOURCE.md     provenance, capture method, and the defects preserved
-figures/      the four figures, with a rights note
-VERSION       0.1.0
-```
-
-## Reading this repository
-
-`article.md` is the model. `SOURCE.md` is how to trust it: what was captured,
-what was repaired, and the six things known to be wrong or unresolved.
-
-Do not correct `article.md`. Corrections belong to the next version, so that
-the diff shows a decision rather than an edit.
-
-## What comes next
-
-v0.2 is drafted separately and not yet in this repository. Its two substantive
-changes are a fifth dimension, Knowledge & Context, covering the shared
-understanding work depends on, both between people and AI and among people
-themselves; and gates, four per dimension, one per stage transition, with
-criteria checkable against artifacts, observation or survey. Gates are what
-turn HAIMM from something you read into something a team can be assessed
-against.
+v0.1 is descriptive: it tells a team what a stage looks like but gives them no
+way to fail a check, so placement rests on self-assessment. v0.2's second change
+addresses that with gates, four per dimension, one per stage transition, with
+criteria checkable against artifacts, observation or survey. A framework people
+read and an instrument people run against their team are judged differently, and
+v0.2 becomes both.
 
 ## Licence
 
 Not yet decided. The repository is private while v0.2 takes shape. Add a
 `LICENSE` before making it public. CC BY 4.0 and CC BY-SA 4.0 are the
-candidates, and the choice determines whether a consultancy can absorb the
-model into closed material.
+candidates, and the choice determines whether a consultancy can absorb the model
+into closed material.
 
-Two of the four figures are third-party and their status is unresolved. See
-`figures/README.md`. That has to be settled before publication regardless of
-which licence is chosen.
+Two of the four v0.1 figures are third-party and their rights status is
+unresolved. See [`versions/v0.1/figures/README.md`](versions/v0.1/figures/README.md).
+That has to be settled before publication regardless of which licence is chosen.
