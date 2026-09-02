@@ -33,7 +33,7 @@ Interactions are real, and they are expressed as criteria inside the affected di
 | Distribution | People, Integration to Optimization | Whether capability is concentrated in the people who built personal context scaffolding |
 | Provenance | Ethics, Experimentation to Integration | Whether the team can say what grounded an AI-influenced decision |
 
-None of these four criteria are written yet. They are the first thing to add when the other sixteen gates are drafted.
+All four are now written, one criterion inside the named gate of the affected dimension's own YAML file under `framework/gates/`.
 
 ## Assessment
 

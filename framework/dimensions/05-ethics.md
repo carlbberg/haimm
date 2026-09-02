@@ -2,7 +2,7 @@
 
 *Safeguarding responsible AI practices*
 
-**Status: v0.1 text, moved but not yet revised for v0.2.** Gates not yet drafted.
+**Status: v0.1 text, moved but not yet revised for v0.2.** Gates drafted, untested against a real assessment.
 
 Ethical governance is a foundational element of HAIMM, ensuring fairness, transparency, and accountability throughout the adoption process. It's highly recommended to follow best practices and guidelines from the extensive literature in the field, such as the [European AI Act](https://www.consilium.europa.eu/en/policies/artificial-intelligence/#AI%20act) (European Commission, 2024), [IBM's Foundation Models Risks, Opportunities, and Mitigations](https://www.ibm.com/downloads/documents/us-en/10a99803d8afd656) (IBM, 2024) and [Microsoft's Responsible AI Maturity Model](https://www.microsoft.com/en-us/research/publication/responsible-ai-maturity-model/) (Microsoft, 2024). A high-level co-creation approach on how to explore those guidelines throughout the stages is shown below:
 
@@ -24,8 +24,13 @@ These principles ensure that organizations adopt AI in a manner that prioritizes
 | Optimization | Proactive monitoring and mitigation of ethical issues in real-time. |
 | Continuous Evolution | Evolving ethical frameworks to address new challenges and emerging use cases. |
 
+## Gates
+
+Source: `framework/gates/ethics.yaml`. Rendered: `framework/gates/generated/ethics-gates.md`. Instruments: `playbook/instruments/`.
+
+The Experimentation to Integration gate carries the Ethics / Knowledge & Context interaction criterion (provenance): whether the team can say what grounded an AI-influenced decision.
+
 ## Related
 
 - Full v0.1 text, as published: `archive/v0.1/article.md`
 - v0.1 metrics for this dimension: `archive/v0.1/article.md`, not yet migrated; see `research/open-questions.md`, item 2.
-- Gates: not yet drafted. See `framework/gates/ethics.yaml`.
