@@ -11,8 +11,9 @@ This repository is the canonical source. The article is a rendering of it. That 
 | Part | State |
 |---|---|
 | Five stages | Stable since v0.1 |
-| Solution Fit, Human-AI Collaboration, People, Ethics | Stable since v0.1, not yet decomposed into this repo |
+| Solution Fit, Human-AI Collaboration, People, Ethics | v0.1 text moved into `framework/dimensions/`, not yet revised for v0.2 |
 | Knowledge & Context (new in v0.2) | Draft, argument and structure complete |
+| Matrix | All five rows populated; four are v0.1 text, unrevised |
 | Gates: Knowledge & Context | Draft, four gates with criteria |
 | Gates: other four dimensions | Not started, sixteen outstanding |
 | Metrics | v0.1 metrics not yet migrated; relationship to gates undecided |

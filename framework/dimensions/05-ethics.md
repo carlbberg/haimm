@@ -2,12 +2,30 @@
 
 *Safeguarding responsible AI practices*
 
-**Status: not yet decomposed from v0.1.**
+**Status: v0.1 text, moved but not yet revised for v0.2.** Gates not yet drafted.
 
-The v0.1 text for this dimension is in `archive/v0.1/`. Move it here when decomposing, keeping the existing content intact, then add:
+Ethical governance is a foundational element of HAIMM, ensuring fairness, transparency, and accountability throughout the adoption process. It's highly recommended to follow best practices and guidelines from the extensive literature in the field, such as the [European AI Act](https://www.consilium.europa.eu/en/policies/artificial-intelligence/#AI%20act) (European Commission, 2024), [IBM's Foundation Models Risks, Opportunities, and Mitigations](https://www.ibm.com/downloads/documents/us-en/10a99803d8afd656) (IBM, 2024) and [Microsoft's Responsible AI Maturity Model](https://www.microsoft.com/en-us/research/publication/responsible-ai-maturity-model/) (Microsoft, 2024). A high-level co-creation approach on how to explore those guidelines throughout the stages is shown below:
 
-- A `## Matrix row` section with the five cells from the combined table.
-- A `## Gates` section pointing at `framework/gates/ethics.yaml` once its four gates are drafted.
-- Any interaction criterion listed for this dimension in `framework/00-overview.md`.
+- **Exploration:** Establishing initial ethical guardrails and guidelines, identifying potential risks. *Example:* Conducting reviews and workshops to collaboratively identify risks and define initial guardrails and guidelines.
+- **Experimentation:** Designing and Testing AI solutions based the defined ethical standards. *Example:* Using AI ethics frameworks in design sessions and running ethics evaluations on early concept ideas and prototypes.
+- **Integration:** Embedding governance mechanisms and transparency protocols into workflows. *Example:* Requiring detailed documentation for all AI-driven decision-making systems.
+- **Optimization:** Continuously monitoring AI for ethical concerns and addressing issues proactively. *Example:* Having clear metrics to track compliance with AI ethics guidelines.
+- **Continuous Evolution:** Innovating ethical practices to address new challenges and maintain trust. *Example:* Updating transparency policies as AI applications expand into new areas.
 
-Do not rewrite v0.1 content while decomposing. Move first, revise in a separate commit, so the diff shows what actually changed in v0.2.
+These principles ensure that organizations adopt AI in a manner that prioritizes trust, accountability, and ethical responsibility.
+
+## Matrix row
+
+| Stage | Cell |
+|---|---|
+| Exploration | Initial ethical considerations and potential risks outlined via draft guardrails. |
+| Experimentation | Ethical principles and guardrails tested and refined during pilot implementations. |
+| Integration | Transparent governance mechanisms integrated into AI operations. |
+| Optimization | Proactive monitoring and mitigation of ethical issues in real-time. |
+| Continuous Evolution | Evolving ethical frameworks to address new challenges and emerging use cases. |
+
+## Related
+
+- Full v0.1 text, as published: `archive/v0.1/article.md`
+- v0.1 metrics for this dimension: `archive/v0.1/article.md`, not yet migrated; see `research/open-questions.md`, item 2.
+- Gates: not yet drafted. See `framework/gates/ethics.yaml`.

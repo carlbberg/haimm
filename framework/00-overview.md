@@ -8,11 +8,11 @@ In v0.2, a third element joins them: **gates**, the criteria for moving between 
 
 | Order | Dimension | Subtitle | Status |
 |---|---|---|---|
-| 1 | Solution Fit | Matching AI capabilities to real user needs | v0.1, not yet decomposed |
+| 1 | Solution Fit | Matching AI capabilities to real user needs | v0.1 text moved, not yet revised for v0.2 |
 | 2 | Knowledge & Context | Making shared understanding explicit and current | New in v0.2, draft |
-| 3 | Human-AI Collaboration | Evolving teamwork with AI | v0.1, not yet decomposed |
-| 4 | People | Supporting cultural and role shifts | v0.1, not yet decomposed |
-| 5 | Ethics | Safeguarding responsible AI practices | v0.1, not yet decomposed |
+| 3 | Human-AI Collaboration | Evolving teamwork with AI | v0.1 text moved, not yet revised for v0.2 |
+| 4 | People | Supporting cultural and role shifts | v0.1 text moved, not yet revised for v0.2 |
+| 5 | Ethics | Safeguarding responsible AI practices | v0.1 text moved, not yet revised for v0.2 |
 
 Row order changed in v0.2. Knowledge & Context sits second, immediately above Human-AI Collaboration, so that a gap between the two is visible in the assessment view.
 
