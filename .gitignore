@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+
+# transfer artifact, not part of the repository
+haimm-v0.2-repo.zip
