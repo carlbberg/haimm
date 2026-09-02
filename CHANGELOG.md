@@ -12,6 +12,7 @@ Changes to the model. Editorial and tooling changes do not need an entry.
 ### Changed
 - Row order. Knowledge & Context sits second, immediately above Human-AI Collaboration, so a gap between the two is visible in the assessment view.
 - The model is now an assessment instrument as well as a descriptive framework.
+- Solution Fit, Human-AI Collaboration, People, and Ethics decomposed from the v0.1 article into `framework/dimensions/`, one file each, with a matrix row. Moved verbatim, defects and all; not yet revised for v0.2 register. Gates for these four are still outstanding.
 
 ### Considered and rejected
 - Cross-dimensional gating, where Knowledge & Context caps the assessed stage of the other four. Rejected: it overrides placement rather than surfacing it, and converts a scattered profile into an error when the scatter is the diagnosis. The observations behind it survive as criteria inside the affected dimensions' own gates.
