@@ -1,14 +1,33 @@
 .DS_Store
+
+# python tooling under tools/
 __pycache__/
 *.pyc
 .venv/
 venv/
+
+# editors
 .idea/
 .vscode/
 
+# node, if the platform app lands in this repo
+/node_modules
+/.next/
+/build
+/out
+/coverage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# secrets, never commit
+.env
+.env*.local
+*.pem
+.gh-token
+
+# local helper, not part of the repository
+.setup-gh.sh
+
 # transfer artifact, not part of the repository
 haimm-v0.2-repo.zip
-
-# local credentials, never commit
-.gh-token
-.setup-gh.sh
