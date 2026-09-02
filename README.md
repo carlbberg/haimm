@@ -32,9 +32,26 @@ versions/      released versions, frozen, one folder each
   v0.1/        the published article, its figures, and its provenance
 ```
 
-Once v0.2 lands, the root also holds the working model (`framework/`, `gates/`,
-`playbook/`, `tools/`) and the files that describe the project rather than any
-one version: the evidence log, open questions, and the changelog. There is one
+Once v0.2 lands, the root also holds the working model and the files that
+describe the project rather than any one version:
+
+```
+framework/     the model, one file per dimension
+  gates/       gate definitions as YAML, the source of truth
+playbook/      how to run an assessment
+  instruments/ checklists and survey forms, generated from the gate YAML
+research/      evidence base, source notes, open questions, drafts
+tools/         validate.py and generate.py
+```
+
+Gates sit under `framework/` because a gate is what must be true for a team to
+be at a stage, which is part of the model rather than assessment logistics. The
+instruments in `playbook/` are generated from them, and are one of several
+possible ways to carry the same criteria to a team. Gate definitions live in
+exactly one place; everything derived from them is generated and carries a
+banner saying so.
+
+The evidence log, open questions and changelog are also at root. There is one
 of each and they span all versions.
 
 ## What HAIMM is
