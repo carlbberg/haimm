@@ -8,3 +8,7 @@ venv/
 
 # transfer artifact, not part of the repository
 haimm-v0.2-repo.zip
+
+# local credentials, never commit
+.gh-token
+.setup-gh.sh
