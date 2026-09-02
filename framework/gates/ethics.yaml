@@ -1,0 +1,19 @@
+# Stub. No gates drafted yet.
+# See framework/gates/SCHEMA.md for the shape and framework/gates/knowledge-context.yaml for a worked example.
+#
+# Note for when this is drafted:
+# Provenance criterion belongs in the Experimentation to Integration gate: whether the team can say what grounded an AI-influenced decision.
+
+dimension:
+  id: ethics
+  name: Ethics
+  subtitle: Safeguarding responsible AI practices
+  order: 5
+  status: stub
+
+threshold:
+  pass: 3
+  of: 4
+  core_required: true
+
+gates: []

@@ -1,0 +1,111 @@
+# Knowledge & Context
+
+*Making shared understanding explicit and current*
+
+**Status: draft, new in v0.2.** Argument and structure complete. Metrics outstanding.
+
+The organisation's maturity in making the understanding that work depends on explicit, shared, current, and reachable, both between people and AI and among people themselves.
+
+## Why the model needed it
+
+HAIMM's original four dimensions all mature through behaviour change. Solution Fit matures by running research and pilots. Human-AI Collaboration matures by negotiating roles and trust. People matures by working through a cultural transition. Ethics matures by writing and enforcing guardrails.
+
+This dimension matures through representation change instead. It concerns what the organisation has made explicit, where that lives, who owns it, and whether it stays true.
+
+The reason it cannot be folded into the other four is structural. Human collaborators infer context through channels that do not exist for an AI system: shared history, overheard conversation, knowing who to ask, repairing a misunderstanding mid-sentence. Introducing AI into a team removes those channels and substitutes whatever happens to be written down and reachable. An organisation's ratio of tacit to explicit knowledge therefore acts as a ceiling on how far it can progress elsewhere, no matter how strong its culture, ethics or tool selection.
+
+Every other HAIMM dimension would score an organisation with excellent practices and undocumented knowledge as healthy. It is not healthy. It is capped.
+
+## What it is not
+
+The nearest prior art is data readiness, which the enterprise models already cover. IBM's AI Ladder is collect, organise, analyse, infuse. Deloitte, Gartner and Forrester all address data governance and operational scalability. If this dimension reads as data governance, it duplicates the models HAIMM says it complements and weakens the human-centric differentiation that justifies HAIMM existing.
+
+- **Data governance** asks whether the data is available, clean, compliant and pipelined.
+- **Knowledge & Context** asks whether the shared understanding required to do the work exists in a form both people and AI can act on.
+
+Two boundaries inside HAIMM itself:
+
+- **Ethics** owns what context is *permissible* to expose. Knowledge & Context owns whether context is *sufficient, current and shared*.
+- **Solution Fit** asks whether AI can do the job. Knowledge & Context asks whether it can know enough to do the job. These are routinely conflated, and a grounding gap is commonly misdiagnosed as a capability gap.
+
+## Sub-lenses
+
+Human-AI Collaboration works because it crosses two independent axes. This dimension takes the same shape: two primary lenses plus one bridging lens.
+
+### Locus: where shared context lives
+
+A progression. Each level answers "when a person or an AI session needs to know something, where do they get it?"
+
+1. **In heads and sessions.** Tacit, or inside individual conversations that end when the session does.
+2. **In individual artifacts.** People write things down for their own use. Durable, but private.
+3. **In team artifacts.** Shared documents with named owners, agreed terminology and a review cadence. Disagreements get arbitrated rather than left standing.
+4. **In connected systems.** Context is referenced rather than copied. Refresh happens because the source changed, not because someone remembered.
+5. **In a managed context estate.** Ownership, freshness, deprecation and access boundaries are explicit and reviewed.
+
+### Flow: which direction context moves
+
+Three directions, maturing independently. Most organisations develop the first and neglect the other two.
+
+- **Human to AI (grounding).** Giving AI what it needs to be useful. Where almost all current practice sits.
+- **AI to human (synthesis).** AI output becoming organisational knowledge rather than dying in a transcript.
+- **Human to AI to human (redistribution).** AI as an intermediary moving context between people who would not otherwise have exchanged it. The least developed of the three, and the one that determines whether AI adoption raises or lowers shared understanding among colleagues.
+
+### Bridging lens: reachability
+
+Deliberately narrow, and the only place this dimension touches architecture. At the moment someone is doing the work, is the context the team has agreed on actually available to the AI they are using?
+
+An organisation can be mature on locus and flow and still fail here, because the shared understanding sits in a system nothing is connected to. This is the one concern in the dimension that is genuinely a tooling problem, and separating it out stops the others being misdiagnosed as one.
+
+## Patterns it detects
+
+Four patterns no other HAIMM dimension surfaces.
+
+**Tacit ceiling.** Work whose grounding lives in a few people's heads cannot move up the automation ladder regardless of tool quality, trust or governance. Usually misread as a trust or capability problem and treated with training or better tools, neither of which addresses it.
+
+**Stale grounding.** Context written once and never refreshed. Worse than absent, because it carries the authority of having been documented and the AI will not flag that it is out of date. Refresh is the weakest activity in most organisations and the hardest to sustain, because it has no natural trigger.
+
+**Privatised grounding.** Individuals accumulate rich context in personal histories and prompt scaffolding. Output quality rises, shared understanding among people does not, and can decline, because work that previously required a conversation no longer does. The artifact still gets produced, so the negotiation that generated common ground simply stops happening. Invisible to output metrics and to all four original dimensions.
+
+**Unreachable sources of record.** The knowledge has been externalised and agreed on, but sits where the AI in use cannot get to it, so people re-supply it by hand, inconsistently, from memory.
+
+## Stage progression
+
+Each dimension borrows a progression lens: Solution Fit uses TAM and UTAUT, Human-AI Collaboration uses Tuckman, People uses Satir. This one uses Nonaka and Takeuchi's tacit-to-explicit knowledge conversion, with transactive memory systems as the complementary lens for the human-to-human half.
+
+The fit is looser than the others. Externalisation is one of four SECI modes, so the lens is a quarter of a model doing the work of a whole one. See `research/open-questions.md`.
+
+**Exploration.** Context is tacit and session-scoped. People paste what they need into a chat window and nothing survives the session. The activity is diagnostic: take one recurring piece of work and map what it depends on knowing, marking each input as written down, held by one person, or sitting in a system nobody has connected. *Example:* auditing a weekly reporting workflow and finding that three of its seven inputs exist only as one analyst's judgement.
+
+**Experimentation.** First durable artifacts appear, and they are individual. Someone writes a brief or instruction file that makes their own AI work noticeably better and keeps it to themselves. The stage question is whether these become shared assets or stay private, which is the fork that determines whether privatised grounding takes hold. *Example:* a designer's personal prompt library consistently outperforms colleagues', and the team decides whether to publish it.
+
+**Integration.** Shared context artifacts become team-owned, with named owners, agreed terminology and a review cadence. Conflicts surface for the first time, because two documents disagree and something has to decide which is authoritative. *Example:* a team agrees a single source of truth for product terminology after an AI-drafted spec used three inconsistent names pulled from three stale documents.
+
+**Optimization.** Context is referenced rather than copied. Sources of record are reachable, refresh is triggered by change rather than memory, and AI output is routed back into shared stores instead of ending in transcripts. *Example:* decisions from retrospectives are captured as structured records that both ground future AI work and serve as the team's own history.
+
+**Continuous Evolution.** Context is managed as an asset with a lifecycle: ownership, deprecation, access boundaries, and periodic review of whether externalisation has gone too far or not far enough. The reflective question is whether shared understanding among people has kept pace with the context available to AI. *Example:* a quarterly review that retires stale context and explicitly checks the human-to-human half.
+
+## Matrix row
+
+| Stage | Cell |
+|---|---|
+| Exploration | Context is tacit and session-bound; initial mapping of what the work depends on knowing. |
+| Experimentation | First durable context artifacts appear, created and held by individuals. |
+| Integration | Shared context becomes team-owned, with agreed terminology, named owners, and a review cadence. |
+| Optimization | Context referenced from reachable sources of record rather than copied, refreshed as they change. |
+| Continuous Evolution | Context managed as an asset, with ownership, refresh, and deprecation reviewed regularly. |
+
+## Gates
+
+Source: `framework/gates/knowledge-context.yaml`. Rendered: `framework/gates/generated/knowledge-context-gates.md`. Instruments: `playbook/instruments/`.
+
+## Placement in the model
+
+Row order is Solution Fit, **Knowledge & Context**, Human-AI Collaboration, People, Ethics.
+
+Adjacency does the work. The bands in the visualisation carry equal weight, so there is no foundation-layer language available at the bottom of the chart, and placing this dimension last would read as least important. Sitting immediately above Human-AI Collaboration makes any gap between the two readable at a glance in the assessment view, because the markers are on neighbouring rows.
+
+## Related
+
+- Dimension interactions: `framework/00-overview.md`
+- Theory anchors and verification status: `research/evidence-log.md`
+- Naming and structural decisions still open: `research/open-questions.md`
