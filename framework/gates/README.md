@@ -5,10 +5,12 @@ Source of truth for gate definitions. Read `SCHEMA.md` before editing anything h
 | File | Dimension | State |
 |---|---|---|
 | `knowledge-context.yaml` | Knowledge & Context | 4 gates drafted |
-| `solution-fit.yaml` | Solution Fit | stub |
-| `human-ai-collaboration.yaml` | Human-AI Collaboration | stub |
-| `people.yaml` | People | stub |
-| `ethics.yaml` | Ethics | stub |
+| `solution-fit.yaml` | Solution Fit | 4 gates drafted |
+| `human-ai-collaboration.yaml` | Human-AI Collaboration | 4 gates drafted |
+| `people.yaml` | People | 4 gates drafted |
+| `ethics.yaml` | Ethics | 4 gates drafted |
+
+All twenty gates are drafted and untested against a real assessment.
 
 ```bash
 python3 tools/validate.py     # run before every commit

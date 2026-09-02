@@ -1,19 +1,177 @@
-# Stub. No gates drafted yet.
-# See framework/gates/SCHEMA.md for the shape and framework/gates/knowledge-context.yaml for a worked example.
-#
-# Note for when this is drafted:
-# Provenance criterion belongs in the Experimentation to Integration gate: whether the team can say what grounded an AI-influenced decision.
-
 dimension:
   id: ethics
   name: Ethics
   subtitle: Safeguarding responsible AI practices
   order: 5
-  status: stub
+  status: draft
 
 threshold:
   pass: 3
   of: 4
   core_required: true
 
-gates: []
+gates:
+  - id: et-g1
+    from: exploration
+    to: experimentation
+    tests: >-
+      Whether guardrails are specific enough to constrain a real decision, not generic
+      principles.
+    rationale: >-
+      v0.1's Exploration activity is identifying potential risks and drafting
+      guardrails. The falsifiability test is whether a guardrail can actually stop
+      something, versus restating a value nobody would disagree with.
+    criteria:
+      - id: et-g1-c1
+        evidence: A
+        core: true
+        text: >-
+          At least one documented guardrail names a specific action or use case it
+          prohibits or restricts (for example, "no AI-drafted content in
+          externally-facing legal documents without review"), not a general principle.
+      - id: et-g1-c2
+        evidence: A
+        core: false
+        text: >-
+          A risk assessment or workshop output identifies risks specific to the team's
+          own use cases, not only a restated copy of an external framework's generic
+          risk list.
+      - id: et-g1-c3
+        evidence: O
+        core: false
+        text: >-
+          Someone can describe a use case that was proposed and then rejected or
+          modified on ethical grounds.
+      - id: et-g1-c4
+        evidence: S
+        core: false
+        text: >-
+          People report they know where to raise an ethical concern about an AI use
+          case.
+    failure_signal: >-
+      A values statement referencing fairness, transparency, and accountability with no
+      example of a use case it would actually block. Language adopted from an external
+      framework, unfalsifiable by construction.
+
+  - id: et-g2
+    from: experimentation
+    to: integration
+    tests: >-
+      Whether ethical evaluation actually happened during pilots, and whether the
+      grounding of AI-influenced decisions can be traced.
+    rationale: >-
+      v0.1's Experimentation activity is testing solutions against ethical standards.
+      This is where Ethics and Knowledge & Context interact: provenance is whether the
+      team can say what grounded an AI-influenced decision, and it has to be testable
+      while a use case is still a pilot, before it is embedded at scale.
+    criteria:
+      - id: et-g2-c1
+        evidence: A
+        core: true
+        text: >-
+          At least one pilot has a recorded ethics evaluation (a completed checklist,
+          review, or documented discussion) that predates its rollout, not a
+          retrospective justification.
+      - id: et-g2-c2
+        evidence: O
+        core: false
+        text: >-
+          For a specific AI-influenced decision made during a pilot, someone can say
+          what information or context grounded it.
+      - id: et-g2-c3
+        evidence: A
+        core: false
+        text: >-
+          At least one pilot's design was changed as a result of an ethics evaluation,
+          with the change recorded.
+      - id: et-g2-c4
+        evidence: S
+        core: false
+        text: >-
+          People involved in pilots report ethical review as a normal step in shipping,
+          not an occasional add-on.
+    failure_signal: >-
+      A pilot ethics checklist that exists, is always filled in identically, and has
+      never once caused a change. A rubber stamp passes an artifact audit and fails the
+      gate on its own terms.
+
+  - id: et-g3
+    from: integration
+    to: optimization
+    tests: >-
+      Whether transparent governance mechanisms operate continuously in production, not
+      only at launch.
+    rationale: >-
+      v0.1's Integration activity is embedding governance mechanisms and transparency
+      protocols. The test is whether they keep operating, rather than being satisfied
+      once at go-live.
+    criteria:
+      - id: et-g3-c1
+        evidence: A
+        core: true
+        text: >-
+          Documentation for at least one AI-driven decision-making system is current,
+          not only produced at initial launch, with a recorded last-review date inside
+          an agreed window.
+      - id: et-g3-c2
+        evidence: A
+        core: false
+        text: >-
+          A named owner is responsible for the ethical compliance of at least one AI
+          system in production.
+      - id: et-g3-c3
+        evidence: O
+        core: false
+        text: >-
+          Someone outside the team that built a system can describe, using its
+          documentation, how it makes a decision that affects people.
+      - id: et-g3-c4
+        evidence: S
+        core: false
+        text: >-
+          People affected by or using an AI-driven system report they know how to ask
+          how a decision was made.
+    failure_signal: >-
+      Governance documentation that was accurate at launch and has not been touched
+      since, describing a system that has changed underneath it. Stale governance passes
+      an existence check and fails a currency one.
+
+  - id: et-g4
+    from: optimization
+    to: continuous-evolution
+    tests: >-
+      Whether ethical practice is proactively evolving, rather than statically
+      compliant.
+    rationale: >-
+      Untested against practice. No team in the v0.1 worked example is plotted in
+      Continuous Evolution on any dimension, so these criteria are reasoned rather than
+      observed. Treat as provisional.
+    criteria:
+      - id: et-g4-c1
+        evidence: A
+        core: true
+        text: >-
+          At least one ethical guideline or guardrail has been revised in the last
+          review cycle in response to a new use case, incident, or external change, not
+          a scheduled reformatting.
+      - id: et-g4-c2
+        evidence: A
+        core: false
+        text: >-
+          A metric or monitoring mechanism tracks ethical compliance continuously, not
+          only at review points, with a recorded instance of it catching something.
+      - id: et-g4-c3
+        evidence: O
+        core: false
+        text: >-
+          Someone can describe how the team would learn about an emerging ethical risk
+          before it becomes an incident, not only after.
+      - id: et-g4-c4
+        evidence: S
+        core: false
+        text: >-
+          People report ethical practice has visibly changed in response to something
+          the team learned, not stayed fixed since integration.
+    failure_signal: >-
+      An ethics policy last substantively edited at the Integration gate, now covering
+      use cases invented well after. Stability mistaken for maturity.

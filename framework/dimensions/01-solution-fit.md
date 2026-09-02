@@ -2,7 +2,7 @@
 
 *Matching AI capabilities to real user needs*
 
-**Status: v0.1 text, moved but not yet revised for v0.2.** Gates not yet drafted.
+**Status: v0.1 text, moved but not yet revised for v0.2.** Gates drafted, untested against a real assessment.
 
 One of the main risks in AI adoption is implementing solutions that fail to address real-world problems. The **Solution Fit** dimension ensures that AI capabilities, data, and processes are aligned with user needs at every stage. In other words, teams need to balance between *demand pull* (user/market needs) and *technology push* (technological innovations). Even though the recent developments of Generative AI are clearly a technological push and create entirely new opportunities, focusing disproportionally on its capabilities without attaching them to user pains and gains can be a costly mistake.
 
@@ -30,8 +30,13 @@ Building on all of the factors above, we have:
 | Optimization | Scaled AI systems delivering measurable, organization-wide impact. |
 | Continuous Evolution | Dynamic alignment of AI with changing goals, needs, and capabilities through regular reassessment. |
 
+## Gates
+
+Source: `framework/gates/solution-fit.yaml`. Rendered: `framework/gates/generated/solution-fit-gates.md`. Instruments: `playbook/instruments/`.
+
+The Integration to Optimization gate carries the Solution Fit / Knowledge & Context interaction criterion (transferability): whether the context that made a pilot work exists anywhere other than the pilot team.
+
 ## Related
 
 - Full v0.1 text, as published: `archive/v0.1/article.md`
 - v0.1 metrics for this dimension: `archive/v0.1/article.md`, not yet migrated; see `research/open-questions.md`, item 2.
-- Gates: not yet drafted. See `framework/gates/solution-fit.yaml`.

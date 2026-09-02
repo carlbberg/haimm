@@ -2,7 +2,7 @@
 
 *Supporting cultural and role shifts*
 
-**Status: v0.1 text, moved but not yet revised for v0.2.** Gates not yet drafted.
+**Status: v0.1 text, moved but not yet revised for v0.2.** Gates drafted, untested against a real assessment.
 
 AI adoption is not just a technical shift; it's a cultural transformation. Drawing from Virginia Satir's change model (Satir et al., 1991; WalkMe Team, 2024), HAIMM acknowledges the emotional journey that individuals and teams undergo during this transition. To provide context, Satir's model outlines five distinct stages, each representing a critical phase in the process of change:
 
@@ -34,8 +34,13 @@ This model offers a powerful framework for understanding the emotional and behav
 | Optimization | Broad organizational acceptance and active participation in AI-driven workflows and celebration of first success cases. |
 | Continuous Evolution | Continuous upskilling and culture-building around human-AI collaboration. |
 
+## Gates
+
+Source: `framework/gates/people.yaml`. Rendered: `framework/gates/generated/people-gates.md`. Instruments: `playbook/instruments/`.
+
+The Integration to Optimization gate carries the People / Knowledge & Context interaction criterion (distribution): whether capability is concentrated in the people who built personal context scaffolding.
+
 ## Related
 
 - Full v0.1 text, as published: `archive/v0.1/article.md`
 - v0.1 metrics for this dimension: `archive/v0.1/article.md`, not yet migrated; see `research/open-questions.md`, item 2.
-- Gates: not yet drafted. See `framework/gates/people.yaml`.

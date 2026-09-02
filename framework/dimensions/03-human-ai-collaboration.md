@@ -2,7 +2,7 @@
 
 *Evolving teamwork with AI*
 
-**Status: v0.1 text, moved but not yet revised for v0.2.** Gates not yet drafted.
+**Status: v0.1 text, moved but not yet revised for v0.2.** Gates drafted, untested against a real assessment.
 
 In the HAIMM proposed approach, two aspect stand out about Human-AI collaboration: *Interaction mode*, or how people view and interact with AI, and *levels of automation*, or the spectrum of control in human-machine interactions defining how tasks are divided and decisions are made.
 
@@ -56,8 +56,13 @@ Note that in all stages we have use cases in all automation levels. The emphasis
 | Optimization | AI achieves semi-autonomous operation in some areas with human oversight. |
 | Continuous Evolution | Human-AI relationships adapt as technology evolves, fostering innovative collaboration. |
 
+## Gates
+
+Source: `framework/gates/human-ai-collaboration.yaml`. Rendered: `framework/gates/generated/human-ai-collaboration-gates.md`. Instruments: `playbook/instruments/`.
+
+The Integration to Optimization gate carries the Human-AI Collaboration / Knowledge & Context interaction criterion (sufficiency): whether AI can be grounded without a human supplying context in the moment.
+
 ## Related
 
 - Full v0.1 text, as published: `archive/v0.1/article.md`
 - v0.1 metrics for this dimension: `archive/v0.1/article.md`, not yet migrated; see `research/open-questions.md`, item 2.
-- Gates: not yet drafted. See `framework/gates/human-ai-collaboration.yaml`.

@@ -14,8 +14,7 @@ This repository is the canonical source. The article is a rendering of it. That 
 | Solution Fit, Human-AI Collaboration, People, Ethics | v0.1 text moved into `framework/dimensions/`, not yet revised for v0.2 |
 | Knowledge & Context (new in v0.2) | Draft, argument and structure complete |
 | Matrix | All five rows populated; four are v0.1 text, unrevised |
-| Gates: Knowledge & Context | Draft, four gates with criteria |
-| Gates: other four dimensions | Not started, sixteen outstanding |
+| Gates | All twenty drafted (four per dimension), untested against a real assessment |
 | Metrics | v0.1 metrics not yet migrated; relationship to gates undecided |
 
 ## What changed in v0.2
