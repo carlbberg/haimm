@@ -1,4 +1,4 @@
-# Released versions
+# Archive
 
 One folder per released version of HAIMM, frozen at release.
 

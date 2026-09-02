@@ -1,0 +1,19 @@
+# Stub. No gates drafted yet.
+# See framework/gates/SCHEMA.md for the shape and framework/gates/knowledge-context.yaml for a worked example.
+#
+# Note for when this is drafted:
+# Distribution criterion belongs in the Integration to Optimization gate: whether capability is concentrated in the people who built personal context scaffolding.
+
+dimension:
+  id: people
+  name: People
+  subtitle: Supporting cultural and role shifts
+  order: 4
+  status: stub
+
+threshold:
+  pass: 3
+  of: 4
+  core_required: true
+
+gates: []
