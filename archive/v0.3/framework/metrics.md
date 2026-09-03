@@ -1,0 +1,85 @@
+# Metrics
+
+Metrics track movement. Gates decide placement. The two are different jobs and the model keeps them separate.
+
+Any overlap between them is a liability: a metric that also decides a stage is a target, and a target that decides a stage will be met. The rule below is what keeps them apart.
+
+## The division
+
+| | Gates | Metrics |
+|---|---|---|
+| Question | Which stage is this team at | Is this team moving, and how fast |
+| Evidence | Artifact, observation, survey, checked by an assessor | Whatever the team already counts |
+| Cadence | At assessment | Continuous |
+| Failure mode | Criteria get optimised against | Numbers get optimised against |
+| Consequence of gaming | Caught by the falsifiability rule | Not caught, which is why placement never depends on them |
+
+**No metric is ever an entry condition for a stage.** A team does not reach Optimization because a number crossed a line. It reaches Optimization by passing the Integration to Optimization gate, assessed against evidence. Metrics say whether it is getting closer.
+
+This is Campbell's law applied deliberately (Campbell, 1979): a quantitative indicator adopted as a goal in a high-stakes setting will distort the process it was meant to observe. Stage placement is the high-stakes setting. Keeping metrics out of it is what allows them to stay honest enough to be useful.
+
+## Choosing metrics
+
+- **Three to five per dimension at a time, for the stage you are in.** A dashboard of forty is a dashboard nobody reads.
+- **Prefer counts of things that happened to percentages of people who feel something.** Both appear below; the first kind degrades more slowly.
+- **A metric that restates a gate criterion should be deleted, not kept as confirmation.** If the gate asks whether a shared artifact has two substantive authors, do not also track author counts. You have replaced an assessment with a number.
+- **Metrics vary enormously in collection cost.** Some below are cheap and some are projects. Pick for what the team can sustain.
+- **These are a starting point.** Teams should define their own against their context. The lists are illustrative, not a specification.
+
+## Solution Fit
+
+| Stage | Metrics |
+|---|---|
+| Exploration | Workflows assessed for AI readiness. Identified user needs mapped to AI opportunities. |
+| Experimentation | Pilots co-created and tested. Pilot use cases showing positive outcomes. |
+| Integration | Workflows with AI embedded. Active use of AI solutions. Feedback scores on AI-enhanced workflows. |
+| Optimization | Movement in the organisational measure the solution was meant to move. Reduction in the specific bottleneck it targeted. |
+| Continuous Evolution | Frequency of need reassessments. Workflows narrowed or retired following one. |
+
+## Knowledge & Context
+
+No field use behind these.
+
+| Stage | Metrics |
+|---|---|
+| Exploration | Recurring workflows with a written inventory of what they depend on knowing. |
+| Experimentation | Durable context artifacts in existence. Share of them used by more than their author. |
+| Integration | Context artifacts with a named owner. Share inside their agreed freshness window. |
+| Optimization | Context artifacts reachable from the AI tools in use without manual re-supply. Instances of AI output routed back into a shared store. |
+| Continuous Evolution | Context artifacts retired or deprecated per cycle. Time for a new joiner to reach working competence. |
+
+The retirement count is the one worth watching. Every organisation adds context and almost none subtracts it, so a cycle with zero retirements is the normal reading and not a good one.
+
+## Human-AI Collaboration
+
+| Stage | Metrics |
+|---|---|
+| Exploration | Workshops or sessions introducing AI. Tasks explicitly placed in or out of scope. |
+| Experimentation | Decisions influenced by AI assistance. Pilot tasks completed jointly with AI. |
+| Integration | Ratio of AI-proposed actions approved to adjusted. Trust in AI output for named recurring tasks. |
+| Optimization | Semi-autonomous tasks completed within their bounds. Escalations that fell outside them. |
+| Continuous Evolution | Frequency of collaboration model reviews. Automation-level changes made, in both directions. |
+
+The last one is deliberately two-directional. A count of increases alone measures drift.
+
+## People
+
+| Stage | Metrics |
+|---|---|
+| Exploration | Employees engaged in workshops or consultations. Concerns recorded, and concerns responded to. |
+| Experimentation | Stakeholders involved in pilot co-creation. Pilot changes traceable to their input. |
+| Integration | Completion of AI training. People adapting successfully to the changed workflow. |
+| Optimization | People outside the original pilot working competently without help. Active daily use across the team, not concentrated. |
+| Continuous Evolution | Skill gaps identified against new AI capability. Participation in recurring upskilling. |
+
+At Optimization, the distribution matters more than the total. Read these two together or the concentrated-capability pattern stays invisible.
+
+## Ethics
+
+| Stage | Metrics |
+|---|---|
+| Exploration | Risks identified that are specific to the team's own use cases. Workflows reviewed for ethical risk. |
+| Experimentation | Ethical issues found during pilots, and issues that changed a pilot. |
+| Integration | AI systems with current documentation and a named owner. Transparency reviews conducted. |
+| Optimization | Issues caught by monitoring rather than by an audit or a complaint. Time from detection to response. |
+| Continuous Evolution | Guardrails revised in response to something learned. New use cases assessed before rollout. |

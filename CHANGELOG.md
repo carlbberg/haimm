@@ -2,7 +2,7 @@
 
 Changes to the model. Editorial and tooling changes do not need an entry.
 
-## Unreleased, toward v0.3
+## v0.3, 3 September 2026
 
 ### Added
 - `framework/stages/`, one file per stage. Stages had a table row and dimensions had a file each, an asymmetry inherited from v0.1's figure rather than justified by the model. Each stage file gives what is happening, what the stage is not, how the borrowed developmental lenses read it, the characteristic stall, and how a team leaves it.
@@ -23,6 +23,11 @@ Changes to the model. Editorial and tooling changes do not need an entry.
 ### Removed
 - `framework/gates/`, `playbook/instruments/` and `tools/`. The same eighty criteria were expressed three times, in YAML, in rendered markdown and again as checklists and survey forms, which made a one-word change a three-file diff. The v0.2 pipeline is preserved in `archive/v0.2/`.
 - Recording an assessment now has no supplied form. Deferred to a tooling layer built on top of the framework rather than carried inside it.
+
+### Not done
+- No field data. v0.3 has never been run against a real team, and the Optimization to Continuous Evolution gate in every dimension is still reasoned rather than observed. This is unchanged from v0.2 and is the thing v0.4 should be driven by.
+- No facilitation guide, and no supplied form for recording an assessment. v0.2's instruments were removed and the replacement is deferred to a tooling layer.
+- Nothing validates the gate shape. Four criteria, exactly one core, and at least one criterion that self-report cannot satisfy are conventions held by reading.
 
 ## v0.2, 3 September 2026
 

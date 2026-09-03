@@ -13,10 +13,11 @@ on all of them would hide that.
 |---|---|---|
 | [v0.1](v0.1/) | 24 December 2024 | Published as an article. Frozen. |
 | [v0.2](v0.2/) | 3 September 2026 | Released as a repository. Frozen. |
+| [v0.3](v0.3/) | 3 September 2026 | Released as a repository. Frozen. |
 
 The version in progress is not here. It lives at the repository root, and gets
 snapshotted into this folder when it is released.
 
 Files that describe the project rather than one version stay at the root:
-the evidence log, open questions, the changelog, and the tooling. There is one
-of each, and they cover all versions.
+the evidence log, open questions, the changelog, and the working instructions.
+There is one of each, and they cover all versions.
