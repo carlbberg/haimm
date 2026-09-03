@@ -32,7 +32,6 @@ framework/     the model itself
 playbook/      how to run an assessment and what to do with the result
 research/      evidence log, open questions, drafts
 archive/       released versions, frozen
-prompts/       project setup prompt for Claude
 ```
 
 Start at `framework/00-overview.md`.

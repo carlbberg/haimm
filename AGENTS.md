@@ -15,7 +15,6 @@ framework/     the model: 00-overview.md, matrix.md, metrics.md, references.md,
 playbook/      how to run an assessment and what to do with the result
 research/      evidence log, open questions, drafts, source notes
 archive/       released versions, frozen
-prompts/       project setup prompt for Claude
 ```
 
 ## Rules that matter
