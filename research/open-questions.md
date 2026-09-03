@@ -24,7 +24,7 @@ Decisions taken, and known weaknesses in what is published. Items resolved for v
 
 **9. Core criterion rule.** Kept for v0.2: exactly one criterion per gate cannot be skipped. It adds a rule to explain, and rules cost adoption. Revisit once real assessments have run and it is clear whether assessors use it or route around it.
 
-**11. Third-party figures in the v0.1 archive.** Two of the four archived v0.1 figures are third-party (the IEEE automation-levels figure, and a rendering of the Satir model). Neither is carried into `framework/`, and v0.2's dimension files cite the sources in text instead. The archived copies remain, and the repository is private. Before it is made public, they need removing from the working tree *and* from git history, or permission obtained. Recorded in `archive/v0.1/figures/README.md`. This is a publication step, not a model step, and it is the one thing standing between v0.2 and a public repository.
+**11. Third-party figures in the v0.1 archive.** Closed 3 September 2026. Permission obtained for both, recorded in `archive/v0.1/figures/README.md`. They stay in the archive, they are still not carried into `framework/`, and they remain outside the repository's MIT licence, which cannot cover work the author does not own. Nothing now blocks making the repository public.
 
 ## Beyond v0.2
 

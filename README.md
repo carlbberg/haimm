@@ -49,4 +49,4 @@ Four rules hold the gates together, and nothing enforces them automatically. Fou
 
 MIT. See `LICENSE`.
 
-Two figures in `archive/v0.1/figures/` are third-party and are not covered by it. They are not used in `framework/`, and they have to be resolved before this repository is made public. See `archive/v0.1/figures/README.md`.
+Two figures in `archive/v0.1/figures/` are third-party and are not covered by it. They are reproduced with permission, are not used in `framework/`, and stay outside the MIT grant. See `archive/v0.1/figures/README.md`.
