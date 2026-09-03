@@ -8,7 +8,7 @@ This repository is the canonical source and any article is a rendering of it. Th
 
 ## What the model is
 
-Five stages, five dimensions, twenty gates, and a metrics layer that is barred from deciding placement.
+Two axes: five stages and five dimensions. Gates are the criteria for crossing between adjacent stages within a dimension, twenty in total. Metrics track movement and are barred from deciding placement.
 
 | Part | State |
 |---|---|
