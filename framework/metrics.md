@@ -1,8 +1,8 @@
 # Metrics
 
-Metrics track movement. Gates decide placement. The two are different jobs and v0.2 keeps them separate.
+Metrics track movement. Gates decide placement. The two are different jobs and the model keeps them separate.
 
-v0.1 proposed a per-stage metrics list for each dimension and used it, loosely, to do both. Once gates exist, that overlap is a liability: a metric that also decides a stage is a target, and a target that decides a stage will be met. The rule below is what keeps them apart.
+Any overlap between them is a liability: a metric that also decides a stage is a target, and a target that decides a stage will be met. The rule below is what keeps them apart.
 
 ## The division
 
@@ -20,11 +20,11 @@ This is Campbell's law applied deliberately (Campbell, 1979): a quantitative ind
 
 ## Choosing metrics
 
-- **Three to five per dimension at a time, for the stage you are in.** Carried from v0.1 and still the right constraint. A dashboard of forty is a dashboard nobody reads.
+- **Three to five per dimension at a time, for the stage you are in.** A dashboard of forty is a dashboard nobody reads.
 - **Prefer counts of things that happened to percentages of people who feel something.** Both appear below; the first kind degrades more slowly.
 - **A metric that restates a gate criterion should be deleted, not kept as confirmation.** If the gate asks whether a shared artifact has two substantive authors, do not also track author counts. You have replaced an assessment with a number.
 - **Metrics vary enormously in collection cost.** Some below are cheap and some are projects. Pick for what the team can sustain.
-- **These are a starting point.** Teams should define their own against their context. The lists are illustrative, not a specification, and nothing in `tools/` validates them.
+- **These are a starting point.** Teams should define their own against their context. The lists are illustrative, not a specification.
 
 ## Solution Fit
 
@@ -38,7 +38,7 @@ This is Campbell's law applied deliberately (Campbell, 1979): a quantitative ind
 
 ## Knowledge & Context
 
-New in v0.2, so these have no v0.1 lineage and no field use.
+No field use behind these.
 
 | Stage | Metrics |
 |---|---|
@@ -83,11 +83,3 @@ At Optimization, the distribution matters more than the total. Read these two to
 | Integration | AI systems with current documentation and a named owner. Transparency reviews conducted. |
 | Optimization | Issues caught by monitoring rather than by an audit or a complaint. Time from detection to response. |
 | Continuous Evolution | Guardrails revised in response to something learned. New use cases assessed before rollout. |
-
-## Changes from v0.1
-
-- Metrics no longer carry any placement role. That is what gates are for.
-- Awareness metrics are gone. "Percentage of employees aware of AI's potential role" measures exposure to a message, and every organisation that sends the message scores well.
-- Where v0.1 counted only increases, the count is now two-directional: retirements, narrowings, and automation reductions are tracked alongside additions. A one-directional count cannot distinguish evolution from accumulation.
-- Optimization metrics name the specific measure the solution was meant to move, rather than improvement in key KPIs generally.
-- Knowledge & Context has a set for the first time.

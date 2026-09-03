@@ -4,7 +4,14 @@ Changes to the model. Editorial and tooling changes do not need an entry.
 
 ## Unreleased
 
+### Added
+- `framework/stages/`, one file per stage. Stages had a table row and dimensions had a file each, an asymmetry inherited from v0.1's figure rather than justified by the model. Each stage file gives what is happening, what the stage is not, how the borrowed developmental lenses read it, the characteristic stall, and how a team leaves it.
+- The reading of each stage across dimensions, which no file could hold before. Tuckman and Satir agree at Exploration, Experimentation and Optimization, contradict each other at Integration, where the working agreement is norming while the routines it displaces are in chaos, and both run out at Continuous Evolution.
+
 ### Changed
+- Version archaeology removed from `framework/` and `playbook/`. The model text described itself in terms of what v0.1 said and what v0.2 changed, which made a reader carry two versions to understand one. Corrections, migrations and row-order changes are recorded here instead. Each version's text now stands on its own, and this file is where the diffs live.
+- `framework/stages.md` replaced by `framework/stages/`. The stage table, the ids and v0.1's reasoning for a five-stage shape moved to `framework/00-overview.md`, alongside the dimensions table. The note on stage 5 being unobserved moved into the Continuous Evolution file and was expanded.
+- Matrix cells now live only in `framework/matrix.md`. Dimension files described their own row twice, once in prose and once as a table copied from the matrix; the copy is gone and the file links instead.
 - Gates moved out of YAML and into the dimension files themselves. Each `framework/dimensions/*.md` now holds its own four gates. Markdown is the source of truth, there is no schema and no build step, and the shape of a gate is a convention held by reading rather than by a validator.
 
 ### Removed
@@ -26,6 +33,9 @@ Changes to the model. Editorial and tooling changes do not need an entry.
 - The model is now an assessment instrument as well as a descriptive framework.
 - Solution Fit, Human-AI Collaboration, People and Ethics rewritten for v0.2. Each now states what it is not, names the lenses it borrows, and lists the patterns it detects, matching the shape of the new dimension. The matrix cells themselves are unchanged from v0.1, so v0.1 placements remain readable.
 - Metrics no longer play any part in placement. No metric is an entry condition for a stage, on Campbell's law grounds.
+- Awareness metrics dropped. "Percentage of employees aware of AI's potential role" measures exposure to a message, and every organisation that sends the message scores well.
+- Counts that ran one way now run both. Retirements, narrowings and automation reductions are tracked alongside additions, because a one-directional count cannot distinguish evolution from accumulation.
+- Optimization metrics name the specific measure the solution was meant to move, rather than improvement in key KPIs generally.
 - Knowledge & Context no longer claims a single developmental lens. It names three partial ones. Ethics states that it has none by design.
 - Unarbitrated conflict promoted from a note inside stale grounding to a pattern of its own.
 - The two third-party v0.1 figures are no longer embedded anywhere in `framework/`. Their content is described in text with the source cited.

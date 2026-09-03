@@ -6,6 +6,8 @@ HAIMM is a maturity model for human-AI collaboration. This repo is its canonical
 
 **Gates live in the dimension file they belong to.** Each `framework/dimensions/*.md` holds its dimension's four gates under `## Gates`, and nothing is generated from anywhere else. There is no schema file and no build step: edit the markdown directly. Keep the shape regular, because tooling will be built against it later. Each gate is a `###` heading naming the transition, then `*Tests*`, an optional rationale paragraph, four criteria, and a `*Failure signal.*` line. Criteria carry `**[A]**`, `**[S]**` or `**[O]**` and exactly one is marked `**(core)**`.
 
+**Every fact has one home.** Matrix cells live in `framework/matrix.md`. Gate criteria live in the dimension file that owns the gate. Stage files describe stages and link out rather than restating a matrix column or a gate's criteria. Nothing here is generated, so a second copy is a second thing to forget to update.
+
 **Criteria must be falsifiable.** Every gate criterion asks for something that can be inspected, or something a person does in an observed session. "A shared terminology document exists and its last substantive change is within the quarter" is a criterion. "We maintain shared terminology" is not, because no team can fail it. This is the single most important constraint on new criteria: published criteria get optimised against, and the wording is the only defence.
 
 **Each gate needs at least one [A] or [O] criterion.** A gate passable entirely by self-report will be passed. Nothing enforces this now, so check it by reading whenever a gate changes.
@@ -22,7 +24,7 @@ HAIMM is a maturity model for human-AI collaboration. This repo is its canonical
 
 Sentence case for headings. No em-dashes. No buzzwords (leverage, unlock, seamlessly). No "why it matters" or "failure mode" as section headers. Minimal formatting. Don't end a section with "By doing X."
 
-Match v0.1's register in `framework/`: cells and stage descriptions are compressed and describe states, roughly eleven to sixteen words for table cells. The playbook can be more direct and instructional.
+Match the register in `framework/`: cells and stage descriptions are compressed and describe states, roughly eleven to sixteen words for table cells. The playbook can be more direct and instructional.
 
 ## Terminology
 

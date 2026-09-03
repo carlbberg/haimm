@@ -2,13 +2,29 @@
 
 Four elements.
 
-**Stages**, how teams and organisations progress over time. See `stages.md`.
+**Stages**, how teams and organisations progress over time. Five, each with its own file under `stages/`.
 
-**Dimensions**, the building blocks that keep the model human-centric. Each evolves through every stage, with its own challenges at each. See `dimensions/`.
+**Dimensions**, the building blocks that keep the model human-centric. Five, each with its own file under `dimensions/`. Each evolves through every stage, with its own challenges at each.
 
-**Gates**, the criteria for moving between adjacent stages within a dimension, added in v0.2. Four per dimension, twenty in total, each written into its own dimension's file under `dimensions/`.
+**Gates**, the criteria for moving between adjacent stages within a dimension. Four per dimension, twenty in total, each written into its own dimension's file under `dimensions/`.
 
 **Metrics**, a tracking layer that never decides placement. See `metrics.md`.
+
+## Stages
+
+Presented sequentially, but iterative in practice: teams revisit earlier stages as tools, people and needs change.
+
+| # | Stage | id | What characterises it |
+|---|---|---|---|
+| 1 | Exploration | `exploration` | Identifying opportunities, understanding user needs and concerns, and setting initial guardrails. |
+| 2 | Experimentation | `experimentation` | Piloting AI tools at small scale to validate relevance and effectiveness. |
+| 3 | Integration | `integration` | Embedding AI into workflows and establishing working norms between teams and AI tools. |
+| 4 | Optimization | `optimization` | Scaling what worked, focused on measurable outcomes: productivity, quality, learning. |
+| 5 | Continuous Evolution | `continuous-evolution` | Ongoing adaptation as organisational needs and technologies change. |
+
+The ids are the stable machine-readable form of the stage names, for anything built on top of the model.
+
+The five-stage shape is a beginning, a middle and an end, with a preceding and a following stage. That is the pattern most transformation frameworks use and the one people navigating a change already recognise. The claim behind it is familiarity, not evidence, and it is worth holding as such.
 
 ## Dimensions
 
@@ -20,13 +36,13 @@ Four elements.
 | 4 | People | Supporting cultural and role shifts |
 | 5 | Ethics | Safeguarding responsible AI practices |
 
-Row order changed in v0.2. Knowledge & Context sits second, immediately above Human-AI Collaboration, so that a gap between the two is visible in the assessment view.
+Knowledge & Context sits second, immediately above Human-AI Collaboration, so that a gap between the two is visible in the assessment view.
 
 ## Dimensions are independent
 
 A team can sit at different stages across dimensions, and usually does. The scatter is the output of an assessment, not a defect in it: it names which gap to address next. Nothing in the model overrides a dimension's placement based on another dimension's score.
 
-This constraint was tested during v0.2 development. An earlier draft had Knowledge & Context gating the other four, capping their assessed stages. It was dropped because it converts a diagnosis into an error and hides the finding inside a calculation.
+A design where Knowledge & Context gated the other four, capping their assessed stages, was considered and rejected. It converts a diagnosis into an error and hides the finding inside a calculation.
 
 ## Where dimensions genuinely interact
 
@@ -41,7 +57,7 @@ Interactions are real, and they are expressed as criteria inside the affected di
 
 All four are written as one criterion inside the named gate in the affected dimension's own file under `framework/dimensions/`.
 
-Whether interactions not involving Knowledge & Context are common enough to need a relationship layer of their own is deferred past v0.2. See `research/open-questions.md`.
+Whether interactions not involving Knowledge & Context are common enough to need a relationship layer of their own is deferred. See `research/open-questions.md`.
 
 ## Assessment
 

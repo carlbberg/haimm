@@ -2,7 +2,7 @@
 
 *Matching AI capabilities to real user needs*
 
-**Status: revised for v0.2.** Gates published, untested against a real assessment.
+**Status.** Gates published, untested against a real assessment.
 
 Whether the AI a team adopts is attached to a real user need, whether that attachment was established before the tool was chosen, and whether it survives contact with people outside the team that made it.
 
@@ -46,16 +46,6 @@ Two forces have to be balanced. *Demand pull* is a need that exists whether or n
 
 **Continuous Evolution.** Need is re-checked on a cadence rather than assumed stable, and the record shows things being narrowed and retired, not only added. *Example:* a quarterly review that retires one AI-supported workflow because the underlying need changed, and records why.
 
-## Matrix row
-
-| Stage | Cell |
-|---|---|
-| Exploration | Initial awareness of AI potential and alignment with user needs and workflows. |
-| Experimentation | Small-scale co-creation and validation of AI solutions through limited use cases. |
-| Integration | Refinement and embedding of AI solutions into workflows based on feedback. |
-| Optimization | Scaled AI systems delivering measurable, organization-wide impact. |
-| Continuous Evolution | Dynamic alignment of AI with changing goals, needs, and capabilities through regular reassessment. |
-
 ## Gates
 
 Four gates, one per transition between adjacent stages. Pass a gate by meeting **3 of 4** criteria; the criterion marked *core* cannot be the one skipped. A team sits at the highest stage whose entry gate it has passed.
@@ -68,7 +58,7 @@ The Integration to Optimization gate carries the Solution Fit / Knowledge & Cont
 
 *Tests* Whether a candidate AI use case is grounded in a real user need rather than worked backward from available AI capability.
 
-Technology push is the default failure mode the v0.1 text itself names: capability without an attached user pain or gain. Perceived Usefulness (TAM) requires the use case to answer a real question about the person's own workflow.
+Technology push is the default failure mode: capability without an attached user pain or gain. Perceived Usefulness (TAM) requires the use case to answer a real question about the person's own workflow.
 
 - **[A]** **(core)** A written artifact from user research (interview notes, a job-to-be-done statement, workshop output) names the specific pain point or job a candidate AI use case addresses, produced before or independent of any AI proof of concept.
 - **[A]** At least one candidate use case has been explicitly rejected or deprioritised because it fell outside AI's likely capability range for the task, with the reasoning recorded.
@@ -81,7 +71,7 @@ Technology push is the default failure mode the v0.1 text itself names: capabili
 
 *Tests* Whether pilot feedback actually reshaped the solution, not just produced usage and satisfaction numbers.
 
-v0.1 stresses co-creation and iterative testing that resolves usability challenges. A pilot that ships unchanged despite feedback was not actually testing fit.
+Co-creation and iterative testing exist to resolve usability problems before they are embedded. A pilot that ships unchanged despite feedback was not actually testing fit.
 
 - **[A]** **(core)** At least one documented change to the AI solution or workflow was made directly in response to pilot user feedback, with a before-and-after description.
 - **[O]** A pilot participant can describe a specific problem they raised and what happened to it: fixed, explained, or explicitly declined.
@@ -107,7 +97,7 @@ Facilitating Conditions (UTAUT) generalise across a team, but the specific tacit
 
 *Tests* Whether user needs are actively re-checked rather than assumed stable.
 
-Untested against practice. No team in the v0.1 worked example is plotted in Continuous Evolution on any dimension, so these criteria are reasoned rather than observed. Treat as provisional.
+Untested against practice. No assessment has placed a team at Continuous Evolution on any dimension, so these criteria are reasoned rather than observed. Treat as provisional.
 
 - **[A]** **(core)** A reassessment of user needs against the current AI solution has happened in the last review cycle, with a record of what was reconfirmed or changed.
 - **[A]** At least one AI-supported workflow has been retired, narrowed, or redirected because the underlying user need changed, not only expanded.
@@ -118,6 +108,8 @@ Untested against practice. No team in the v0.1 worked example is plotted in Cont
 
 ## Related
 
+- This dimension's row in the combined matrix: `framework/matrix.md`
+- The stages themselves, read across all five dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
 - Theory anchors and verification status: `research/evidence-log.md`
-- Full v0.1 text, as published: `archive/v0.1/article.md`
+- Source article: `archive/v0.1/article.md`

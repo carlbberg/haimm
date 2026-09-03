@@ -2,7 +2,7 @@
 
 Places a team at a stage on each of the five dimensions, using evidence rather than self-perception. The output is a profile, usually uneven, and the unevenness is the finding.
 
-All twenty gates are available in v0.2, so a full five-dimension assessment is possible. None has been run against a real team. Read the known weaknesses at the bottom before you present a result.
+All twenty gates are defined, so a full five-dimension assessment is possible. None has been run against a real team. Read the known weaknesses at the bottom before you present a result.
 
 ## Scope
 
@@ -48,8 +48,8 @@ Then hand over next moves. See `acting-on-a-result.md`.
 
 Say these out loud rather than letting them sit under a confident-looking result.
 
-- **The model has never been run.** v0.2 is a complete specification with no field data behind it. Gate wording will change once it meets a real team.
-- **Every fourth gate is untested.** No team in the v0.1 worked example was plotted at Continuous Evolution on any dimension. The Optimization to Continuous Evolution criteria are reasoned, not observed, in all five dimensions.
+- **The model has never been run.** It is a complete specification with no field data behind it. Gate wording will change once it meets a real team.
+- **Every fourth gate is untested.** No assessment has placed a team at Continuous Evolution on any dimension. The Optimization to Continuous Evolution criteria are reasoned, not observed, in all five dimensions.
 - **Two criteria are awkward to run.** The independent-agreement test in Knowledge & Context needs two people and an AI session answering the same question properly, and the second-team test in Solution Fit needs a second team. Both are marked core or near it precisely because they are the ones people skip, which does not make them easy.
 - **Observation changes behaviour.** People supply better context when watched. Where possible, look at what was actually pasted into recent sessions rather than relying only on live observation.
 - **The assessor is a single point of judgement.** Nothing here calibrates between assessors. Two people running the same team could place it differently, most likely at the Integration to Optimization gates, which carry the most interpretive criteria.
