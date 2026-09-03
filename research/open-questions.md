@@ -1,29 +1,33 @@
 # Open questions
 
-Decisions not yet made, and known weaknesses in what is drafted. Ordered roughly by how much they block.
+Decisions taken, and known weaknesses in what is published. Items resolved for v0.2 are kept with their resolution rather than deleted, so that the reasoning survives.
 
-## Blocking v0.2
+## Resolved for v0.2
 
-**1. Scope of gates in v0.2.** Resolved: all twenty gates are now drafted, four per dimension. None have been tested against a real assessment, and the sixteen outside Knowledge & Context were written in one pass rather than developed against practice the way Knowledge & Context's were; they deserve more scrutiny before v0.2 ships, particularly the Continuous Evolution gate in each dimension (see item 5, which now applies to all five).
+**1. Scope of gates.** All twenty are written, four per dimension. The sixteen outside Knowledge & Context were drafted in one pass and then reviewed against each dimension's revised text; every one of them now has a failure signal that names a specific profile an assessor can look for. They ship. None has been run against a real assessment, which is stated in the playbook rather than hidden.
 
-**2. Metrics.** v0.1 has a per-stage metrics list for every dimension. Gates now do the placement work those metrics were partly doing. Decide whether metrics survive as a tracking layer (movement over time) with gates doing placement, or whether they are removed. They should not duplicate each other.
+**2. Metrics.** Resolved: metrics survive as a tracking layer and are barred from placement. Gates answer which stage; metrics answer whether the team is moving. The rule that keeps them from collapsing back together is that no metric is ever an entry condition for a stage, on Campbell's law grounds. See `framework/metrics.md`, which also records what was dropped from v0.1's lists and why.
 
-**3. Name.** Knowledge & Context is the working name. It carries the organisational knowledge lineage at the risk of reading as knowledge management, which is the confusion the dimension most needs to avoid. Shared Context is the alternative.
+**3. Name.** Resolved: Knowledge & Context stays. Shared Context was the alternative and is the more precise name for the human-to-human half, but it loses the "what the work depends on knowing" scope that the locus lens covers. The risk of reading as knowledge management is real and is answered by the dimension's own "What it is not" section, which is a better place to answer it than in a two-word name.
 
-## Weaknesses in what is drafted
+**4. The SECI lens is a loose fit.** Resolved by dropping the pretence of symmetry rather than by finding a better model. Knowledge & Context now names three partial lenses and says the progression is built from them and is not a rendering of any one. Ethics, examined in the same pass, turned out to have no developmental lens at all, and now says so. Four of five dimensions borrowing one whole model was never the pattern it was being presented as.
 
-**4. The SECI lens is a loose fit.** Every other dimension borrows a whole model: Tuckman for collaboration, Satir for people, TAM and UTAUT for solution fit. Knowledge & Context borrows externalisation, which is one of four SECI modes. Either find a better-fitting whole model, or say plainly that this dimension has no single lens and drop the pretence of symmetry.
+**6. Three sub-lenses may be one too many.** Resolved: keep three. Reachability is not independent of locus and the dimension now says so, but the diagnosis and the remedy differ enough to be worth separating. Unreachable context is fixed by connecting a system; unowned context is fixed by someone agreeing to own it. Collapsing them makes the first look like the second.
 
-**5. Every dimension's fourth gate is untested.** No team in the v0.1 worked example is plotted at Continuous Evolution on any dimension, which suggests Stage 5 is currently aspirational. Each dimension's Optimization to Continuous Evolution gate is reasoned, not observed; each says so in its own `rationale` field.
+**7. A fifth pattern may be missing.** Resolved: separated. Unarbitrated conflict is now its own pattern, distinct from stale grounding, because both sources can be current and maintained and what is missing is a mechanism rather than a refresh. It already had a gate criterion of its own, which was the argument for promoting it.
 
-**6. Three sub-lenses may be one too many.** Human-AI Collaboration has two because interaction mode and automation level are genuinely orthogonal. Locus and reachability are not fully independent: locus level 4 more or less presupposes reachability. Keeping reachability separate is defensible if the distinct diagnosis is worth it, but it is not the same clean crossing.
+**10. Licence.** Resolved: MIT.
 
-**7. A fifth pattern may be missing.** Conflicting context with no arbitration mechanism is currently folded into stale grounding. It may deserve separation.
+## Known weaknesses in what is published
+
+**5. Every dimension's fourth gate is untested.** No team in the v0.1 worked example is plotted at Continuous Evolution on any dimension, so Stage 5 is aspirational rather than observed. Each Optimization to Continuous Evolution gate is reasoned, not observed, and says so in its own `rationale` field. This is the single largest untested part of v0.2 and the first thing a real assessment should stress.
+
+**9. Core criterion rule.** Kept for v0.2: exactly one criterion per gate cannot be skipped. It adds a rule to explain, and rules cost adoption. Revisit once real assessments have run and it is clear whether assessors use it or route around it.
+
+**11. Third-party figures in the v0.1 archive.** Two of the four archived v0.1 figures are third-party (the IEEE automation-levels figure, and a rendering of the Satir model). Neither is carried into `framework/`, and v0.2's dimension files cite the sources in text instead. The archived copies remain, and the repository is private. Before it is made public, they need removing from the working tree *and* from git history, or permission obtained. Recorded in `archive/v0.1/figures/README.md`. This is a publication step, not a model step, and it is the one thing standing between v0.2 and a public repository.
 
 ## Beyond v0.2
 
-**8. Do gates generalise between dimensions?** Ethics plausibly constrains Human-AI Collaboration: semi-autonomous operation without governance is a different kind of unsupported. If interactions like this are common, HAIMM gains a relationship layer and probably a companion diagram, and dimensions stop being independent in the way the current visualisation implies. Deliberately deferred.
+**8. Do gates generalise between dimensions?** Ethics plausibly constrains Human-AI Collaboration: semi-autonomous operation without governance is a different kind of unsupported. If interactions like this are common, HAIMM gains a relationship layer and probably a companion diagram, and dimensions stop being independent in the way the current visualisation implies. Deliberately deferred, and noted in `framework/00-overview.md`.
 
-**9. Core criterion rule.** Currently on: exactly one criterion per gate cannot be skipped. It adds a rule to explain, and rules cost adoption. Worth revisiting once real assessments have run.
-
-**10. Licence.** Resolved: MIT. The two third-party v0.1 figures with unresolved rights status (`archive/v0.1/figures/README.md`) are a separate, still-open concern for public release.
+**12. The model has never been run.** v0.2 is complete as a specification and has zero field data behind it. The first real assessment is likely to change gate wording, and the criteria most likely to move are the ones that are awkward to run rather than the ones that are wrong: the independent-agreement test in Knowledge & Context, and the second-team test in Solution Fit. v0.3 should be driven by that, not by adding a sixth dimension.
