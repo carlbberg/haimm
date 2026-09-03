@@ -2,7 +2,7 @@
 
 *Making shared understanding explicit and current*
 
-**Status: new in v0.2.** Gates published, untested against a real assessment.
+**Status.** Gates published, untested against a real assessment.
 
 The organisation's maturity in making the understanding that work depends on explicit, shared, current, and reachable, both between people and AI and among people themselves.
 
@@ -94,16 +94,6 @@ The progression below is built from those three and is not a rendering of any on
 
 **Continuous Evolution.** Context is managed as an asset with a lifecycle: ownership, deprecation, access boundaries, and periodic review of whether externalisation has gone too far or not far enough. The reflective question is whether shared understanding among people has kept pace with the context available to AI. *Example:* a quarterly review that retires stale context and explicitly checks the human-to-human half.
 
-## Matrix row
-
-| Stage | Cell |
-|---|---|
-| Exploration | Context is tacit and session-bound; initial mapping of what the work depends on knowing. |
-| Experimentation | First durable context artifacts appear, created and held by individuals. |
-| Integration | Shared context becomes team-owned, with agreed terminology, named owners, and a review cadence. |
-| Optimization | Context referenced from reachable sources of record rather than copied, refreshed as they change. |
-| Continuous Evolution | Context managed as an asset, with ownership, refresh, and deprecation reviewed regularly. |
-
 ## Gates
 
 Four gates, one per transition between adjacent stages. Pass a gate by meeting **3 of 4** criteria; the criterion marked *core* cannot be the one skipped. A team sits at the highest stage whose entry gate it has passed.
@@ -153,7 +143,7 @@ The fourth criterion tests shared understanding directly rather than inferring i
 
 *Tests* Whether context is genuinely managed as an asset, including the half that is about people rather than AI.
 
-Untested against practice. No team in the v0.1 worked example is plotted in Continuous Evolution on any dimension, so these criteria are reasoned rather than observed. Treat as provisional.
+Untested against practice. No assessment has placed a team at Continuous Evolution on any dimension, so these criteria are reasoned rather than observed. Treat as provisional.
 
 - **[A]** **(core)** Context has been deliberately retired or deprecated in the last review cycle, not only added.
 - **[A]** AI output routinely returns to shared stores as durable context, with at least one traceable instance.
@@ -170,6 +160,8 @@ Adjacency does the work. The bands in the visualisation carry equal weight, so t
 
 ## Related
 
+- This dimension's row in the combined matrix: `framework/matrix.md`
+- The stages themselves, read across all five dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
 - Dimension interactions: `framework/00-overview.md`
 - Theory anchors and verification status: `research/evidence-log.md`

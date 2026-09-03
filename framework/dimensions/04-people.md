@@ -2,7 +2,7 @@
 
 *Supporting cultural and role shifts*
 
-**Status: revised for v0.2.** Gates published, untested against a real assessment.
+**Status.** Gates published, untested against a real assessment.
 
 Whether the people whose work changes have a say in how it changes, and whether the capability that results is distributed or concentrated in a few individuals.
 
@@ -22,7 +22,7 @@ The dimension exists because the other four can all look healthy while this one 
 
 Satir's change model (Satir et al., 1991) describes five phases a person or group passes through during a significant change: late status quo, resistance, chaos, integration, and new status quo. Its useful property is that performance drops before it rises, and that the drop is expected rather than evidence the change was wrong. A team that has not experienced chaos has usually not changed anything yet.
 
-One terminology collision is worth naming, because it caused confusion in v0.1. Satir's phases and HAIMM's stages both contain the word *integration*, and they do not line up. Satir's chaos falls at HAIMM's Integration stage; Satir's integration falls at HAIMM's Optimization. Where the two are used together below, the Satir phase is named in brackets.
+One terminology collision is worth naming. Satir's phases and HAIMM's stages both contain the word *integration*, and they do not line up. Satir's chaos falls at HAIMM's Integration stage; Satir's integration falls at HAIMM's Optimization. Where the two are used together below, the Satir phase is named in brackets.
 
 ## Patterns it detects
 
@@ -46,16 +46,6 @@ One terminology collision is worth naming, because it caused confusion in v0.1. 
 
 **Continuous Evolution (new status quo).** Upskilling and role development are recurring rather than one-off, and there is a standing forum where role and culture questions get raised. *Example:* a community of practice meeting on a recorded cadence, with people able to name a skill change they made and what supported it.
 
-## Matrix row
-
-| Stage | Cell |
-|---|---|
-| Exploration | Employees engaged in identifying potential applications and sharing hopes and concerns. |
-| Experimentation | Pilot projects co-created with stakeholders to address resistance and build confidence. |
-| Integration | Teams supported with training and resources as workflows and roles adapt to AI integration. |
-| Optimization | Broad organizational acceptance and active participation in AI-driven workflows and celebration of first success cases. |
-| Continuous Evolution | Continuous upskilling and culture-building around human-AI collaboration. |
-
 ## Gates
 
 Four gates, one per transition between adjacent stages. Pass a gate by meeting **3 of 4** criteria; the criterion marked *core* cannot be the one skipped. A team sits at the highest stage whose entry gate it has passed.
@@ -68,7 +58,7 @@ The Integration to Optimization gate carries the People / Knowledge & Context in
 
 *Tests* Whether concerns and hopes about AI adoption were actually surfaced, not just announced to.
 
-v0.1's Exploration/Late Status Quo activity is workshops sharing hopes and fears. A status quo can look stable purely because people did not say anything, so the test is whether concerns actually got voiced.
+The Exploration activity here, Satir's late status quo, is workshops sharing hopes and fears. A status quo can look stable purely because people did not say anything, so the test is whether concerns actually got voiced.
 
 - **[O]** **(core)** At least one specific concern raised by an employee about AI adoption is documented, along with how, or whether, it was addressed.
 - **[A]** A record exists of a cross-departmental session, not a single-department announcement, where AI use cases were discussed.
@@ -81,7 +71,7 @@ v0.1's Exploration/Late Status Quo activity is workshops sharing hopes and fears
 
 *Tests* Whether resistance was worked through via co-creation, not overridden or waited out.
 
-v0.1 names Resistance directly and prescribes co-creating pilots with employees so their concerns are addressed rather than managed past.
+Resistance is worked through by co-creating pilots with the people affected, so concerns are addressed rather than managed past.
 
 - **[O]** **(core)** Someone who was initially skeptical of an AI pilot can describe what changed their view, or can describe that it has not changed and how that is being handled.
 - **[A]** Pilot design decisions (scope, workflow, rollout) show input from people who do the work, with at least one instance of the pilot changing because of that input.
@@ -94,7 +84,7 @@ v0.1 names Resistance directly and prescribes co-creating pilots with employees 
 
 *Tests* Whether capability is concentrated in the people who built their own workarounds during the chaos of integration, or has actually spread.
 
-v0.1's Integration/Chaos stage is about roles and responsibilities shifting with support. This is where People and Knowledge & Context interact: distribution asks whether capability is concentrated in the people who built personal context scaffolding while the workflow was still unsettled.
+Integration, Satir's chaos, is where roles and responsibilities shift and support has to be deliberate. This is where People and Knowledge & Context interact: distribution asks whether capability is concentrated in the people who built personal context scaffolding while the workflow was still unsettled.
 
 - **[A]** **(core)** At least one person who was not part of the original pilot or early adopters is now proficient with the AI-supported workflow, with training or onboarding material behind that.
 - **[S]** People across the team, not just early adopters, report they know how to get help when the AI-supported workflow does not work as expected.
@@ -107,7 +97,7 @@ v0.1's Integration/Chaos stage is about roles and responsibilities shifting with
 
 *Tests* Whether upskilling and culture-building around AI are ongoing, not a one-time training push.
 
-Untested against practice. No team in the v0.1 worked example is plotted in Continuous Evolution on any dimension, so these criteria are reasoned rather than observed. Treat as provisional.
+Untested against practice. No assessment has placed a team at Continuous Evolution on any dimension, so these criteria are reasoned rather than observed. Treat as provisional.
 
 - **[A]** **(core)** A recurring, not one-off, training, upskilling, or knowledge-sharing activity related to AI use has run more than once, with attendance or participation recorded.
 - **[S]** People report having growth opportunities tied to how their role is changing with AI, not just initial onboarding.
@@ -118,6 +108,8 @@ Untested against practice. No team in the v0.1 worked example is plotted in Cont
 
 ## Related
 
+- This dimension's row in the combined matrix: `framework/matrix.md`
+- The stages themselves, read across all five dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
 - Theory anchors and verification status: `research/evidence-log.md`
-- Full v0.1 text, as published: `archive/v0.1/article.md`. The Satir diagram reproduced there is a third-party rendering and is deliberately not carried into `framework/`; see `archive/v0.1/figures/README.md`.
+- Source article: `archive/v0.1/article.md`. The Satir diagram reproduced there is a third-party rendering and is deliberately not carried into `framework/`; see `archive/v0.1/figures/README.md`.

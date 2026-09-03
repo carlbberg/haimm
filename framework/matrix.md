@@ -2,9 +2,11 @@
 
 Stages across, dimensions down. This is the table the published figure renders.
 
+This is the only home of the cells. Dimension files describe their own stage progression in prose and link here rather than restating their row, so a cell has one place to be changed.
+
 Cells describe a state rather than an activity, and run roughly eleven to sixteen words. Match that register when adding rows.
 
-The four v0.1 rows are carried unchanged from the v0.1 figure (`archive/v0.1/figures/haimm-v0.1-stages-dimensions.png`). Their surrounding text was revised for v0.2, but the cells themselves were left alone: they are what the published figure says, and changing them would silently invalidate every v0.1 placement without improving the model. The Knowledge & Context row is new.
+Cells are deliberately stable. Changing one silently invalidates every placement already made against it, so treat the wording as fixed unless the model itself changes.
 
 | Dimension | Exploration | Experimentation | Integration | Optimization | Continuous Evolution |
 |---|---|---|---|---|---|

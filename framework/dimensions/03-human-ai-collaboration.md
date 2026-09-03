@@ -2,7 +2,7 @@
 
 *Evolving teamwork with AI*
 
-**Status: revised for v0.2.** Gates published, untested against a real assessment. Two v0.1 attributions corrected here; see `research/evidence-log.md`.
+**Status.** Gates published, untested against a real assessment. Attributions checked against primary sources; see `research/evidence-log.md`.
 
 How work is divided between people and AI, how that division was arrived at, and whether the team revisits it as capability changes.
 
@@ -20,15 +20,15 @@ This dimension is about that negotiation. It asks two questions that vary indepe
 
 ## Lenses
 
-**Interaction mode.** Nielsen (2024) names four metaphors for working with AI: *intern*, an eager but unskilled assistant needing supervision; *coworker*, completing tasks independently or alongside a person; *teacher*, guiding acquisition of new skills; and *coach*, critiquing and refining skills a person already has. v0.1 named three of these and called the second one "colleague". The set is corrected here, and the point of the lens is that the right metaphor is per task, not per team.
+**Interaction mode.** Nielsen (2024) names four metaphors for working with AI: *intern*, an eager but unskilled assistant needing supervision; *coworker*, completing tasks independently or alongside a person; *teacher*, guiding acquisition of new skills; and *coach*, critiquing and refining skills a person already has. The point of the lens is that the right metaphor is per task, not per team.
 
-**Levels of automation.** The ten-point scale, from fully manual through the computer narrowing options and suggesting, to fully autonomous, originates with Sheridan and Verplank (1978) at MIT's Man-Machine Systems Laboratory. Parasuraman, Sheridan and Wickens (2000) generalised it by crossing degree of automation with four stages of human information processing: information acquisition, information analysis, decision and action selection, and action implementation. v0.1 attributed the ten-level scale itself to the 2000 paper, which is wrong; the 2000 contribution is the crossing. The practical consequence of the crossing is that automation is not one dial. A system can be highly automated at analysis and fully manual at action, and saying only "we use AI a lot" hides which.
+**Levels of automation.** The ten-point scale, from fully manual through the computer narrowing options and suggesting, to fully autonomous, originates with Sheridan and Verplank (1978) at MIT's Man-Machine Systems Laboratory. Parasuraman, Sheridan and Wickens (2000) generalised it by crossing degree of automation with four stages of human information processing: information acquisition, information analysis, decision and action selection, and action implementation. The practical consequence of the crossing is that automation is not one dial. A system can be highly automated at analysis and fully manual at action, and saying only "we use AI a lot" hides which.
 
 At the upper end sits what Noessel (2017) calls agentive technology: systems designed to act on a person's behalf and take initiative. Mollick's (2023) centaur and cyborg metaphors describe the two shapes the division takes below that: the centaur splits tasks cleanly between human and AI, the cyborg interleaves them within a single task.
 
 **Team formation.** Tuckman (1965) describes four stages of small-group development: forming, storming, norming, performing. This maps well onto HAIMM's first four stages, with the useful property that storming is a stage a team has to pass through rather than avoid.
 
-Tuckman and Jensen (1977) added a fifth stage, adjourning, meaning the group disbands. That does not map onto Continuous Evolution, and v0.1's hedge of "Adjourning/Transforming" papered over the mismatch. The honest reading is that Tuckman covers four of HAIMM's five stages. At the fifth, a team does not disband; it re-enters forming and storming deliberately, because AI capability changed and the division of labour agreed at Optimization no longer describes the work. The lens runs out, and what replaces it is the team's own capacity to re-open a settled question.
+Tuckman and Jensen (1977) added a fifth stage, adjourning, meaning the group disbands. That does not map onto Continuous Evolution, and hedging it as "adjourning or transforming" only papers over the mismatch. The honest reading is that Tuckman covers four of HAIMM's five stages. At the fifth, a team does not disband; it re-enters forming and storming deliberately, because AI capability changed and the division of labour agreed at Optimization no longer describes the work. The lens runs out, and what replaces it is the team's own capacity to re-open a settled question.
 
 ## Patterns it detects
 
@@ -52,18 +52,6 @@ Tuckman and Jensen (1977) added a fifth stage, adjourning, meaning the group dis
 
 **Continuous Evolution.** The collaboration model is deliberately re-opened as capability changes, in both directions. Automation is raised for specific tasks as a decision, and the team can say how it would notice that AI's role needed to shrink. *Example:* a review that moves one task from proposing to executing and pulls another back after a near miss.
 
-## Matrix row
-
-| Stage | Cell |
-|---|---|
-| Exploration | AI introduced as a tool with clear but evolving limitations; basic understanding established. |
-| Experimentation | AI begins assisting with decision-making, offering suggestions beyond simple tasks. |
-| Integration | AI becomes a somewhat trusted "colleague," with humans reviewing and approving its outputs. |
-| Optimization | AI achieves semi-autonomous operation in some areas with human oversight. |
-| Continuous Evolution | Human-AI relationships adapt as technology evolves, fostering innovative collaboration. |
-
-Every stage contains use cases at every automation level. The stage describes where the team's norms sit, not a ceiling on any individual task.
-
 ## Gates
 
 Four gates, one per transition between adjacent stages. Pass a gate by meeting **3 of 4** criteria; the criterion marked *core* cannot be the one skipped. A team sits at the highest stage whose entry gate it has passed.
@@ -76,7 +64,7 @@ The Integration to Optimization gate carries the Human-AI Collaboration / Knowle
 
 *Tests* Whether the team has a shared, explicit sense of AI's role and boundaries, not just access to a tool.
 
-v0.1's Exploration/Forming stage is about setting initial expectations and identifying boundaries. A team with access to an AI tool but no agreed boundaries has not formed around it, it has just been issued a tool.
+Exploration, in Tuckman's terms forming, is about setting initial expectations and identifying boundaries. A team with access to an AI tool but no agreed boundaries has not formed around it, it has just been issued a tool.
 
 - **[O]** **(core)** Someone can state, in their own words, what AI is and is not expected to do in their workflow, and a colleague gives a consistent answer.
 - **[A]** A written note, guideline, or team agreement records the initial scope of AI's role.
@@ -89,7 +77,7 @@ v0.1's Exploration/Forming stage is about setting initial expectations and ident
 
 *Tests* Whether role conflict has actually surfaced and been worked through, not avoided.
 
-v0.1 names Storming explicitly as differences in expectations and roles surfacing. A team with no visible disagreement about AI's role has not gone through storming, it has suppressed it.
+Storming is differences in expectations and roles surfacing. A team with no visible disagreement about AI's role has not gone through storming, it has suppressed it.
 
 - **[O]** **(core)** The team can describe a specific disagreement about what AI should or should not do, and how it was resolved.
 - **[A]** A change to how AI is used (a role, a workflow step, a guardrail) exists that was made in direct response to a raised concern.
@@ -102,7 +90,7 @@ v0.1 names Storming explicitly as differences in expectations and roles surfacin
 
 *Tests* Whether AI can be grounded without a human supplying context in the moment.
 
-Norming, per v0.1, is where AI becomes a trusted "colleague" whose outputs are reviewed and approved. This is where Human-AI Collaboration and Knowledge & Context interact: sufficiency is whether AI can be grounded without a human supplying context in the moment, and a colleague who needs re-briefing every session has not actually reached that trust.
+Norming is where AI becomes a trusted "colleague" whose outputs are reviewed and approved. This is where Human-AI Collaboration and Knowledge & Context interact: sufficiency is whether AI can be grounded without a human supplying context in the moment, and a colleague who needs re-briefing every session has not actually reached that trust.
 
 - **[O]** **(core)** In an observed session, AI produces usable output on a routine task without the human re-explaining context they already explained in a prior session.
 - **[A]** A norm or process document exists describing how AI-proposed actions get reviewed and approved, distinct from ad hoc checking.
@@ -115,7 +103,7 @@ Norming, per v0.1, is where AI becomes a trusted "colleague" whose outputs are r
 
 *Tests* Whether the team deliberately revisits its collaboration model as capability changes, rather than drifting.
 
-Untested against practice. No team in the v0.1 worked example is plotted in Continuous Evolution on any dimension, so these criteria are reasoned rather than observed. Treat as provisional.
+Untested against practice. No assessment has placed a team at Continuous Evolution on any dimension, so these criteria are reasoned rather than observed. Treat as provisional.
 
 - **[A]** **(core)** A review of the human-AI collaboration model (roles, automation level, trust boundaries) has happened in the last cycle, with a record of what changed or was reaffirmed.
 - **[A]** At least one instance exists of the team deliberately raising the automation level for a specific task (moving from proposing to executing, say), not as a default drift.
@@ -126,6 +114,8 @@ Untested against practice. No team in the v0.1 worked example is plotted in Cont
 
 ## Related
 
+- This dimension's row in the combined matrix: `framework/matrix.md`
+- The stages themselves, read across all five dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
 - Theory anchors and verification status: `research/evidence-log.md`
-- Full v0.1 text, as published: `archive/v0.1/article.md`. The automation-levels figure reproduced there is IEEE copyright and is deliberately not carried into `framework/`; see `archive/v0.1/figures/README.md`.
+- Source article: `archive/v0.1/article.md`. The automation-levels figure reproduced there is IEEE copyright and is deliberately not carried into `framework/`; see `archive/v0.1/figures/README.md`.
