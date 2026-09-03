@@ -1,6 +1,6 @@
 # References
 
-Sources cited in `framework/`. Verification status and what was checked are tracked in `research/evidence-log.md`. A source is listed under Verified here only once its bibliographic detail and the specific claim HAIMM makes of it have been checked against the publisher's record or the primary document.
+These are the sources cited in `framework/`. Verification status, and what was actually checked in each case, is tracked in `research/evidence-log.md`. A source is only listed under Verified here once both its bibliographic detail and the specific claim HAIMM makes of it have been checked against the publisher's record or against the primary document.
 
 ## Verified
 
@@ -48,4 +48,4 @@ Wegner, D. M. (1987). Transactive memory: A contemporary analysis of the group m
 
 ## Cited in `framework/`, not yet verified
 
-The enterprise maturity models HAIMM positions against: Council of the European Union (2024), Deloitte, Element AI, Forrester, Gartner, IBM (2024), Microsoft (2023). Cited as positioning, not as evidence for any claim.
+These are the enterprise maturity models HAIMM positions itself against: Council of the European Union (2024), Deloitte, Element AI, Forrester, Gartner, IBM (2024) and Microsoft (2023). They are cited as positioning and never as evidence for any claim the model makes.

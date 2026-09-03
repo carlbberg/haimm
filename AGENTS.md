@@ -43,9 +43,21 @@ Each dimension file holds its own gates under `## Gates`. A gate is a `###` head
 
 ## Writing style
 
-Sentence case for headings. No em-dashes. No buzzwords (leverage, unlock, seamlessly). No "why it matters" or "failure mode" as section headers. Minimal formatting. Don't end a section with "By doing X."
+The voice this repository is written in is the one from the v0.1 article, and the rules below exist because it drifted away from it. The mechanics first: sentence case for headings, no em-dashes, no buzzwords (leverage, unlock, seamlessly), no "why it matters" or "failure mode" as a section header, and minimal formatting.
 
-Match the register in `framework/`: cells and stage descriptions are compressed and describe states, roughly eleven to sixteen words for table cells. The playbook can be more direct and instructional.
+**Write in full sentences.** A line without a finite verb is a note to yourself, so if something reads as a label ("Not scale." "A progression.") give it a subject and a verb. Aim for a median of roughly seventeen words, and let about a quarter of the sentences run past twenty-five, because a paragraph of uniformly short ones reads as a list that lost its bullets.
+
+**Keep the connective tissue.** However, in other words, for example, finally and that said are how a reader follows an argument, and removing them does not make the prose tighter, it makes it harder to follow. Definition by negation is worth one or two uses per file and becomes a tic beyond that. "Rather than" in particular should be rare, and where a sentence can say what something is, it should. The "what it is not" sections stay, because they do real disambiguation work, but the prose inside them still has to say something positive.
+
+**Both voices are allowed.** The passive is right where the actor is the whole organisation and naming it would be noise, as in "training and support are provided" or "the tool was reshaped after what the pilot found". It is wrong where it exists to avoid committing to a subject. Prefer teams, people and organisations as sentence subjects over gates, criteria and readings, since the model is about the former.
+
+**Hedge where the claim is uncertain,** which here is often. May, might, tends to, usually and in most cases are honest about evidence the model does not yet have. Save flat assertion for things that were actually decided.
+
+**Address the reader.** You, your team and a question put directly to the reader are all fine anywhere, `framework/` included. Plain enthusiasm about the subject is fine too, used sparingly.
+
+**Don't end on a mic drop.** A short epigram closing a section sounds decided and tells the reader very little, so end on the sentence that carries the most meaning even when it is the longest one. The same goes for ending a section with "By doing X."
+
+Match the register in `framework/`: cells and stage descriptions stay compressed and describe states, roughly eleven to sixteen words for a table cell. The prose around them does not have to be compressed, and the playbook can be more direct and instructional.
 
 ## Terminology
 

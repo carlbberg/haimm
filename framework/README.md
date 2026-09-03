@@ -1,20 +1,20 @@
 # HAIMM overview
 
-Two axes, and what sits on them.
+The model has two axes, and this file describes what sits on them.
 
-**Stages**, how teams and organisations progress over time. Five, each with its own file under `stages/`.
+**Stages** are how teams and organisations progress over time. There are five, each with its own file under `stages/`.
 
-**Dimensions**, the building blocks that keep the model human-centric. Five, each with its own file under `dimensions/`. Each evolves through every stage, with its own challenges at each.
+**Dimensions** are the building blocks that keep the model human-centric. There are also five, each with its own file under `dimensions/`, and each of them evolves through every stage with its own challenges at each one.
 
-A reading of a team is a position on both axes at once, one stage per dimension. `matrix.md` holds all twenty-five cells.
+A reading of a team is a position on both axes at once, which means one stage per dimension. All twenty-five cells are in `matrix.md`.
 
-**Gates** are how a team moves along the stage axis within one dimension: the criteria for crossing between two adjacent stages. Four per dimension, twenty in total, each written into its own dimension's file under `dimensions/`.
+**Gates** are how a team moves along the stage axis within a single dimension. A gate holds the criteria for crossing between two adjacent stages, so there are four per dimension and twenty in total, and each one is written into the file of the dimension it belongs to.
 
-**Metrics** sit outside the axes. They track whether a team is moving and never decide where it sits. See `metrics.md`.
+**Metrics** sit outside the axes altogether. They track whether a team is moving and they never decide where it sits, for reasons set out in `metrics.md`.
 
 ## Stages
 
-Presented sequentially, but iterative in practice: teams revisit earlier stages as tools, people and needs change.
+The stages are presented in sequence, but in practice they are iterative, and teams revisit earlier ones as their tools, their people and their needs change.
 
 | # | Stage | id | What characterises it |
 |---|---|---|---|
@@ -24,9 +24,9 @@ Presented sequentially, but iterative in practice: teams revisit earlier stages 
 | 4 | Optimization | `optimization` | Scaling what worked, focused on measurable outcomes: productivity, quality, learning. |
 | 5 | Continuous Evolution | `continuous-evolution` | Ongoing adaptation as organisational needs and technologies change. |
 
-The ids are the stable machine-readable form of the stage names, for anything built on top of the model.
+The ids are the stable machine-readable form of the stage names, and anything built on top of the model should key off them.
 
-The five-stage shape is a beginning, a middle and an end, with a preceding and a following stage. That is the pattern most transformation frameworks use and the one people navigating a change already recognise. The claim behind it is familiarity, not evidence, and it is worth holding as such.
+Why five? The shape is a beginning, a middle and an end, with a stage before and a stage after, which is the pattern most transformation frameworks use and the one that people navigating a change tend to recognise already. However, familiarity is a weaker argument than it sounds. The claim behind the shape is recognisability and not evidence, so hold it as such.
 
 ## Dimensions
 
@@ -38,17 +38,17 @@ The five-stage shape is a beginning, a middle and an end, with a preceding and a
 | 4 | People | Supporting cultural and role shifts |
 | 5 | Ethics | Safeguarding responsible AI practices |
 
-Knowledge & Context sits second, immediately above Human-AI Collaboration, so that a gap between the two is visible in the assessment view.
+Knowledge & Context sits second, immediately above Human-AI Collaboration, so that any gap between the two is visible at a glance in the assessment view.
 
 ## Dimensions are independent
 
-A team can sit at different stages across dimensions, and usually does. The scatter is the output of an assessment, not a defect in it: it names which gap to address next. Nothing in the model overrides a dimension's placement based on another dimension's score.
+A team can sit at different stages across the five dimensions, and in most cases it will. That scatter is the output of an assessment and not a defect in it, because it names which gap to address next. Nothing in the model overrides one dimension's placement on the basis of another dimension's score.
 
-A design where Knowledge & Context gated the other four, capping their assessed stages, was considered and rejected. It converts a diagnosis into an error and hides the finding inside a calculation.
+An alternative design was considered, in which Knowledge & Context gated the other four and capped the stage they could be assessed at. It was rejected because it converts a diagnosis into an error and hides the finding inside a calculation, which is exactly the move that makes a maturity model feel authoritative and stop being useful.
 
 ## Where dimensions genuinely interact
 
-Interactions are real, and they are expressed as criteria inside the affected dimension's own gates rather than as dependencies between dimensions. Each is one criterion among four, so no dimension's placement is hostage to another's.
+The interactions are real. They are expressed as criteria inside the affected dimension's own gates, so that no dimension's placement is ever hostage to another's, and each one is a single criterion among the four in its gate.
 
 | Interaction | Lives in | What it asks |
 |---|---|---|
@@ -57,14 +57,14 @@ Interactions are real, and they are expressed as criteria inside the affected di
 | Distribution | People, Integration to Optimization | Whether capability is concentrated in the people who built personal context scaffolding |
 | Provenance | Ethics, Experimentation to Integration | Whether the team can say what grounded an AI-influenced decision |
 
-All four are written as one criterion inside the named gate in the affected dimension's own file under `framework/dimensions/`.
+All four are written as one criterion inside the named gate, in the affected dimension's own file under `framework/dimensions/`.
 
-Whether interactions not involving Knowledge & Context are common enough to need a relationship layer of their own is deferred. See `research/open-questions.md`.
+Whether the interactions that do not involve Knowledge & Context are common enough to justify a relationship layer of their own is a question we have deferred. See `research/open-questions.md`.
 
 ## Assessment
 
-A team sits at the highest stage whose entry gate it has passed, per dimension. Gates use a threshold of three of four criteria, with one criterion per gate designated core and not skippable.
+A team sits at the highest stage whose entry gate it has passed, and that is worked out separately for each dimension. Gates use a threshold of three criteria out of four, and one criterion in every gate is designated core, which means it is not the one you are allowed to skip.
 
-Threshold rather than hard pass, because the evidence is subjective and a hard rule on subjective evidence produces false precision. Core criteria, because criteria inside a gate are not equal: some are worth more than the rest combined, and those are exactly the ones a team under time pressure will skip.
+A threshold is used instead of a hard pass because the evidence is subjective, and a hard rule applied to subjective evidence produces false precision. Core criteria exist because the four criteria inside a gate are not equal in weight: some are worth more than the other three combined, and those tend to be exactly the ones a team under time pressure will want to skip.
 
-Placement never depends on a metric. See `metrics.md` for why, and `playbook/running-an-assessment.md` for how an assessment runs.
+Placement never depends on a metric. `metrics.md` explains why, and `playbook/running-an-assessment.md` describes how an assessment actually runs.

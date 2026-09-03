@@ -1,12 +1,12 @@
 # Combined matrix
 
-Stages across, dimensions down. This is the table the published figure renders.
+Stages run across and dimensions run down, and this is the table that the published figure renders.
 
-This is the only home of the cells. Dimension files describe their own stage progression in prose and link here rather than restating their row, so a cell has one place to be changed.
+It is also the only home of the cells. Dimension files describe their own stage progression in prose and link back here instead of restating their row, so that any given cell has exactly one place where it can be changed.
 
-Cells describe a state rather than an activity, and run roughly eleven to sixteen words. Match that register when adding rows.
+Cells describe a state, not an activity, and they run to roughly eleven to sixteen words. If you add a row, match that register.
 
-Cells are deliberately stable. Changing one silently invalidates every placement already made against it, so treat the wording as fixed unless the model itself changes.
+The cells are deliberately stable. Changing one silently invalidates every placement that has already been made against it, so treat the wording as fixed unless the model itself has changed.
 
 | Dimension | Exploration | Experimentation | Integration | Optimization | Continuous Evolution |
 |---|---|---|---|---|---|
