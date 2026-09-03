@@ -4,6 +4,5 @@ How to use HAIMM in practice, as distinct from `framework/`, which is the model 
 
 - `running-an-assessment.md`: scope, evidence access, sequence, reporting, known weaknesses.
 - `acting-on-a-result.md`: what to do with a profile once you have one.
-- `instruments/`: generated checklists and survey forms, one pair per dimension. Do not edit; change `framework/gates/*.yaml` and run `python3 tools/generate.py`.
 
-Not written: a facilitation guide for running the assessment as a workshop rather than as an audit. Deferred until the instrument has been run at least once, because the format should follow what actually happens in the room.
+Not written: forms to record an assessment in, and a facilitation guide for running one as a workshop rather than as an audit. Both are deferred until the gates have been run against a real team at least once, because the format should follow what actually happens in the room. The gates themselves carry everything needed to run an assessment without them.

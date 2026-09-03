@@ -37,13 +37,9 @@ The second change is the largest. A framework people read and an instrument peop
 ```
 framework/     the model itself
   00-overview.md, stages.md, matrix.md, metrics.md, references.md
-  dimensions/  one file per dimension
-  gates/       gate definitions as YAML, the source of truth
-    generated/ markdown rendered from the YAML, do not edit
+  dimensions/  one file per dimension, each holding its own four gates
 playbook/      how to run an assessment and what to do with the result
-  instruments/ checklists and survey forms, generated
 research/      evidence log, open questions, drafts
-tools/         validate.py and generate.py
 archive/       released versions, frozen
 prompts/       project setup prompt for Claude
 ```
@@ -52,15 +48,11 @@ Start at `framework/00-overview.md`.
 
 ## Working with gates
 
-Gate definitions live in `framework/gates/*.yaml` and nowhere else. Checklists, survey forms and the markdown reference are generated from them.
+A dimension's four gates sit inside its own file under `framework/dimensions/`. There is no separate source format and no build step: the markdown is the model. Read one file and you have the dimension, its stage progression, its matrix row and everything a team is assessed against.
 
-```bash
-pip install pyyaml
-python3 tools/validate.py     # schema and consistency checks
-python3 tools/generate.py     # rebuild everything under generated/ and instruments/
-```
+The shape is regular on purpose, so that assessment tooling can be built against it later without a schema in between. Each gate is a `###` heading naming the transition, then what it tests, four criteria tagged `[A]`, `[S]` or `[O]` with exactly one marked core, and the failure signal for a team that believes it has passed. Three of four criteria pass a gate, and the core one cannot be the one skipped.
 
-Never edit a file with a GENERATED banner. Change the YAML and regenerate. `validate.py` enforces the rules that matter: four criteria per gate, adjacent stage transitions, exactly one core criterion, and at least one criterion per gate that cannot be satisfied by self-report.
+Four rules hold the gates together, and nothing enforces them automatically. Four criteria per gate. Transitions between adjacent stages only. Exactly one core criterion. At least one criterion per gate that cannot be satisfied by self-report, because a gate passable by self-report will be passed.
 
 ## Licence
 

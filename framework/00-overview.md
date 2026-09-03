@@ -6,7 +6,7 @@ Four elements.
 
 **Dimensions**, the building blocks that keep the model human-centric. Each evolves through every stage, with its own challenges at each. See `dimensions/`.
 
-**Gates**, the criteria for moving between adjacent stages within a dimension, added in v0.2. Four per dimension, twenty in total. See `gates/SCHEMA.md`.
+**Gates**, the criteria for moving between adjacent stages within a dimension, added in v0.2. Four per dimension, twenty in total, each written into its own dimension's file under `dimensions/`.
 
 **Metrics**, a tracking layer that never decides placement. See `metrics.md`.
 
@@ -39,7 +39,7 @@ Interactions are real, and they are expressed as criteria inside the affected di
 | Distribution | People, Integration to Optimization | Whether capability is concentrated in the people who built personal context scaffolding |
 | Provenance | Ethics, Experimentation to Integration | Whether the team can say what grounded an AI-influenced decision |
 
-All four are written as one criterion inside the named gate of the affected dimension's own YAML file under `framework/gates/`.
+All four are written as one criterion inside the named gate in the affected dimension's own file under `framework/dimensions/`.
 
 Whether interactions not involving Knowledge & Context are common enough to need a relationship layer of their own is deferred past v0.2. See `research/open-questions.md`.
 
