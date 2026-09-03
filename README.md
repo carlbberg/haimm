@@ -31,6 +31,7 @@ framework/     the model itself
   dimensions/  one file per dimension, each holding its own four gates
 playbook/      how to run an assessment and what to do with the result
 research/      evidence log, open questions, drafts
+visualization/ a single-file interactive rendering of the model
 archive/       released versions, frozen
 ```
 
