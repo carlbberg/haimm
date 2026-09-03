@@ -26,7 +26,7 @@ The two things it does not have: any field data, and a facilitation guide. Both 
 
 ```
 framework/     the model itself
-  00-overview.md, matrix.md, metrics.md, references.md
+  README.md, matrix.md, metrics.md, references.md
   stages/      one file per stage
   dimensions/  one file per dimension, each holding its own four gates
 playbook/      how to run an assessment and what to do with the result
@@ -34,7 +34,7 @@ research/      evidence log, open questions, drafts
 archive/       released versions, frozen
 ```
 
-Start at `framework/00-overview.md`.
+Start at `framework/README.md`.
 
 ## Editing
 

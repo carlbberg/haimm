@@ -28,6 +28,6 @@ Decisions taken, and known weaknesses in what is published. Items resolved for v
 
 ## Beyond v0.2
 
-**8. Do gates generalise between dimensions?** Ethics plausibly constrains Human-AI Collaboration: semi-autonomous operation without governance is a different kind of unsupported. If interactions like this are common, HAIMM gains a relationship layer and probably a companion diagram, and dimensions stop being independent in the way the current visualisation implies. Deliberately deferred, and noted in `framework/00-overview.md`.
+**8. Do gates generalise between dimensions?** Ethics plausibly constrains Human-AI Collaboration: semi-autonomous operation without governance is a different kind of unsupported. If interactions like this are common, HAIMM gains a relationship layer and probably a companion diagram, and dimensions stop being independent in the way the current visualisation implies. Deliberately deferred, and noted in `framework/README.md`.
 
 **12. The model has never been run.** v0.2 is complete as a specification and has zero field data behind it. The first real assessment is likely to change gate wording, and the criteria most likely to move are the ones that are awkward to run rather than the ones that are wrong: the independent-agreement test in Knowledge & Context, and the second-team test in Solution Fit. v0.3 should be driven by that, not by adding a sixth dimension.

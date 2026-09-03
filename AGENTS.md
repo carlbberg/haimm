@@ -2,14 +2,14 @@
 
 HAIMM is a maturity model for human-AI collaboration. It has two axes: five stages a team moves through, and five dimensions it is read across. A gate is the transition between two adjacent stages within one dimension, so the twenty gates fall out of the axes rather than standing beside them. Metrics are a separate layer that tracks whether a team is moving and never decides where it sits.
 
-This repo is the canonical source and any article is a rendering of it. Read `README.md` for status and `framework/00-overview.md` for the model.
+This repo is the canonical source and any article is a rendering of it. Read `README.md` for status and `framework/README.md` for the model.
 
 Everything here is hand-edited markdown. There is no schema, no generated output and no build step, so a second copy of a fact is a second thing to forget to update.
 
 ## Layout
 
 ```
-framework/     the model: 00-overview.md, matrix.md, metrics.md, references.md,
+framework/     the model: README.md, matrix.md, metrics.md, references.md,
                stages/ (one file per stage), dimensions/ (one file per dimension,
                each holding that dimension's four gates)
 playbook/      how to run an assessment and what to do with the result
