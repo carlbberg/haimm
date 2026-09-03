@@ -8,6 +8,9 @@ Changes to the model. Editorial and tooling changes do not need an entry.
 - `framework/stages/`, one file per stage. Stages had a table row and dimensions had a file each, an asymmetry inherited from v0.1's figure rather than justified by the model. Each stage file gives what is happening, what the stage is not, how the borrowed developmental lenses read it, the characteristic stall, and how a team leaves it.
 - The reading of each stage across dimensions, which no file could hold before. Tuckman and Satir agree at Exploration, Experimentation and Optimization, contradict each other at Integration, where the working agreement is norming while the routines it displaces are in chaos, and both run out at Continuous Evolution.
 
+### Resolved
+- Third-party figure rights. Permission obtained for the two non-author figures in the v0.1 archive, recorded in `archive/v0.1/figures/README.md` and closing item 11 in `research/open-questions.md`. They stay outside the MIT licence. Nothing now blocks making the repository public.
+
 ### Changed
 - Version archaeology removed from `framework/` and `playbook/`. The model text described itself in terms of what v0.1 said and what v0.2 changed, which made a reader carry two versions to understand one. Corrections, migrations and row-order changes are recorded here instead. Each version's text now stands on its own, and this file is where the diffs live.
 - `framework/stages.md` replaced by `framework/stages/`. The stage table, the ids and v0.1's reasoning for a five-stage shape moved to `framework/00-overview.md`, alongside the dimensions table. The note on stage 5 being unobserved moved into the Continuous Evolution file and was expanded.
