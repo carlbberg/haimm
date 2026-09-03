@@ -2,13 +2,13 @@
 
 A human-centric framework for AI adoption, focused on collaboration, shared understanding, culture and ethics rather than technological readiness. Complementary to enterprise AI maturity models (Gartner, Forrester, Deloitte, IBM's AI Ladder, Microsoft's Responsible AI Maturity Model) rather than a replacement for them.
 
-**v0.3, released 3 September 2026.** It is frozen in `archive/v0.3/`, and the working tree matches it until work on v0.4 starts. Earlier releases are in `archive/`: v0.2 as a repository, v0.1 as a published article. What changed in each version is in `CHANGELOG.md`.
+**The current release is v0.3, from 3 September 2026,** frozen in `archive/v0.3/`. The working tree is now v0.4 in progress. Earlier releases are in `archive/` as well: v0.2 as a repository and v0.1 as a published article. If you want to know what changed between any two of them, `CHANGELOG.md` is the place to look.
 
-This repository is the canonical source and any article is a rendering of it. That inversion is deliberate: a single long document makes revision expensive and makes it hard to change one dimension without republishing everything.
+This repository is the canonical source, and any article is a rendering of it. The inversion is deliberate, because a single long document makes revision expensive and makes it hard to change one dimension without republishing everything around it.
 
 ## What the model is
 
-Two axes: five stages and five dimensions. Gates are the criteria for crossing between adjacent stages within a dimension, twenty in total. Metrics track movement and are barred from deciding placement.
+There are two axes, five stages and five dimensions. Gates hold the criteria for crossing between adjacent stages within a dimension, and there are twenty of them. Metrics track whether a team is moving, and they are barred from deciding where it sits.
 
 | Part | State |
 |---|---|
@@ -20,7 +20,7 @@ Two axes: five stages and five dimensions. Gates are the criteria for crossing b
 | Playbook | Assessment sequence and what to do with a result |
 | Citations | Twenty-one verified against publisher records. One group carried as positioning |
 
-The two things it does not have: any field data, and a facilitation guide. Both are stated where they matter rather than implied away.
+Two things are missing, and it is better to say so here than to let you discover them halfway through. There is no field data, because the model has never been run against a real team, and there is no facilitation guide. Both gaps are also stated in the places where they would actually bite.
 
 ## Layout
 
@@ -39,12 +39,12 @@ Start at `framework/README.md`.
 
 ## Editing
 
-Everything here is hand-edited markdown. There is no separate source format, no schema and no build step, so one dimension file gives you that dimension, its stage progression and everything a team is assessed against on it.
+Everything here is hand-edited markdown. There is no separate source format, no schema and no build step, which means that a single dimension file gives you that dimension, its progression through the stages, and everything a team is assessed against on it.
 
-The shape of the files is regular on purpose, so that assessment tooling can be built against it later without a schema in between. `AGENTS.md` holds those conventions and is the one place they are written down.
+The shape of the files is regular on purpose, so that assessment tooling can be built against it later without a schema sitting in between. Those conventions live in `AGENTS.md`, which is the one place they are written down.
 
 ## Licence
 
 MIT. See `LICENSE`.
 
-Two figures in `archive/v0.1/figures/` are third-party and are not covered by it. They are reproduced with permission, are not used in `framework/`, and stay outside the MIT grant. See `archive/v0.1/figures/README.md`.
+Two figures in `archive/v0.1/figures/` are third-party and are not covered by it. They are reproduced with permission, they are not used anywhere in `framework/`, and they stay outside the MIT grant. The details are in `archive/v0.1/figures/README.md`.

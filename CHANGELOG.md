@@ -2,6 +2,15 @@
 
 Changes to the model. Editorial and tooling changes do not need an entry.
 
+## Unreleased (v0.4)
+
+### Changed, editorial
+Nothing in the model moved here. No criterion, matrix cell, gate structure or citation was touched. The entry is kept anyway, because a reader comparing v0.3 with v0.4 will find almost every prose paragraph rewritten and should be able to find out why.
+
+- Writing style across `framework/`, `playbook/` and `README.md`, and the rules in `AGENTS.md` that produced the drift. Measured against the v0.1 article, the repository's prose had a median sentence of 13 words against the article's 17, roughly a sixth of its sentences were verbless fragments against almost none, and the connectives the article uses to carry an argument (however, in other words, for example, such as) had disappeared entirely, replaced by "rather than" 68 times. Second person and questions to the reader had gone as well. The prose is now full sentences with the connective tissue restored, hedged where the evidence is thin, addressed to the reader, and no longer ending sections on an epigram.
+- `AGENTS.md` writing style section rewritten to state the target voice rather than only a list of prohibitions, so that the drift is correctable by reading the rules instead of by comparing against the article.
+- `playbook/acting-on-a-result.md` gained a closing section that states where the guidance stops and turns the reader back to their own team, in place of an ending that asserted and stopped.
+
 ## v0.3, 3 September 2026
 
 ### Added

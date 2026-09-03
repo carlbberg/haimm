@@ -1,8 +1,8 @@
 # Metrics
 
-Metrics track movement. Gates decide placement. The two are different jobs and the model keeps them separate.
+Metrics track movement, and gates decide placement. Those are two different jobs, and the model works hard to keep them separate.
 
-Any overlap between them is a liability: a metric that also decides a stage is a target, and a target that decides a stage will be met. The rule below is what keeps them apart.
+Any overlap between the two is a liability, because a metric that also decides a stage has become a target, and a target that decides a stage will be met one way or another. The rule below is what keeps them apart.
 
 ## The division
 
@@ -14,17 +14,17 @@ Any overlap between them is a liability: a metric that also decides a stage is a
 | Failure mode | Criteria get optimised against | Numbers get optimised against |
 | Consequence of gaming | Caught by the falsifiability rule | Not caught, which is why placement never depends on them |
 
-**No metric is ever an entry condition for a stage.** A team does not reach Optimization because a number crossed a line. It reaches Optimization by passing the Integration to Optimization gate, assessed against evidence. Metrics say whether it is getting closer.
+**No metric is ever an entry condition for a stage.** A team does not reach Optimization because a number crossed a line, it reaches Optimization by passing the Integration to Optimization gate, assessed against evidence. What the metrics tell you is whether it is getting closer.
 
-This is Campbell's law applied deliberately (Campbell, 1979): a quantitative indicator adopted as a goal in a high-stakes setting will distort the process it was meant to observe. Stage placement is the high-stakes setting. Keeping metrics out of it is what allows them to stay honest enough to be useful.
+This is Campbell's law applied deliberately (Campbell, 1979), which holds that a quantitative indicator adopted as a goal in a high-stakes setting will distort the process it was meant to observe. In this model, stage placement is the high-stakes setting, and keeping metrics out of it is what allows them to stay honest enough to be worth collecting.
 
 ## Choosing metrics
 
-- **Three to five per dimension at a time, for the stage you are in.** A dashboard of forty is a dashboard nobody reads.
-- **Prefer counts of things that happened to percentages of people who feel something.** Both appear below; the first kind degrades more slowly.
-- **A metric that restates a gate criterion should be deleted, not kept as confirmation.** If the gate asks whether a shared artifact has two substantive authors, do not also track author counts. You have replaced an assessment with a number.
-- **Metrics vary enormously in collection cost.** Some below are cheap and some are projects. Pick for what the team can sustain.
-- **These are a starting point.** Teams should define their own against their context. The lists are illustrative, not a specification.
+- **Track three to five per dimension at a time, for the stage you are actually in.** A dashboard of forty numbers is a dashboard that nobody reads.
+- **Prefer counts of things that happened over percentages of people who feel something.** Both kinds appear below, but the first tends to degrade more slowly.
+- **Delete any metric that restates a gate criterion, and do not keep it as confirmation.** If the gate already asks whether a shared artifact has two substantive authors, you should not also be tracking author counts, because at that point you have quietly replaced an assessment with a number.
+- **Remember that metrics vary enormously in collection cost.** Some of the ones below are cheap, such as counting workflows with AI embedded, and others are projects in their own right, so choose for what your team can actually sustain.
+- **Treat all of this as a starting point.** Teams should define their own metrics against their own context, and the lists below are illustrative and not a specification.
 
 ## Solution Fit
 
@@ -38,7 +38,7 @@ This is Campbell's law applied deliberately (Campbell, 1979): a quantitative ind
 
 ## Knowledge & Context
 
-No field use behind these.
+There is no field use behind any of these, so treat them as suggestions.
 
 | Stage | Metrics |
 |---|---|
@@ -48,7 +48,7 @@ No field use behind these.
 | Optimization | Context artifacts reachable from the AI tools in use without manual re-supply. Instances of AI output routed back into a shared store. |
 | Continuous Evolution | Context artifacts retired or deprecated per cycle. Time for a new joiner to reach working competence. |
 
-The retirement count is the one worth watching. Every organisation adds context and almost none subtracts it, so a cycle with zero retirements is the normal reading and not a good one.
+Of these, the retirement count is the one most worth watching. Almost every organisation adds context and very few subtract any of it, which means that a cycle with zero retirements is the normal reading and it is not a good one.
 
 ## Human-AI Collaboration
 
@@ -60,7 +60,7 @@ The retirement count is the one worth watching. Every organisation adds context 
 | Optimization | Semi-autonomous tasks completed within their bounds. Escalations that fell outside them. |
 | Continuous Evolution | Frequency of collaboration model reviews. Automation-level changes made, in both directions. |
 
-The last one is deliberately two-directional. A count of increases alone measures drift.
+The last of these is deliberately two-directional, because a count that only records increases is measuring drift and calling it progress.
 
 ## People
 
@@ -72,7 +72,7 @@ The last one is deliberately two-directional. A count of increases alone measure
 | Optimization | People outside the original pilot working competently without help. Active daily use across the team, not concentrated. |
 | Continuous Evolution | Skill gaps identified against new AI capability. Participation in recurring upskilling. |
 
-At Optimization, the distribution matters more than the total. Read these two together or the concentrated-capability pattern stays invisible.
+At Optimization the distribution matters more than the total, so read these two together. Taken separately, they will leave the concentrated-capability pattern invisible.
 
 ## Ethics
 
