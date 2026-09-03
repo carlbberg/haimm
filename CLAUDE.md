@@ -4,11 +4,11 @@ HAIMM is a maturity model for human-AI collaboration. This repo is its canonical
 
 ## Rules that matter
 
-**Gates live in YAML, nowhere else.** `framework/gates/*.yaml` is the source of truth. Anything under `framework/gates/generated/` or `playbook/instruments/` carries a GENERATED banner and is overwritten. If asked to change a gate or a criterion, edit the YAML, then run `python3 tools/validate.py && python3 tools/generate.py`. Never hand-edit a generated file, and never regenerate without validating first.
+**Gates live in the dimension file they belong to.** Each `framework/dimensions/*.md` holds its dimension's four gates under `## Gates`, and nothing is generated from anywhere else. There is no schema file and no build step: edit the markdown directly. Keep the shape regular, because tooling will be built against it later. Each gate is a `###` heading naming the transition, then `*Tests*`, an optional rationale paragraph, four criteria, and a `*Failure signal.*` line. Criteria carry `**[A]**`, `**[S]**` or `**[O]**` and exactly one is marked `**(core)**`.
 
 **Criteria must be falsifiable.** Every gate criterion asks for something that can be inspected, or something a person does in an observed session. "A shared terminology document exists and its last substantive change is within the quarter" is a criterion. "We maintain shared terminology" is not, because no team can fail it. This is the single most important constraint on new criteria: published criteria get optimised against, and the wording is the only defence.
 
-**Each gate needs at least one [A] or [O] criterion.** A gate passable entirely by self-report will be passed. `validate.py` enforces this.
+**Each gate needs at least one [A] or [O] criterion.** A gate passable entirely by self-report will be passed. Nothing enforces this now, so check it by reading whenever a gate changes.
 
 **Don't invent evidence.** Claims about what organisations do, statistics, and citations must be sourced or flagged as unverified. `research/evidence-log.md` tracks verification status for every citation. An unverified citation stays marked as such until checked against the primary source. Vendor marketing is not evidence.
 
@@ -32,8 +32,4 @@ A **gate** is a transition between two adjacent stages within one dimension. Fou
 
 ## Before committing
 
-```bash
-python3 tools/validate.py && python3 tools/generate.py
-```
-
-Record anything that changes the model itself in `CHANGELOG.md`.
+Read back any gate you changed and confirm four criteria, exactly one core, and at least one [A] or [O]. Record anything that changes the model itself in `CHANGELOG.md`.

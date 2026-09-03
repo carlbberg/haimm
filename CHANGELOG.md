@@ -2,6 +2,15 @@
 
 Changes to the model. Editorial and tooling changes do not need an entry.
 
+## Unreleased
+
+### Changed
+- Gates moved out of YAML and into the dimension files themselves. Each `framework/dimensions/*.md` now holds its own four gates. Markdown is the source of truth, there is no schema and no build step, and the shape of a gate is a convention held by reading rather than by a validator.
+
+### Removed
+- `framework/gates/`, `playbook/instruments/` and `tools/`. The same eighty criteria were expressed three times, in YAML, in rendered markdown and again as checklists and survey forms, which made a one-word change a three-file diff. The v0.2 pipeline is preserved in `archive/v0.2/`.
+- Recording an assessment now has no supplied form. Deferred to a tooling layer built on top of the framework rather than carried inside it.
+
 ## v0.2, 3 September 2026
 
 ### Added

@@ -22,13 +22,13 @@ Two ways to run it:
 
 ## Sequence
 
-**1. Survey first, to scope.** Send the five `instruments/survey-*.md` forms. They cover the [S] criteria only, twenty-one items in total. Treat the results as a map of where to look, not as findings. A team that answers yes to everything is telling you where to be sceptical.
+**1. Survey first, to scope.** Put the [S] criteria to the team, twenty-one items across the five dimensions. Treat the results as a map of where to look, not as findings. A team that answers yes to everything is telling you where to be sceptical.
 
 **2. Inspect artifacts.** Work the [A] criteria, thirty-eight of the eighty. This is where most of the real signal is, because dates and author lists are hard to argue with. Record what you found, not whether you ticked the box.
 
 **3. Observe.** Work the [O] criteria in a real session. Two moments carry more than the rest: when someone supplies context, watch whether they reach for a shared source or reconstruct it from memory; and when AI proposes something, watch what review actually happens.
 
-**4. Place.** Fill in the five `instruments/checklist-*.md` files. A team is at the highest stage whose entry gate it passed. Pass is three of four criteria, including the core one. Work upward from Exploration and stop at the first gate that fails.
+**4. Place.** Work each dimension's gates in `framework/dimensions/`, recording the evidence against each criterion rather than only the verdict. A team is at the highest stage whose entry gate it passed. Pass is three of four criteria, including the core one. Work upward from Exploration and stop at the first gate that fails.
 
 **5. Read the failure signals before writing anything up.** Each gate names the profile that passes a superficial reading and fails the real one. Check the team against those specifically. The most common false positives across the model are a team that cannot produce a single grounding failure, a pilot that scored well and shipped unchanged, and an ethics checklist that has never caused a change.
 

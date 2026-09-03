@@ -10,7 +10,7 @@ Five stages, unchanged from v0.1. Presented sequentially, but iterative in pract
 | 4 | Optimization | `optimization` | Scaling what worked, focused on measurable outcomes: productivity, quality, learning. |
 | 5 | Continuous Evolution | `continuous-evolution` | Ongoing adaptation as organisational needs and technologies change. |
 
-The stage ids are the values used in `framework/gates/*.yaml`.
+The ids are the stable machine-readable form of the stage names, for anything built on top of the model.
 
 All five descriptions are v0.1's own, compressed. An earlier v0.2 note claimed Exploration had no description in the published article. It does; the gap was in a web capture, not in v0.1. See `archive/v0.1/SOURCE.md`.
 
