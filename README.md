@@ -36,13 +36,11 @@ archive/       released versions, frozen
 
 Start at `framework/00-overview.md`.
 
-## Working with gates
+## Editing
 
-A dimension's four gates sit inside its own file under `framework/dimensions/`. There is no separate source format and no build step: the markdown is the model. Read one file and you have the dimension, its stage progression, its matrix row and everything a team is assessed against.
+Everything here is hand-edited markdown. There is no separate source format, no schema and no build step, so one dimension file gives you that dimension, its stage progression and everything a team is assessed against on it.
 
-The shape is regular on purpose, so that assessment tooling can be built against it later without a schema in between. Each gate is a `###` heading naming the transition, then what it tests, four criteria tagged `[A]`, `[S]` or `[O]` with exactly one marked core, and the failure signal for a team that believes it has passed. Three of four criteria pass a gate, and the core one cannot be the one skipped.
-
-Four rules hold the gates together, and nothing enforces them automatically. Four criteria per gate. Transitions between adjacent stages only. Exactly one core criterion. At least one criterion per gate that cannot be satisfied by self-report, because a gate passable by self-report will be passed.
+The shape of the files is regular on purpose, so that assessment tooling can be built against it later without a schema in between. `AGENTS.md` holds those conventions and is the one place they are written down.
 
 ## Licence
 
