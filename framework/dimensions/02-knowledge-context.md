@@ -163,6 +163,6 @@ Adjacency does the work. The bands in the visualisation carry equal weight, so t
 - This dimension's row in the combined matrix: `framework/matrix.md`
 - The stages themselves, read across all five dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
-- Dimension interactions: `framework/00-overview.md`
+- Dimension interactions: `framework/README.md`
 - Theory anchors and verification status: `research/evidence-log.md`
 - Decisions taken and still open: `research/open-questions.md`
