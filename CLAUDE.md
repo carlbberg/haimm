@@ -14,6 +14,10 @@ HAIMM is a maturity model for human-AI collaboration. This repo is its canonical
 
 **Dimensions are independent.** A team can sit at different stages across dimensions, and that scatter is the diagnosis, not an inconsistency to reconcile. Do not add cross-dimensional dependencies that override placement. Where one dimension's maturity genuinely bears on another, express it as a criterion inside the affected dimension's own gate.
 
+**Metrics never decide placement.** Gates place a team; metrics say whether it is moving. No metric is an entry condition for a stage, on Campbell's law grounds. If a proposed metric restates a gate criterion, delete the metric. See `framework/metrics.md`.
+
+**Archived versions are frozen.** Nothing under `archive/` is edited after its version is released. Corrections belong to the next version. The one sanctioned exception is recording a rights decision in `archive/v0.1/figures/README.md`, which that file asks for.
+
 ## Writing style
 
 Sentence case for headings. No em-dashes. No buzzwords (leverage, unlock, seamlessly). No "why it matters" or "failure mode" as section headers. Minimal formatting. Don't end a section with "By doing X."

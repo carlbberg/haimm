@@ -31,8 +31,22 @@ Pick one per third-party figure:
 Option 4 is the weakest of the four to rely on silently. Whichever is chosen,
 record it here.
 
-This is tracked alongside the licence question in the v0.2 scaffold's
-`research/open-questions.md`.
+## Decision taken for v0.2
+
+Option 1, partially, and only for the live model. Neither third-party figure is
+carried into `framework/`. The v0.2 dimension files describe the content in
+text and cite the source: the ten-level scale as Sheridan and Verplank (1978)
+with the 2000 crossing attributed correctly, and Satir's five phases named
+without the diagram, which is a third-party rendering rather than Satir's own.
+
+The archived copies here are untouched, because this folder is v0.1 as
+published and the repository is private. That is not a resolution, only a
+deferral of one. Before the repository is made public, both files have to be
+removed from the working tree **and** purged from git history, or permission
+obtained. Removing them from the tree alone does nothing, since history is
+where they would still be served from.
+
+Tracked as item 11 in `research/open-questions.md`.
 
 ## Original CDN locations
 
