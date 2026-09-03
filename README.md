@@ -18,7 +18,7 @@ Two axes: five stages and five dimensions. Gates are the criteria for crossing b
 | Gates | Twenty, four per dimension. Untested against a real assessment |
 | Metrics | A tracking layer, separated from placement |
 | Playbook | Assessment sequence and what to do with a result |
-| Citations | Sixteen verified against publisher records |
+| Citations | Twenty-one verified against publisher records. One group carried as positioning |
 
 The two things it does not have: any field data, and a facilitation guide. Both are stated where they matter rather than implied away.
 

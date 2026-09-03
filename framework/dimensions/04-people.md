@@ -20,7 +20,7 @@ The dimension exists because the other four can all look healthy while this one 
 
 ## Lens
 
-Satir's change model (Satir et al., 1991) describes five phases a person or group passes through during a significant change: late status quo, resistance, chaos, integration, and new status quo. Its useful property is that performance drops before it rises, and that the drop is expected rather than evidence the change was wrong. A team that has not experienced chaos has usually not changed anything yet.
+Satir's change model (Satir et al., 1991) describes the phases a person or group passes through during a significant change. HAIMM uses Smith's (1997) five-phase rendering of it: late status quo, resistance, chaos, integration, and new status quo. Those five names are Smith's rather than Satir et al.'s, which he cites; Satir's own work is more often read as six stages, with the foreign element where this has resistance. Its useful property is that performance drops before it rises, and that the drop is expected rather than evidence the change was wrong. A team that has not experienced chaos has usually not changed anything yet.
 
 One terminology collision is worth naming. Satir's phases and HAIMM's stages both contain the word *integration*, and they do not line up. Satir's chaos falls at HAIMM's Integration stage; Satir's integration falls at HAIMM's Optimization. Where the two are used together below, the Satir phase is named in brackets.
 

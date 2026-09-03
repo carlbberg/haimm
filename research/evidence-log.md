@@ -36,16 +36,27 @@ Verification pass run 3 September 2026, against publisher records (MIS Quarterly
 | Stage 1 Exploration has no description in the stages section | withdrawn | Not a defect. The heading and its description are present in the published article; they were lost by the Obsidian web capture used to archive it. Recorded in `archive/v0.1/SOURCE.md`, defect 6, which flagged this entry as wrong. The stage files under `framework/stages/` carry v0.1's own wording. |
 | Intro lists four stages, model has five | confirmed | Editorial defect in the published v0.1 article. The archive is frozen, so it stays; `framework/` has five throughout. |
 | Ethics band drawn without an arrowhead in the combined-table figure | confirmed | Export artifact in the v0.1 figure. Cosmetic. Applies to the archived figure only. |
-| Moravec (1988) publisher given as "United Kingdom: Harvard University Press" | confirmed | Harvard University Press is Cambridge, Massachusetts. Minor citation defect carried in the v0.1 reference list. Not repeated in `framework/references.md`, where the source sits under unverified pending a check of the edition. |
+| Moravec (1988) publisher given as "United Kingdom: Harvard University Press" | confirmed | Harvard University Press is Cambridge, Massachusetts. Minor citation defect carried in the v0.1 reference list. Not repeated in `framework/references.md`, where the source is now verified and Cambridge, Massachusetts is confirmed. |
+
+## v0.3 verification pass, 3 September 2026
+
+The four sources carried as unverified through v0.2. Checked against publisher records, the Harvard University Press and Rosenfeld Media catalogue entries, and the primary articles where they are online.
+
+| Source | Used for | Status | Notes |
+|---|---|---|---|
+| Mollick (2023), jagged frontier, centaur and cyborg | Capability shape, division of labour | verified | Published 16 September 2023 in One Useful Thing, read directly. Centaur is a clean split of tasks between human and AI; cyborg interleaves them within a task. Both match how `framework/dimensions/03-human-ai-collaboration.md` uses them. Still a blog post rather than peer-reviewed work, and is presented as framing. |
+| Moravec (1988), Moravec's paradox | Capability shape | verified | Harvard University Press, 1988, ISBN 0674576187. The paradox is stated at p. 15. Cambridge, Massachusetts confirmed, which settles the v0.1 defect that gave the publisher as United Kingdom. |
+| Noessel (2017), agentive technology | Upper end of the automation range | verified | Rosenfeld Media, May 2017, ISBN 978-1-933820-63-7. Agentive technology watches a datastream for triggers and acts on the user's behalf in the background. Publisher and catalogue records only; the full text was not read. |
+| Satir et al. (1991), change model | People progression lens | resolved | The naming was Smith's, not the book's. Corrected by citing both, see below. |
+
+**Satir phase names.** Resolved 3 September 2026. `framework/dimensions/04-people.md` named five phases, late status quo, resistance, chaos, integration and new status quo, and attributed them to Satir et al. (1991). That five-name sequence is Steven M. Smith's rendering, published 4 October 1997, which cites Satir et al. (1991) and Weinberg (1997) and presents the naming as its own. Satir scholarship more commonly gives six stages under different terminology, where the second is the foreign element and resistance is the reaction to it rather than the stage itself, and where practice is separated from integration. The dimension now cites Smith for the rendering and Satir for the model, and names the difference rather than quietly fixing it. Both are in `framework/references.md`. The 1991 primary text was still not read: the bibliographic record is confirmed and the claim now made of the book is only that the model is Satir's, which is not in dispute.
 
 ## Cited in `framework/` and still unverified
 
+The widely circulated Satir performance-over-time diagram is a third-party rendering, not Satir's, and is not used in `framework/`.
+
 | Source | Used for | Notes |
 |---|---|---|
-| Mollick (2023), jagged frontier, centaur and cyborg | Capability shape, division of labour | A blog post, not peer-reviewed. Used for its framing, which is how it is presented. Not checked. |
-| Moravec (1988), Moravec's paradox | Capability shape | Edition and page not checked. |
-| Noessel (2017), agentive technology | Upper end of the automation range | Not checked. |
-| Satir et al. (1991), change model | People progression lens | The five phases are not in dispute; the specific edition and pagination are unchecked. The widely circulated performance-over-time diagram is a third-party rendering, not Satir's, and is not used in `framework/`. |
 | EU AI Act; IBM (2024); Microsoft (2023); Gartner; Forrester; Deloitte; Element AI | Positioning HAIMM against enterprise models | Cited as positioning rather than as evidence for a claim, so they carry a lower bar. None is used to support a factual assertion about what organisations do. |
 
 ## Standing gap

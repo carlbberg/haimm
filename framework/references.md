@@ -16,13 +16,23 @@ Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user accep
 
 Lewis, K. (2003). Measuring transactive memory systems in the field: Scale development and validation. *Journal of Applied Psychology*, 88(4), 587-604.
 
+Mollick, E. (2023, September 16). *Centaurs and cyborgs on the jagged frontier*. One Useful Thing. Centaur splits tasks between human and AI; cyborg interleaves them. https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged
+
+Moravec, H. (1988). *Mind children: The future of robot and human intelligence*. Harvard University Press. Moravec's paradox stated at p. 15.
+
 Nielsen, J. (2024, September 26). *4 metaphors to help you work with AI*. UX Tigers. Intern, coworker, teacher, coach. https://www.uxtigers.com/post/4-metaphors-work-with-ai
+
+Noessel, C. (2017). *Designing agentive technology: AI that works for people*. Rosenfeld Media. ISBN 978-1-933820-63-7.
 
 Nonaka, I., & Takeuchi, H. (1995). *The knowledge-creating company*. Oxford University Press. SECI: socialization, externalization, combination, internalization.
 
 Parasuraman, R., Sheridan, T. B., & Wickens, C. D. (2000). A model for types and levels of human interaction with automation. *IEEE Transactions on Systems, Man, and Cybernetics, Part A*, 30(3), 286-297. https://doi.org/10.1109/3468.844354
 
+Satir, V., Banmen, J., Gerber, J., & Gomori, M. (1991). *The Satir model: Family therapy and beyond*. Science and Behavior Books. ISBN 0-8314-0078-1. The underlying model; the phase names HAIMM uses are Smith's rendering of it.
+
 Sheridan, T. B., & Verplank, W. L. (1978). *Human and computer control of undersea teleoperators*. Man-Machine Systems Laboratory, Department of Mechanical Engineering, MIT. Origin of the ten-point scale of automation.
+
+Smith, S. M. (1997, October 4). *The Satir change model*. Accelerating Team Productivity. The five-phase rendering HAIMM uses: late status quo, resistance, chaos, integration, new status quo. https://stevenmsmith.com/ar-satir-change-model/
 
 Star, S. L., & Griesemer, J. R. (1989). Institutional ecology, "translations" and boundary objects. *Social Studies of Science*, 19(3), 387-420.
 
@@ -37,13 +47,5 @@ Walsh, J. P., & Ungson, G. R. (1991). Organizational memory. *Academy of Managem
 Wegner, D. M. (1987). Transactive memory: A contemporary analysis of the group mind. In B. Mullen & G. R. Goethals (Eds.), *Theories of group behavior* (pp. 185-208). Springer-Verlag. Some citations give 1986; the Springer volume is 1987.
 
 ## Cited in `framework/`, not yet verified
-
-Mollick, E. (2023). *Centaurs and cyborgs on the jagged frontier*. One Useful Thing.
-
-Moravec, H. (1988). *Mind children: The future of robot and human intelligence*. Harvard University Press.
-
-Noessel, C. (2017). *Designing agentive technology: AI that works for people*. Rosenfeld Media.
-
-Satir, V., Banmen, J., Gerber, J., & Gomori, M. (1991). *The Satir model: Family therapy and beyond*. Science and Behavior Books.
 
 The enterprise maturity models HAIMM positions against: Council of the European Union (2024), Deloitte, Element AI, Forrester, Gartner, IBM (2024), Microsoft (2023). Cited as positioning, not as evidence for any claim.
