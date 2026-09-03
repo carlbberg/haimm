@@ -18,6 +18,8 @@ HAIMM is a maturity model for human-AI collaboration. This repo is its canonical
 
 **Metrics never decide placement.** Gates place a team; metrics say whether it is moving. No metric is an entry condition for a stage, on Campbell's law grounds. If a proposed metric restates a gate criterion, delete the metric. See `framework/metrics.md`.
 
+**The working tree is the next version, not the last one.** `VERSION` names what is being worked on, with a `-dev` suffix until release. The released versions are under `archive/`. Anything that changes the model goes into `CHANGELOG.md` under Unreleased, and that section is renamed and dated when a version is cut.
+
 **Archived versions are frozen.** Nothing under `archive/` is edited after its version is released. Corrections belong to the next version. The one sanctioned exception is recording a rights decision in `archive/v0.1/figures/README.md`, which that file asks for.
 
 ## Writing style

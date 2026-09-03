@@ -2,7 +2,7 @@
 
 Changes to the model. Editorial and tooling changes do not need an entry.
 
-## Unreleased
+## Unreleased, toward v0.3
 
 ### Added
 - `framework/stages/`, one file per stage. Stages had a table row and dimensions had a file each, an asymmetry inherited from v0.1's figure rather than justified by the model. Each stage file gives what is happening, what the stage is not, how the borrowed developmental lenses read it, the characteristic stall, and how a team leaves it.
