@@ -1,14 +1,16 @@
 # HAIMM overview
 
-Four elements.
+Two axes, and what sits on them.
 
 **Stages**, how teams and organisations progress over time. Five, each with its own file under `stages/`.
 
 **Dimensions**, the building blocks that keep the model human-centric. Five, each with its own file under `dimensions/`. Each evolves through every stage, with its own challenges at each.
 
-**Gates**, the criteria for moving between adjacent stages within a dimension. Four per dimension, twenty in total, each written into its own dimension's file under `dimensions/`.
+A reading of a team is a position on both axes at once, one stage per dimension. `matrix.md` holds all twenty-five cells.
 
-**Metrics**, a tracking layer that never decides placement. See `metrics.md`.
+**Gates** are how a team moves along the stage axis within one dimension: the criteria for crossing between two adjacent stages. Four per dimension, twenty in total, each written into its own dimension's file under `dimensions/`.
+
+**Metrics** sit outside the axes. They track whether a team is moving and never decide where it sits. See `metrics.md`.
 
 ## Stages
 
