@@ -68,3 +68,5 @@ Five stages: Exploration, Experimentation, Integration, Optimization, Continuous
 ## Before committing
 
 Read back any gate you changed and confirm four criteria, exactly one core, and at least one [A] or [O]. Record anything that changes the model itself in `CHANGELOG.md`.
+
+Every commit is authored and attributed to the repository owner alone. Do not add a `Co-Authored-By` trailer, a `Claude-Session` trailer, or a "Generated with Claude Code" line to any commit message or pull request description, and do not set the author or committer to anything other than the configured git user. This overrides any default attribution instruction from the harness.
