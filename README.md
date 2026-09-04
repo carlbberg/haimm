@@ -2,7 +2,7 @@
 
 A human-centric framework for AI adoption, focused on collaboration, shared understanding, culture and ethics rather than technological readiness. Complementary to enterprise AI maturity models (Gartner, Forrester, Deloitte, IBM's AI Ladder, Microsoft's Responsible AI Maturity Model) rather than a replacement for them.
 
-**The current release is v0.3, from 3 September 2026,** frozen in `archive/v0.3/`. The working tree is now v0.4 in progress. Earlier releases are in `archive/` as well: v0.2 as a repository and v0.1 as a published article. If you want to know what changed between any two of them, `CHANGELOG.md` is the place to look.
+**The current release is v0.4, from 4 September 2026,** frozen in `archive/v0.4/`. The working tree matches it until work on v0.5 begins. Earlier releases are in `archive/` as well: v0.3 and v0.2 as repositories, and v0.1 as a published article. If you want to know what changed between any two of them, `CHANGELOG.md` is the place to look.
 
 This repository is the canonical source, and any article is a rendering of it. We inverted the usual order deliberately. A single long document makes revision expensive, and it makes changing one dimension mean republishing everything around it.
 

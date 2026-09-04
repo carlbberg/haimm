@@ -2,7 +2,7 @@
 
 Changes to the model. Editorial and tooling changes do not need an entry.
 
-## Unreleased
+## v0.4, 4 September 2026
 
 ### Added
 - **Workflow, a sixth dimension,** at `framework/dimensions/02-workflow.md`, sitting second in row order between Solution Fit and Knowledge & Context. It asks whether a team has reconsidered the shape of its work in light of what AI made possible, and whether it acted on the answer. Process had been scattered across Solution Fit, Human-AI Collaboration and People with nothing explaining why, while the other two legs of the people, process and tools triad were deliberate: People is a dimension, and tools is delegated to the enterprise models. A team could previously pass all five dimensions with every workflow unchanged and AI laid on top of it.
@@ -19,10 +19,11 @@ Changes to the model. Editorial and tooling changes do not need an entry.
 - People's Integration to Optimization gate drops the criterion asking for training materials with a recorded date of use, displaced by the new interaction criterion. The core criterion in the same gate already asks for training or onboarding material behind a person's proficiency, so the loss is small.
 - Counts updated throughout for six dimensions, twenty-four gates and ninety-six criteria: `README.md`, `AGENTS.md`, `framework/README.md`, both playbook files, and every dimension file's Related section.
 - Each stage file now carries the Workflow reading of that stage, and `framework/stages/03-integration.md` corrected, since four of the five interaction criteria now sit at the Integration to Optimization gate rather than three of four.
+- `visualization/haimm-executive-brief.html` rebuilt for six dimensions, with the Workflow row, its four gates and a seventh result profile. Cell type dropped from 10.5px to 9.8px and the profile strip went from six columns to seven, because the artboard is a fixed 1440 by 900. Edited by hand rather than through the canvas tooling, which is not in this repository, and `visualization/README.md` says so.
 
 ### Known
 - Workflow went in on reasoning, ahead of the first assessment, and against the recommendation its own draft carried. Two of the three conditions that would remove it again need field data, and both are restated under known weaknesses in `playbook/running-an-assessment.md`. `research/open-questions.md` items 13 and 14 hold the reasoning and the doubt.
-- `visualization/haimm-executive-brief.html` renders five rows and is now stale. It is a rendering and not a source, and rebuilding it needs canvas tooling that is not in this repository.
+- The visualization was updated by hand rather than rebuilt through the canvas tooling. Its layout was checked by reproducing the grid at the real size and confirming nothing clips, which is weaker than opening the brief itself.
 
 ## v0.3, 3 September 2026
 
