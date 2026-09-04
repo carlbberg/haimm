@@ -8,43 +8,43 @@ This dimension asks whether the people whose work changes get a say in how it ch
 
 ## Why the model needs it
 
-AI adoption is a change to what people do all day and, for some of them, a change to what they are for. That is an emotional and political transition at least as much as a technical one, and it proceeds on its own timeline regardless of how well the tooling happens to work.
+AI adoption changes what people do all day and, for some of them, what they are for. That makes it an emotional and political transition at least as much as a technical one, running on its own timeline regardless of how well the tooling happens to work.
 
-The dimension exists because the other four can all look perfectly healthy while this one is failing. For example, a well-fitted solution, cleanly integrated and soundly governed, adopted by three enthusiasts and quietly ignored by everybody else, will pass every test except this one.
+The dimension exists because the other four can all look healthy while this one fails. Picture a well-fitted solution, cleanly integrated and soundly governed, adopted by three enthusiasts and quietly ignored by everybody else. It passes every test except this one.
 
 ## What it is not
 
-- **Training completion.** Attendance records show exposure and nothing more. This dimension asks whether capability actually spread, which is a different measurement and usually a considerably worse-looking one.
+- **Training completion.** Attendance records show exposure and nothing more. This dimension asks whether capability spread, which is a different measurement and usually a much worse-looking one.
 - **Sentiment.** Enthusiasm is not maturity, and scepticism is not immaturity. A team that voiced specific concerns and had them addressed is further along than one that was uniformly positive and never asked anything.
-- **Individual skill.** One person who is excellent with AI is an asset, and they are not a stage. Where capability has concentrated in the people who built their own scaffolding, this is the dimension where it will show, and the Integration to Optimization gate is written to find it.
+- **Individual skill.** One person who is excellent with AI is an asset. They are not a stage. Where capability has pooled in the people who built their own scaffolding, this dimension is where it shows, and the Integration to Optimization gate exists to find it.
 
 ## Lens
 
-Satir's change model (Satir et al., 1991) describes the phases a person or group passes through during a significant change. HAIMM uses Smith's (1997) five-phase rendering of it: late status quo, resistance, chaos, integration, and new status quo. Those five names are Smith's rather than Satir et al.'s, which he cites; Satir's own work is more often read as six stages, with the foreign element where this has resistance. The property that makes it useful is that performance drops before it rises, and that the drop is expected rather than evidence the change was wrong. A team that has not experienced chaos has usually not yet changed anything.
+Satir's change model (Satir et al., 1991) describes the phases a person or group passes through during a significant change. HAIMM uses Smith's (1997) five-phase rendering of it: late status quo, resistance, chaos, integration, and new status quo. Those five names are Smith's rather than Satir et al.'s, which he cites; Satir's own work is more often read as six stages, with the foreign element where this has resistance. What makes it useful is that performance drops before it rises, and that the drop is expected rather than evidence the change was wrong. A team that has never hit chaos has usually not changed anything yet.
 
-One terminology collision is worth naming before you go any further. Satir's phases and HAIMM's stages both contain the word *integration*, and the two do not line up. Satir's chaos falls at HAIMM's Integration stage, and Satir's integration falls at HAIMM's Optimization. Wherever the two are used together below, the Satir phase is named in brackets.
+One terminology collision is worth naming before you go further. Satir's phases and HAIMM's stages both contain the word *integration*, and the two do not line up: Satir's chaos falls at HAIMM's Integration stage, while Satir's integration falls a stage later, at HAIMM's Optimization. Wherever the two appear together below, the Satir phase sits in brackets.
 
 ## Patterns it detects
 
-**Silence read as buy-in.** A well-attended kickoff with no record anywhere of a single concern being raised. In Satir's terms that is a late status quo holding, not agreement, and it tends to predict resistance surfacing later on and much less usefully.
+**Silence read as buy-in.** A well-attended kickoff, and no record anywhere of a single concern. In Satir's terms that is a late status quo holding, not agreement, and it tends to predict resistance surfacing later and much less usefully.
 
-**Resistance acknowledged, not addressed.** A pilot shipped on schedule, with resistance noted on a slide somewhere and no visible response to it. Acknowledging resistance and acting on it produce identical documentation and completely different outcomes.
+**Resistance acknowledged, not addressed.** A pilot shipped on schedule, with resistance noted on a slide somewhere and no visible response to it. Acknowledging resistance and acting on it produce identical documentation. The outcomes differ completely.
 
-**Concentrated capability.** One or two people are visibly excellent at the new workflow and everyone else routes their work through them. This reads as team integration on a satisfaction survey, and what it really is is a single point of failure. It is also where People and Knowledge & Context meet, because capability concentrates wherever personal context scaffolding was built during the unsettled period and then never shared.
+**Concentrated capability.** One or two people are visibly excellent at the new workflow and everyone else routes work through them. On a satisfaction survey that reads as team integration. It is a single point of failure, and it is also where People and Knowledge & Context meet, because capability pools wherever somebody built personal context scaffolding during the unsettled period and then never shared it.
 
-**The one-time training.** A single well-attended session gets cited whenever the topic comes up. One event does not make a culture, and that distinction is exactly what the Continuous Evolution gate cannot be passed without.
+**The one-time training.** A single well-attended session gets cited whenever the topic comes up. One event does not make a culture, and no team clears the Continuous Evolution gate without that distinction.
 
 ## Stage progression
 
-**Exploration (late status quo).** Current routines still hold, and the conversation is about whether they should. The work is surfacing hopes and concerns before anything gets piloted, and doing it across departments instead of inside a single one. *Example:* cross-department sessions on candidate use cases where at least one workflow is deliberately marked as one to leave alone.
+**Exploration (late status quo).** Current routines still hold, and the conversation is about whether they should. The work is surfacing hopes and concerns before anyone pilots anything, and doing it across departments instead of inside the one that happened to raise the idea. *Example:* cross-department sessions on candidate use cases where at least one workflow is deliberately marked as one to leave alone.
 
-**Experimentation (resistance).** Pilots make the change concrete, and pushback follows on from that. The productive response is co-creation, meaning that the people who do the work shape the pilot, with a channel for concerns that is kept separate from the bug queue. The question to ask is whether a sceptic's objection actually changed anything. *Example:* a support chatbot pilot reshaped after the team that answers tickets described what it would break.
+**Experimentation (resistance).** Pilots make the change concrete, and pushback follows. The productive response is co-creation: the people who do the work shape the pilot, and concerns get a channel of their own, separate from the bug queue. Ask whether a sceptic's objection changed anything. *Example:* a support chatbot pilot reshaped after the team that answers tickets described what it would break.
 
-**Integration (chaos).** Roles and responsibilities shift, and stability drops along with them. Training, clear communication and joint redesign of the workflow are what carry a team through this, and the risk you are watching for is that only the fastest adapters come out the other side. *Example:* rebuilding a review process together so that AI-assisted input and managerial judgement each have a defined place.
+**Integration (chaos).** Roles and responsibilities shift, and stability drops with them. Training, clear communication and joint redesign of the workflow are what carry a team through, and the risk worth watching is that only the fastest adapters come out the other side. *Example:* rebuilding a review process together so that AI-assisted input and managerial judgement each have a defined place.
 
-**Optimization (integration).** AI-supported work has simply become normal work. Capability has spread beyond the early adopters, new joiners reach competence without the original builder's help, and the first successes are named publicly. *Example:* a recent hire running the AI-supported workflow competently from written material alone.
+**Optimization (integration).** AI-supported work has become normal work. Capability has spread beyond the early adopters, new joiners reach competence without the original builder's help, and somebody names the first successes publicly. *Example:* a recent hire running the AI-supported workflow competently from written material alone.
 
-**Continuous Evolution (new status quo).** Upskilling and role development are recurring instead of one-off, and there is a standing forum where role and culture questions actually get raised. *Example:* a community of practice meeting on a recorded cadence, with people able to name a skill change they made and what supported it.
+**Continuous Evolution (new status quo).** Upskilling and role development recur instead of happening once, and a standing forum exists where people actually raise role and culture questions. *Example:* a community of practice meeting on a recorded cadence, with people able to name a skill change they made and what supported it.
 
 ## Gates
 
@@ -58,40 +58,40 @@ The Integration to Optimization gate carries the People / Knowledge & Context in
 
 *Tests* Whether concerns and hopes about AI adoption were actually surfaced, not just announced to.
 
-The Exploration activity here, which is Satir's late status quo, consists of workshops where hopes and fears are shared. A status quo can look perfectly stable purely because nobody said anything, so what this gate tests is whether concerns were actually voiced.
+The Exploration activity here, Satir's late status quo, is workshops where people share hopes and fears. A status quo can look perfectly stable purely because nobody spoke. This gate tests whether anyone actually voiced a concern.
 
 - **[O]** **(core)** At least one specific concern raised by an employee about AI adoption is documented, along with how, or whether, it was addressed.
 - **[A]** A record exists of a cross-departmental session, not a single-department announcement, where AI use cases were discussed.
 - **[S]** People report they had a chance to voice concerns before pilots started, not only after.
 - **[A]** At least one existing workflow was identified and left unchanged as a deliberate decision, not every workflow flagged as an AI opportunity.
 
-*Failure signal.* A well-attended kickoff meeting with no record of a single concern being raised. This is silence read as buy-in, and what Satir's model would call it is a late status quo holding, not agreement.
+*Failure signal.* A well-attended kickoff meeting with no record of a single concern. This is silence read as buy-in. Satir's model would call it a late status quo holding, not agreement.
 
 ### Experimentation to Integration
 
 *Tests* Whether resistance was worked through via co-creation, not overridden or waited out.
 
-Resistance is worked through by co-creating pilots with the people it affects, so that concerns are addressed instead of being managed past.
+Teams work through resistance by co-creating pilots with the people it affects, so concerns get addressed instead of managed past.
 
 - **[O]** **(core)** Someone who was initially skeptical of an AI pilot can describe what changed their view, or can describe that it has not changed and how that is being handled.
 - **[A]** Pilot design decisions (scope, workflow, rollout) show input from people who do the work, with at least one instance of the pilot changing because of that input.
 - **[S]** People report resistance was treated as information to act on, not a problem to manage past.
 - **[A]** A documented channel exists for raising concerns during a pilot, distinct from the general feedback channel for bugs or feature requests.
 
-*Failure signal.* A pilot that shipped on schedule, with resistance noted on a slide and no visible response to it anywhere. Resistance acknowledged and resistance addressed are two different things, and only one of them shows up in outcomes.
+*Failure signal.* A pilot that shipped on schedule, with resistance noted on a slide and no visible response anywhere. Resistance acknowledged and resistance addressed are two different things. Only one shows up in outcomes.
 
 ### Integration to Optimization
 
 *Tests* Whether capability is concentrated in the people who built their own workarounds during the chaos of integration, or has actually spread.
 
-Integration, which is Satir's chaos, is where roles and responsibilities shift and support has to become deliberate. It is also where People and Knowledge & Context interact, since distribution asks whether capability has concentrated in the people who built personal context scaffolding while the workflow was still unsettled.
+Integration, Satir's chaos, is where roles and responsibilities shift and support has to become deliberate. It is also where People and Knowledge & Context interact, since distribution asks whether capability pooled in the people who built personal context scaffolding while the workflow was still unsettled.
 
 - **[A]** **(core)** At least one person who was not part of the original pilot or early adopters is now proficient with the AI-supported workflow, with training or onboarding material behind that.
 - **[S]** People across the team, not just early adopters, report they know how to get help when the AI-supported workflow does not work as expected.
 - **[O]** A recent hire or role-changer can be observed doing the AI-supported workflow at a competent level without help from the person who originally built it.
 - **[A]** Training or resource materials exist and have a recorded date of use by more than one person.
 
-*Failure signal.* One or two people who are visibly excellent at the new workflow, with everyone else routing their work through them. Individual mastery reads as team integration on a satisfaction survey, and it is not the same thing at all.
+*Failure signal.* One or two people who are visibly excellent at the new workflow, with everyone else routing work through them. On a satisfaction survey, individual mastery reads as team integration. It is not the same thing.
 
 ### Optimization to Continuous Evolution
 
@@ -104,7 +104,7 @@ This gate is untested against practice. No assessment has yet placed a team at C
 - **[A]** A cross-functional group or forum (advisory board, community of practice) meets on a recorded cadence to discuss AI-related culture or role questions.
 - **[O]** Someone can describe a role or skill change they have made in the last cycle that they attribute to AI adoption, and what supported it.
 
-*Failure signal.* A single well-attended training session from eighteen months ago that gets cited whenever the topic comes up. One event does not make a culture, and continuous evolution is exactly the thing that a single training session cannot demonstrate.
+*Failure signal.* A single well-attended training session from eighteen months ago, cited whenever the topic comes up. One event does not make a culture. Continuous evolution is exactly what one session cannot demonstrate.
 
 ## Related
 

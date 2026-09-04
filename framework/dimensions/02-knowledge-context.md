@@ -12,9 +12,9 @@ HAIMM's original four dimensions all mature through a change in behaviour. Solut
 
 This dimension is different, because it matures through a change in representation. It concerns what the organisation has made explicit, where that explicit knowledge lives, who owns it, and whether it stays true over time.
 
-The reason it cannot simply be folded into the other four is structural. Human collaborators infer context through channels that do not exist for an AI system, such as shared history, overheard conversation, knowing who to ask, and repairing a misunderstanding halfway through a sentence. Introducing AI into a team removes all of those channels and substitutes whatever happens to be written down and reachable. An organisation's ratio of tacit to explicit knowledge therefore acts as a ceiling on how far it can progress anywhere else, however strong its culture, its ethics or its tool selection may be.
+The reason it cannot simply fold into the other four is structural. Human collaborators infer context through channels an AI system does not have: shared history, overheard conversation, knowing who to ask, repairing a misunderstanding halfway through a sentence. Bring AI into the team and those channels vanish, leaving whatever somebody wrote down and made reachable. An organisation's ratio of tacit to explicit knowledge therefore caps how far it can progress anywhere else, however strong its culture, its ethics or its tool selection.
 
-Every other HAIMM dimension would look at an organisation with excellent practices and entirely undocumented knowledge and score it as healthy. That organisation is not healthy, it is capped, and this dimension is the only one that will tell you so.
+Every other HAIMM dimension would look at an organisation with excellent practices and entirely undocumented knowledge and score it healthy. It is not healthy. It has hit a ceiling that no amount of culture, governance or tool selection will raise, and this is the only dimension that will tell you so.
 
 ## What it is not
 
@@ -26,7 +26,7 @@ The nearest prior art is data readiness, which the enterprise models already cov
 Two boundaries inside HAIMM itself:
 
 - **Ethics** owns the question of what context is *permissible* to expose, while Knowledge & Context owns whether that context is *sufficient, current and shared*.
-- **Solution Fit** asks whether AI can do the job at all, and Knowledge & Context asks whether it can know enough to do the job. These two are routinely conflated, and a grounding gap is very commonly misdiagnosed as a capability gap.
+- **Solution Fit** asks whether AI can do the job at all, and Knowledge & Context asks whether it can know enough to do the job. Teams routinely conflate the two, and a grounding gap very commonly gets read as a capability gap.
 
 ## Sub-lenses
 
@@ -54,9 +54,9 @@ There are three directions here and they mature independently of each other. Mos
 
 This lens is deliberately narrow, and it is the only place where the dimension touches architecture. At the moment someone is actually doing the work, is the context the team has agreed on available to the AI they are using?
 
-An organisation can be mature on both locus and flow and still fail here, because the shared understanding sits in a system that nothing is connected to. This is the one concern in the dimension that is genuinely a tooling problem, and separating it out is what stops the others from being misdiagnosed as one.
+An organisation can be mature on both locus and flow and still fail here, because the shared understanding sits in a system nothing connects to. This is the one concern in the dimension that really is a tooling problem. Separating it out stops the others from getting mistaken for one.
 
-Reachability is not fully independent of locus, in the way that interaction mode and automation level are genuinely independent in Human-AI Collaboration, and locus level 4 more or less presupposes it. It is kept separate anyway, because the diagnosis and the remedy differ in each case. Unreachable context is fixed by connecting a system, whereas unowned context is fixed by a person agreeing to own it, and collapsing the two makes the first look like the second, which is much the more expensive mistake to make.
+Reachability is not fully independent of locus, the way interaction mode and automation level are genuinely independent in Human-AI Collaboration, and locus level 4 more or less presupposes it. We keep it separate anyway, because the diagnosis and the remedy differ. You fix unreachable context by connecting a system, and unowned context by getting a person to own it. Collapse the two and the first starts looking like the second, which is much the more expensive mistake.
 
 ## Patterns it detects
 
@@ -64,35 +64,35 @@ There are five patterns here that no other HAIMM dimension will surface for you.
 
 **Tacit ceiling.** Work whose grounding lives in a few people's heads cannot move up the automation ladder, however good the tools, the trust or the governance may be. It is usually misread as a trust or capability problem and treated with training or better tools, and neither of those addresses it.
 
-**Stale grounding.** Context was written once and has never been refreshed since. This is worse than context being absent altogether, because it carries the authority of having been documented and, unlike a colleague, the AI will not flag that it is out of date. Refresh tends to be the weakest activity in most organisations and the hardest one to sustain, largely because it has no natural trigger.
+**Stale grounding.** Somebody wrote the context once and nobody has refreshed it since. That is worse than having none, because it carries the authority of a document and, unlike a colleague, the AI will not tell you it has gone out of date. Refresh tends to be the weakest activity in most organisations and the hardest to sustain, largely because nothing naturally triggers it.
 
-**Privatised grounding.** Individuals accumulate rich context in their personal histories and prompt scaffolding. Output quality rises, but shared understanding among people does not, and it may well decline, because work that previously required a conversation no longer requires one. The artifact still gets produced, so the negotiation that used to generate common ground simply stops happening. This is invisible to output metrics and to all four of the original dimensions, which is exactly why the fifth one exists.
+**Privatised grounding.** Individuals accumulate rich context in their personal histories and prompt scaffolding. Output quality rises. Shared understanding among people does not, and it may well decline, because work that once needed a conversation no longer needs one. The artifact still appears, so the negotiation that used to build common ground quietly stops. Output metrics miss this, and so do all four of the original dimensions, which is exactly why the fifth one exists.
 
-**Unreachable sources of record.** The knowledge has been externalised and agreed on, but it sits somewhere the AI in use cannot get to, so people end up re-supplying it by hand, inconsistently and from memory.
+**Unreachable sources of record.** The team externalised the knowledge, agreed on it, and then filed it somewhere the AI actually in use cannot reach. People re-supply it by hand, inconsistently, from memory.
 
-**Unarbitrated conflict.** Two context sources disagree, both of them are in use, and nothing decides between them. This is distinct from stale grounding, because each source may be perfectly current and maintained, and what is missing is a mechanism for making one of them authoritative. It surfaces once artifacts are team-owned instead of individual, and it is what the Integration to Optimization gate is asking about when it wants a specific conflict between two context sources and an account of how one was made authoritative.
+**Unarbitrated conflict.** Two context sources disagree, both stay in use, and nothing decides between them. This differs from stale grounding, because each source may be perfectly current and maintained. What the team lacks is a way to make one of them authoritative. It surfaces once artifacts become team-owned instead of individual, and it is what the Integration to Optimization gate wants when it asks for a specific conflict and an account of how somebody settled it.
 
 ## Stage progression
 
 The other four dimensions each borrow a single developmental model: TAM and UTAUT for Solution Fit, Tuckman for Human-AI Collaboration, Satir for People, and, in the case of Ethics, no model at all by design. This dimension has no single lens either, and the symmetry would not be worth manufacturing.
 
-What it uses instead is three partial lenses, each covering a part that the others do not. In other words, no one of them is being stretched to fit the whole dimension:
+It uses three partial lenses instead, each covering ground the others do not. In other words, none of them gets stretched to cover the whole dimension:
 
-- **Nonaka and Takeuchi (1995)** on tacit-to-explicit conversion, for the movement from heads to artifacts. Externalisation is only one of the four SECI modes, so what is being used here is a quarter of a model doing a specific job, and not a whole framework mapped onto five stages.
+- **Nonaka and Takeuchi (1995)** on tacit-to-explicit conversion, for the movement from heads to artifacts. Externalisation is only one of the four SECI modes, so this borrows a quarter of a model to do a specific job. It is not a whole framework mapped onto five stages.
 - **Wegner (1987) and Lewis (2003)** on transactive memory systems, for the human-to-human half of the problem, meaning who knows what, and whether the group still knows who to ask once AI is doing the answering.
 - **Walsh and Ungson (1991)** on organisational memory, for the locus progression, which is the question of where retained knowledge actually sits.
 
-The progression below is built out of those three, and it is not a rendering of any one of them.
+The progression below draws on all three, and it renders none of them.
 
-**Exploration.** Context is tacit and session-scoped, so people paste what they need into a chat window and nothing survives the session. The activity at this stage is diagnostic, and it means taking one recurring piece of work and mapping what it depends on knowing, marking each input as written down, held by one person, or sitting in a system that nobody has connected. *Example:* auditing a weekly reporting workflow and finding that three of its seven inputs exist only as one analyst's judgement.
+**Exploration.** Context is tacit and session-scoped. People paste what they need into a chat window and nothing survives the session. The work here is diagnostic: take one recurring piece of work, map what it depends on knowing, and mark each input as written down, held by one person, or sitting in a system nobody has connected. *Example:* auditing a weekly reporting workflow and finding that three of its seven inputs exist only as one analyst's judgement.
 
-**Experimentation.** The first durable artifacts appear, and they are individual. Someone writes a brief or an instruction file that makes their own AI work noticeably better, and then keeps it to themselves. The question to ask at this stage is whether these become shared assets or stay private, because that fork is what determines whether privatised grounding takes hold. *Example:* a designer's personal prompt library consistently outperforms colleagues', and the team decides whether to publish it.
+**Experimentation.** The first durable artifacts appear, and they belong to individuals. Someone writes a brief or an instruction file that makes their own AI work noticeably better, and then keeps it to themselves rather than publishing it anywhere the team would find it. Ask whether these become shared assets or stay private. That fork decides whether privatised grounding takes hold. *Example:* a designer's personal prompt library consistently outperforms colleagues', and the team decides whether to publish it.
 
-**Integration.** Shared context artifacts become team-owned, with named owners, agreed terminology and a review cadence. Conflicts surface for the first time here, because two documents disagree and something has to decide which of them is authoritative. *Example:* a team agrees a single source of truth for product terminology after an AI-drafted spec used three inconsistent names pulled from three stale documents.
+**Integration.** Shared context artifacts become team-owned, with named owners, agreed terminology and a review cadence. Conflicts surface for the first time, because two documents disagree and somebody has to decide which one wins. *Example:* a team agrees a single source of truth for product terminology after an AI-drafted spec used three inconsistent names pulled from three stale documents.
 
-**Optimization.** Context is referenced instead of being copied. Sources of record are reachable, refresh is triggered by a change and not by someone remembering, and AI output is routed back into shared stores instead of ending its life in a transcript. *Example:* decisions from retrospectives are captured as structured records that both ground future AI work and serve as the team's own history.
+**Optimization.** The team references context instead of copying it. Sources of record are reachable, a change triggers refresh instead of somebody remembering to, and AI output flows back into shared stores instead of dying in a transcript. *Example:* decisions from retrospectives are captured as structured records that both ground future AI work and serve as the team's own history.
 
-**Continuous Evolution.** Context is managed as an asset with a lifecycle, which means ownership, deprecation, access boundaries and a periodic review of whether externalisation has gone too far or not far enough. The reflective question to ask is whether shared understanding among people has kept pace with the context that is available to AI. *Example:* a quarterly review that retires stale context and explicitly checks the human-to-human half.
+**Continuous Evolution.** The team manages context as an asset with a lifecycle: ownership, deprecation, access boundaries, and a periodic review of whether externalisation has gone too far or not far enough. One reflective question carries the stage. Has shared understanding among people kept pace with the context available to AI? *Example:* a quarterly review that retires stale context and explicitly checks the human-to-human half.
 
 ## Gates
 
@@ -104,14 +104,14 @@ The evidence sources are **[A]** for artifact inspection, **[S]** for a survey o
 
 *Tests* Whether the organisation can see its own context.
 
-Until grounding failures can be distinguished from capability failures, nothing else in this dimension can be worked on deliberately.
+Until a team can tell grounding failures apart from capability failures, it cannot work on anything else in this dimension deliberately.
 
 - **[A]** At least one recurring workflow has a written inventory of what it depends on knowing, with each input marked as documented, held by named individuals, or sitting in an unconnected system.
 - **[O]** In an observed AI-assisted session, the practitioner can say where the context they supplied came from.
 - **[S]** People can describe what context they supply to get good output, rather than reporting that they just ask.
 - **[O]** **(core)** Someone can give a specific example of AI output that was wrong or unusable because of missing or incorrect grounding rather than model capability.
 
-*Failure signal.* The team reports that AI works fine and cannot produce a single grounding failure between them. That almost never means the grounding is good, and it usually means grounding failures are being absorbed as capability limits, which is the default state and the reason this gate exists at all.
+*Failure signal.* The team reports that AI works fine and cannot produce a single grounding failure between them. That almost never means the grounding is good. It usually means the team absorbs grounding failures as capability limits, which is the default state and the reason this gate exists.
 
 ### Experimentation to Integration
 
@@ -130,14 +130,14 @@ This is the fork at which privatised grounding either takes hold or does not.
 
 *Tests* Whether shared context is owned, current, arbitrated, and reachable at the moment of work.
 
-The fourth criterion tests shared understanding directly instead of inferring it from artifacts. It is the strongest single item anywhere in the instrument and it is also the one most likely to be skipped, which is precisely why it is marked core.
+The fourth criterion tests shared understanding directly instead of inferring it from artifacts, which makes it the strongest single item anywhere in the instrument and, for exactly the same reason, the one people skip most readily. That is why it carries the core mark.
 
 - **[A]** Every context artifact the team relies on has a named owner and a last substantive change inside an agreed freshness window.
 - **[O]** The team can describe a specific conflict between two context sources and how one was made authoritative.
 - **[A]** The context the team has agreed on is reachable from the AI tools people actually use, without manual re-supply.
 - **[S]** **(core)** Two people and one AI session, asked the same question the work depends on, produce substantially the same answer.
 
-*Failure signal.* Context that is documented, owned and current, and that is still re-supplied by hand in every single session. That profile passes an artifact audit and fails this gate, and what you are looking at is the unreachable sources pattern.
+*Failure signal.* Context that is documented, owned and current, and that people still re-supply by hand in every single session. That profile passes an artifact audit and fails this gate. It is the unreachable sources pattern.
 
 ### Optimization to Continuous Evolution
 
@@ -150,13 +150,13 @@ This gate is untested against practice. No assessment has yet placed a team at C
 - **[S]** New people reach working competence at a rate the team can point to, and attribute part of it to available shared context.
 - **[S]** The team assesses shared understanding among people, not only context available to AI, and can say whether it has risen or fallen.
 
-*Failure signal.* A growing and well-owned context estate with no deletions in it and no measure of the human-to-human half. It looks like Continuous Evolution and it is really Optimization with momentum behind it. Almost every organisation adds context and very few subtract any, which is why deliberate retirement is the honest test of whether there is a lifecycle at all.
+*Failure signal.* A growing, well-owned context estate with no deletions and no measure of the human-to-human half. It looks like Continuous Evolution. It is Optimization with momentum behind it. Almost every organisation adds context and very few subtract any, which is why deliberate retirement is the honest test of whether a lifecycle exists at all.
 
 ## Placement in the model
 
 Row order is Solution Fit, **Knowledge & Context**, Human-AI Collaboration, People, Ethics.
 
-Adjacency is what does the work here. The bands in the visualisation all carry equal weight, so there is no foundation-layer language available at the bottom of the chart, and placing this dimension last would simply read as least important. Sitting immediately above Human-AI Collaboration makes any gap between the two readable at a glance in the assessment view, because the two markers end up on neighbouring rows.
+Adjacency does the work here. The bands in the visualisation all carry equal weight, so the bottom of the chart offers no foundation-layer language, and putting this dimension last would just read as least important. Sitting immediately above Human-AI Collaboration puts the two markers on neighbouring rows, which makes any gap between them readable at a glance.
 
 ## Related
 

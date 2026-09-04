@@ -8,9 +8,9 @@ This dimension asks whether the AI a team adopts is attached to a real user need
 
 ## Why the model needs it
 
-The failure this dimension exists to catch is cheap to commit and expensive to detect, and it looks like a solution that works, is used, and addresses nothing that anyone actually needed. Generative AI makes it more likely, because the capability arrives first and the search for a use case follows along behind it.
+The failure this dimension catches is cheap to commit and expensive to spot, because it looks like a solution that works, that people use daily, and that addresses nothing anyone ever needed. Generative AI makes it likelier still, since the capability arrives first and the search for a use case trails along behind it.
 
-Two forces have to be balanced against each other. *Demand pull* is a need that exists whether or not AI can serve it, and *technology push* is a capability looking for somewhere to land. Push is not illegitimate, and new capability genuinely does create options that did not exist before. However, it becomes a defect when the need is reconstructed afterwards in order to justify a tool that has already been chosen, and when that happens the record reads identically to demand pull in every artifact except the dates.
+You are balancing two forces. *Demand pull* is a need that exists whether or not AI can serve it, and *technology push* is a capability looking for somewhere to land. Push is not illegitimate. New capability genuinely does open options that did not exist before. It turns into a defect only when a team reconstructs the need afterwards to justify a tool it already chose, and at that point the record reads exactly like demand pull in every artifact except the dates.
 
 ## What it is not
 
@@ -20,31 +20,31 @@ Two forces have to be balanced against each other. *Demand pull* is a need that 
 
 ## Lenses
 
-**Acceptance.** The Technology Acceptance Model (Davis, 1989) holds that perceived usefulness and perceived ease of use determine intention to use, which predicts actual use. The Unified Theory of Acceptance and Use of Technology (Venkatesh et al., 2003) extends this to four determinants: performance expectancy, effort expectancy, social influence, and facilitating conditions. The property that makes these useful to HAIMM is that all four are perceptions held by the person doing the work, and not properties of the tool itself. However, a team can be wrong about every one of them, which is why the gates are written to test the perception against evidence instead of simply recording it.
+**Acceptance.** The Technology Acceptance Model (Davis, 1989) holds that perceived usefulness and perceived ease of use determine intention to use, which predicts actual use. The Unified Theory of Acceptance and Use of Technology (Venkatesh et al., 2003) extends this to four determinants: performance expectancy, effort expectancy, social influence, and facilitating conditions. The property that makes these useful to HAIMM is that all four are perceptions held by the person doing the work, and not properties of the tool itself. However, a team can be wrong about every one of them. The gates therefore test the perception against evidence instead of simply recording it.
 
-**Capability shape.** AI performs unevenly across tasks that look similarly hard from outside, which Mollick (2023) calls the jagged frontier. Moravec (1988) made the older version of the point: what is easy for people is not necessarily easy for machines, and the reverse also holds. For example, a model can outperform anyone you know at drafting a legal summary and then fail at a scheduling question a new joiner would get right. The consequence for fit is that you cannot estimate capability from how difficult the task feels to a person doing it, so it has to be tested on the specific task you care about.
+**Capability shape.** AI performs unevenly across tasks that look similarly hard from outside, which Mollick (2023) calls the jagged frontier. Moravec (1988) made the older version of the point: what is easy for people is not necessarily easy for machines, and the reverse also holds. For example, a model can outperform anyone you know at drafting a legal summary and then fail at a scheduling question a new joiner would get right. The consequence for fit is that you cannot estimate capability from how hard a task feels to the person doing it. Test it on the task you care about.
 
 ## Patterns it detects
 
-**Capability push.** You find a backlog of use cases that map neatly onto what AI is known to do well, such as summarisation, drafting and classification, with no user-research artifact behind any of them. This passes a self-report check every time, because nobody ever has to admit that they did not ask.
+**Capability push.** You find a backlog of use cases mapping neatly onto what AI does well, such as summarisation, drafting and classification, with no user-research artifact behind any of them. It passes a self-report check every time. Nobody ever has to admit they did not ask.
 
-**The polite pilot.** The pilot ran cleanly, scored well and shipped unchanged. High effort-expectancy scores combined with zero documented product changes usually mean the survey was measuring politeness, and a pilot that could not have been contradicted was never really a test.
+**The polite pilot.** The pilot ran cleanly, scored well and shipped unchanged. High effort-expectancy scores paired with zero documented product changes usually mean the survey measured politeness rather than fit, and a pilot that could not have contradicted anyone never really tested anything.
 
-**Non-transferable fit.** A solution worked in the pilot and then stalls when it is handed to a second team, because the fit was really between the AI and the pilot team's accumulated context and not between the AI and the workflow. This is the point where Solution Fit and Knowledge & Context meet, and it is why the Integration to Optimization gate asks whether that context exists anywhere other than in the pilot team.
+**Non-transferable fit.** A solution worked in the pilot and stalls the moment a second team picks it up, because the fit sat between the AI and the pilot team's accumulated context and never between the AI and the workflow. Solution Fit and Knowledge & Context meet here. That is why the Integration to Optimization gate asks whether that context exists anywhere outside the pilot team.
 
-**Frontier drift.** Each new model or feature is adopted as it ships, with no corresponding record anywhere of a need being re-checked. What you are looking at is expansion in capability being presented as evolution in fit.
+**Frontier drift.** The team adopts each new model or feature as it ships, and nothing anywhere in the record shows a single person going back to re-check a need. Capability expanded. Fit did not, and the two get reported as though they were the same thing.
 
 ## Stage progression
 
-**Exploration.** Readiness and opportunity are being assessed, and the question on the table is where AI fits into work that already exists. The activity is user research, which means pain points, jobs to be done and workflows all mapped before any proof of concept is built. *Example:* workshops with the people doing the work, surfacing inefficiencies, and recording which ones AI could plausibly address and which it could not.
+**Exploration.** The team is weighing readiness and opportunity, and the question on the table is where AI fits work that already exists. The activity is user research: mapping pain points, jobs to be done and workflows before anyone builds a proof of concept. *Example:* workshops with the people doing the work, surfacing inefficiencies, and recording which ones AI could plausibly address and which it could not.
 
-**Experimentation.** Small pilots test relevance against real use. Co-creation matters more than coverage at this point, because a pilot designed without the people who do the work every day will end up testing the wrong thing. The question to ask is whether feedback can change the solution, or whether it can only be collected from it. *Example:* piloting an AI scheduling assistant with a group that includes daily schedulers, not only volunteers.
+**Experimentation.** Small pilots test relevance against real use. Co-creation matters more than coverage here, because a pilot designed without the people who do the work daily will test the wrong thing. Ask one question: can feedback change the solution, or can the team only collect it? *Example:* piloting an AI scheduling assistant with a group that includes daily schedulers, not only volunteers.
 
-**Integration.** The solution is reshaped by what the pilot found and embedded in the workflow, with access, permissions and tooling made available so using it is not an act of initiative. Roles are explicit about what AI contributes and what a person still owns. *Example:* an AI-assisted CRM step reworked after sales feedback showed the summary was written for managers rather than for the next call.
+**Integration.** The team reshapes the solution around what the pilot found and embeds it in the workflow, arranging access, permissions and tooling so that using it stops being an act of initiative. Roles say explicitly what AI contributes and what a person still owns. *Example:* an AI-assisted CRM step reworked after sales feedback showed the summary was written for managers rather than for the next call.
 
-**Optimization.** The solution now runs beyond the team that built it, and the impact claim is measured instead of asserted. What is being tested here is transferability, meaning whether the setup that made the pilot work actually travels. *Example:* a second team reaching working value from documented setup alone, and outcome data existing for more than one workflow.
+**Optimization.** The solution now runs beyond the team that built it, and somebody measures the impact claim instead of asserting it, which is a harder thing to produce than it sounds. Transferability is what this stage tests: does the setup that made the pilot work actually travel? *Example:* a second team reaching working value from documented setup alone, and outcome data existing for more than one workflow.
 
-**Continuous Evolution.** Need is re-checked on a cadence instead of being assumed stable, and the record shows things being narrowed and retired as well as added. *Example:* a quarterly review that retires one AI-supported workflow because the underlying need changed, and records why.
+**Continuous Evolution.** The team re-checks need on a cadence instead of assuming it stable, and the record shows things narrowed and retired as well as added. *Example:* a quarterly review that retires one AI-supported workflow because the underlying need changed, and records why.
 
 ## Gates
 
@@ -71,7 +71,7 @@ Technology push is the default failure mode here, meaning capability without any
 
 *Tests* Whether pilot feedback actually reshaped the solution, not just produced usage and satisfaction numbers.
 
-Co-creation and iterative testing exist to resolve usability problems before they get embedded, so a pilot that ships unchanged despite receiving feedback was not actually testing fit at all.
+Co-creation and iterative testing exist to catch usability problems before they harden into the workflow. A pilot that ships unchanged despite the feedback it collected was not testing fit.
 
 - **[A]** **(core)** At least one documented change to the AI solution or workflow was made directly in response to pilot user feedback, with a before-and-after description.
 - **[O]** A pilot participant can describe a specific problem they raised and what happened to it: fixed, explained, or explicitly declined.
@@ -84,14 +84,14 @@ Co-creation and iterative testing exist to resolve usability problems before the
 
 *Tests* Whether the fit demonstrated in one team survives being used somewhere else.
 
-Facilitating conditions, in UTAUT's sense, do generalise across a team, but the specific tacit setup that made a pilot work often does not travel with them. This is where Solution Fit and Knowledge & Context interact, and transferability is the question of whether the context that made a pilot work exists anywhere other than in the pilot team.
+Facilitating conditions, in UTAUT's sense, do generalise across a team, but the specific tacit setup behind a working pilot often refuses to travel with them. Solution Fit and Knowledge & Context interact here, and transferability asks whether the context behind that pilot exists anywhere outside the pilot team.
 
 - **[A]** **(core)** The context, configuration, or setup that made the pilot work (prompts, instructions, integrations, data access) is documented somewhere other than the pilot team's own heads or private files.
 - **[O]** A second team, given that documentation and no help from the pilot team, gets working value from the AI solution within one working session.
 - **[A]** Usage or outcome data exists for the AI solution across more than one team or workflow, not only the pilot's original context.
 - **[S]** Teams outside the original pilot report they had what they needed to adopt the solution, rather than needing informal help from the pilot team.
 
-*Failure signal.* A solution that worked in the pilot and then stalls the moment it is handed to a second team, because the fit was really between the AI and the pilot team's accumulated context and never between the AI and the workflow itself.
+*Failure signal.* A solution that worked in the pilot and stalls the moment a second team picks it up, because the fit sat between the AI and the pilot team's accumulated context and never between the AI and the workflow itself.
 
 ### Optimization to Continuous Evolution
 
