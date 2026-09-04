@@ -2,17 +2,6 @@
 
 Changes to the model. Editorial and tooling changes do not need an entry.
 
-## Unreleased (v0.4)
-
-### Changed, editorial
-Nothing in the model moved here. No criterion, matrix cell, gate structure or citation was touched. The entry is kept anyway, because a reader comparing v0.3 with v0.4 will find almost every prose paragraph rewritten and should be able to find out why.
-
-- Writing style across `framework/`, `playbook/` and `README.md`, and the rules in `AGENTS.md` that produced the drift. Measured against the v0.1 article, the repository's prose had a median sentence of 13 words against the article's 17, roughly a sixth of its sentences were verbless fragments against almost none, and the connectives the article uses to carry an argument (however, in other words, for example, such as) had disappeared entirely, replaced by "rather than" 68 times. Second person and questions to the reader had gone as well. The prose is now full sentences with the connective tissue restored, hedged where the evidence is thin, addressed to the reader, and no longer ending sections on an epigram.
-- `AGENTS.md` writing style section rewritten to state the target voice rather than only a list of prohibitions, so that the drift is correctable by reading the rules instead of by comparing against the article.
-- `visualization/` brought into the same voice. The artboard's own prose carried the drift most visibly, including the epigram "It has been distributed" and a run of verbless failure-signal endings, and the four gate `Tests` lines it copies from `framework/` were re-synced. The published `haimm-executive-brief.html` embeds its own copy of the artboard, so both were updated together and `visualization/README.md` now records that coupling.
-- A second voice reference, and a second pass over the same prose. "Turning Usability Testing Data into Action without Going Insane" (UX Planet, 2017) is now named in `AGENTS.md` alongside the v0.1 article. Measured against both, the repository was still carrying two and a half times their passive rate (18.4 per thousand words against roughly 7 in each) and had flattened into sentences of uniform length. Passive constructions now sit at 6.5 per thousand, the median sentence has come down from nineteen words to fourteen, and short sentences have gone from 4.5 per cent of the total to 10.6, which is between the two references. The reasoning passages carry an inclusive *we* again, and the sequencing advice in `playbook/acting-on-a-result.md` puts its questions to the reader directly.
-- `playbook/acting-on-a-result.md` gained a closing section that states where the guidance stops and turns the reader back to their own team, in place of an ending that asserted and stopped.
-
 ## v0.3, 3 September 2026
 
 ### Added
