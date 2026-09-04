@@ -24,7 +24,7 @@ Tuckman says norming, meaning that the group settles, trust builds and collabora
 
 Both are correct, and they are correct about different objects. The working agreement between people and AI is settling, which is norming. The routines and role boundaries that this agreement displaces are coming apart, which is chaos. A team can be norming with AI and in chaos about itself at the same time, and in most cases it will be.
 
-For an assessor this is genuinely valuable, because it predicts a specific distortion. The Human-AI Collaboration reading will tend to look better than the People reading, that gap is real, and not an inconsistency to be reconciled, and reading only one of them will produce the wrong diagnosis. It also explains why capability concentrates at this stage: when routines are unsettled, the people who build their own workarounds fastest pull ahead, and the distribution criterion in the People dimension exists to catch that.
+For an assessor this is genuinely valuable, because it predicts a specific distortion. The Human-AI Collaboration reading will tend to look better than the People reading. That gap is real and not an inconsistency to be reconciled, so reading only one of the two will produce the wrong diagnosis. It also explains why capability concentrates at this stage: when routines are unsettled, the people who build their own workarounds fastest pull ahead, and the distribution criterion in the People dimension exists to catch that.
 
 ## The characteristic stall
 
