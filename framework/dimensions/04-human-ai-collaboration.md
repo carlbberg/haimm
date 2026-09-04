@@ -115,7 +115,7 @@ This gate is untested against practice. No assessment has yet placed a team at C
 ## Related
 
 - This dimension's row in the combined matrix: `framework/matrix.md`
-- The stages themselves, read across all five dimensions: `framework/stages/`
+- The stages themselves, read across all six dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
 - Theory anchors and verification status: `research/evidence-log.md`
 - Source article: `archive/v0.1/article.md`. The automation-levels figure reproduced there is IEEE copyright and is deliberately not carried into `framework/`; see `archive/v0.1/figures/README.md`.

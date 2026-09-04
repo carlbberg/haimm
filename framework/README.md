@@ -4,11 +4,11 @@ The model has two axes, and this file describes what sits on them.
 
 **Stages** are how teams and organisations progress over time. There are five, each with its own file under `stages/`.
 
-**Dimensions** are the building blocks that keep the model human-centric. There are also five, each with its own file under `dimensions/`, and each of them evolves through every stage with its own challenges at each one.
+**Dimensions** are the building blocks that keep the model human-centric. There are six, each with its own file under `dimensions/`, and each of them evolves through every stage with its own challenges at each one.
 
-A reading of a team is a position on both axes at once: one stage per dimension. All twenty-five cells live in `matrix.md`.
+A reading of a team is a position on both axes at once: one stage per dimension. All thirty cells live in `matrix.md`.
 
-**Gates** are how a team moves along the stage axis within a single dimension. A gate holds the criteria for crossing between two adjacent stages, so there are four per dimension and twenty in total, each written into the file of the dimension it belongs to.
+**Gates** are how a team moves along the stage axis within a single dimension. A gate holds the criteria for crossing between two adjacent stages, so there are four per dimension and twenty-four in total, each written into the file of the dimension it belongs to.
 
 **Metrics** sit outside the axes altogether. They track whether a team is moving, and they never decide where it sits, for reasons `metrics.md` sets out at length.
 
@@ -33,18 +33,21 @@ Why five? The shape is a beginning, a middle and an end, with a stage before and
 | Order | Dimension | Subtitle |
 |---|---|---|
 | 1 | Solution Fit | Matching AI capabilities to real user needs |
-| 2 | Knowledge & Context | Making shared understanding explicit and current |
-| 3 | Human-AI Collaboration | Evolving teamwork with AI |
-| 4 | People | Supporting cultural and role shifts |
-| 5 | Ethics | Safeguarding responsible AI practices |
+| 2 | Workflow | Reconsidering how work is structured |
+| 3 | Knowledge & Context | Making shared understanding explicit and current |
+| 4 | Human-AI Collaboration | Evolving teamwork with AI |
+| 5 | People | Supporting cultural and role shifts |
+| 6 | Ethics | Safeguarding responsible AI practices |
 
-Knowledge & Context sits second, immediately above Human-AI Collaboration, so that any gap between the two is visible at a glance in the assessment view.
+The order is not alphabetical and it is not arbitrary. Workflow sits next to Solution Fit, because a well-fitted tool laid over a structure nobody has questioned then shows up on neighbouring rows, where the gap reads at a glance. Knowledge & Context stays immediately above Human-AI Collaboration for the same reason, since a team whose grounding lags its ambitions for AI should be able to see that in two adjacent cells.
+
+Workflow arrived in v0.4 and brings a terminology collision with it, which is worth naming here rather than leaving a reader to trip over. The word does two jobs. As a dimension it is the object being assessed, and everywhere else in the model it is the setting the other five dimensions are assessed in, as in "the AI-supported workflow". We have named the collision instead of renaming either side, which is how People already handles Satir's Integration phase sharing a word with HAIMM's Integration stage.
 
 ## Dimensions are independent
 
-A team can sit at different stages across the five dimensions, and in most cases it will. That scatter is the output of an assessment rather than a defect in it, because it names which gap to address next, and nothing in the model overrides one dimension's placement on the basis of another's score.
+A team can sit at different stages across the six dimensions, and in most cases it will. That scatter is the output of an assessment rather than a defect in it, because it names which gap to address next, and nothing in the model overrides one dimension's placement on the basis of another's score.
 
-We considered an alternative design, in which Knowledge & Context gated the other four and capped the stage they could reach, and we rejected it. Capping converts a diagnosis into an error and buries the finding inside a calculation, which is exactly the move that makes a maturity model feel authoritative and stop being useful.
+We considered an alternative design, in which Knowledge & Context gated the other five and capped the stage they could reach, and we rejected it. Capping converts a diagnosis into an error and buries the finding inside a calculation, which is exactly the move that makes a maturity model feel authoritative and stop being useful.
 
 ## Where dimensions genuinely interact
 
@@ -56,8 +59,9 @@ The interactions are real. Each one appears as a criterion inside the affected d
 | Sufficiency | Human-AI Collaboration, Integration to Optimization | Whether AI can be grounded without a human supplying context in the moment |
 | Distribution | People, Integration to Optimization | Whether capability is concentrated in the people who built personal context scaffolding |
 | Provenance | Ethics, Experimentation to Integration | Whether the team can say what grounded an AI-influenced decision |
+| Displacement | People, Integration to Optimization | Whether the effect on roles was named in advance when a workflow changed shape |
 
-All four sit as a single criterion inside the named gate, in the affected dimension's own file under `framework/dimensions/`.
+All five sit as a single criterion inside the named gate, in the affected dimension's own file under `framework/dimensions/`.
 
 Are the interactions that do not involve Knowledge & Context common enough to justify a relationship layer of their own? We have deferred that question until there is more than reasoning behind an answer, and `research/open-questions.md` records where it stands.
 

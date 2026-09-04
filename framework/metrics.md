@@ -36,6 +36,18 @@ This is Campbell's law applied deliberately (Campbell, 1979): a quantitative ind
 | Optimization | Movement in the organisational measure the solution was meant to move. Reduction in the specific bottleneck it targeted. |
 | Continuous Evolution | Frequency of need reassessments. Workflows narrowed or retired following one. |
 
+## Workflow
+
+Harder to instrument than the other five, and the reason is worth stating. Most of what this dimension asks about happens once and leaves a document behind, so the honest metrics here are counts of events over a period rather than anything you can watch move week to week. Beware the obvious one. Counting steps removed will make a team remove steps, which is the failure the dimension was rewritten to avoid.
+
+| Stage | Metrics |
+|---|---|
+| Exploration | Workflows described end to end, from trigger to outcome. Workflows with a written purpose that does not restate their steps. |
+| Experimentation | Workflows whose current structure has been separated into what the outcome requires and what history left behind. |
+| Integration | Workflow reconsiderations recorded in the period. Alternatives described and set aside per reconsideration. |
+| Optimization | Workflows whose structure no longer corresponds to their predecessor. Activities now running that were not previously feasible. |
+| Continuous Evolution | Interval between reconsiderations of the same workflow. Workflows retired, and workflows newly created, per cycle. |
+
 ## Knowledge & Context
 
 There is no field use behind any of these, so treat them as suggestions.

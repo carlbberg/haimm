@@ -24,13 +24,15 @@ Tuckman's forming and Satir's late status quo agree here, which they do not do a
 
 For Solution Fit, the acceptance lenses put performance expectancy first: do people believe AI would improve their own work? That belief belongs to the person doing the job, and it can be wrong in either direction.
 
+Workflow has no lens to offer at this stage, which is itself the finding. Zuboff's distinction between automating and informating only becomes legible once something has been built, and at Exploration nothing has. What the dimension asks for here is prior to either: whether anyone can say what a workflow is for without walking you through its steps.
+
 ## The characteristic stall
 
-A team stalls in Exploration by producing every artifact of the stage without doing the enquiry. A backlog of use cases matched to known AI capabilities, a values statement nobody would disagree with, a well-attended kickoff with no concern recorded anywhere: all three pass a superficial reading. Each dimension's Exploration to Experimentation gate examines one of them, and each fails for the same reason. Nothing in the record could have come out differently.
+A team stalls in Exploration by producing every artifact of the stage without doing the enquiry. A backlog of use cases matched to known AI capabilities, a values statement nobody would disagree with, a well-attended kickoff with no concern recorded anywhere, a process map that lists every step and never says what the process is for: all of them pass a superficial reading. Each dimension's Exploration to Experimentation gate examines one, and each fails for the same reason. Nothing in the record could have come out differently.
 
 ## Leaving the stage
 
-You leave Exploration one dimension at a time, by passing that dimension's Exploration to Experimentation gate. The four gates live in the dimension files under `framework/dimensions/`. A team never leaves the stage as a whole, and the scatter that produces across the five dimensions is the result you are looking for.
+You leave Exploration one dimension at a time, by passing that dimension's Exploration to Experimentation gate. The four gates live in the dimension files under `framework/dimensions/`. A team never leaves the stage as a whole, and the scatter that produces across the six dimensions is the result you are looking for.
 
 ## Related
 

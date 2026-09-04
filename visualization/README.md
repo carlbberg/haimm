@@ -2,7 +2,9 @@
 
 This is a one-screen interactive reading of the model, held in a single self-contained HTML file. Open `haimm-executive-brief.html` in any browser, and note that nothing is installed and nothing is fetched.
 
-It carries the problem the model addresses, the matrix with its gates, a detail panel and the six result profiles. Clicking a cell, a gate marker, an axis heading or a profile changes what the panel shows.
+**It is stale as of v0.4.** The file renders five dimensions and six result profiles, and the model now has six dimensions and seven profiles, so Workflow appears nowhere in it. Rebuilding needs the canvas tooling described below.
+
+It carries the problem the model addresses, the matrix with its gates, a detail panel and the result profiles. Clicking a cell, a gate marker, an axis heading or a profile changes what the panel shows.
 
 It is a rendering and not a source. Every cell, gate criterion, failure signal and profile in it is copied from `framework/` and `playbook/`, so a change to the model there leaves this file stale until it has been rebuilt. The framework files remain the only home of those facts.
 

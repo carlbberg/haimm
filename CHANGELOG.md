@@ -2,6 +2,28 @@
 
 Changes to the model. Editorial and tooling changes do not need an entry.
 
+## Unreleased
+
+### Added
+- **Workflow, a sixth dimension,** at `framework/dimensions/02-workflow.md`, sitting second in row order between Solution Fit and Knowledge & Context. It asks whether a team has reconsidered the shape of its work in light of what AI made possible, and whether it acted on the answer. Process had been scattered across Solution Fit, Human-AI Collaboration and People with nothing explaining why, while the other two legs of the people, process and tools triad were deliberate: People is a dimension, and tools is delegated to the enterprise models. A team could previously pass all five dimensions with every workflow unchanged and AI laid on top of it.
+- Four gates and sixteen criteria, taking the model to twenty-four gates and ninety-six. The unit of analysis is the outcome a workflow exists to produce and not the step, so the Integration to Optimization gate tests non-correspondence between a structure and its predecessor in either direction, and a reconsideration that deliberately changed nothing passes wherever the reasoning was recorded.
+- A fifth dimension-interaction criterion, displacement, in People's Integration to Optimization gate: whether the effect on roles was named in advance where a workflow changed shape. People carried five criteria mentioning roles and all five concerned role change and growth, with none covering a role that ended.
+- A Workflow metrics table in `framework/metrics.md`, with a warning against counting steps removed.
+- A seventh result profile in `playbook/acting-on-a-result.md`, for a team reading well on everything except Workflow, which is the profile the dimension exists to catch.
+- A step in `playbook/running-an-assessment.md` telling assessors to count each piece of evidence once. Solution Fit's Experimentation to Integration gate and Workflow's Integration to Optimization gate can both be answered by a single before-and-after document, and the two dimensions only stay independent if the assessor checks it against each question separately.
+- Zuboff (1988) to `framework/references.md`, verified. The automate and informate duality is the Workflow lens. The reengineering literature was considered and set aside, and `research/evidence-log.md` records why.
+- A note in `AGENTS.md` that falsifiable is not the same as right. The Workflow draft spent a version testing whether a step had been removed, which was sharp, hard to fake and a measure of the wrong thing, and rewording the criterion did not fix an error that sat in the unit of analysis.
+
+### Changed
+- Dimension files renumbered to match the new row order: Knowledge & Context to `03`, Human-AI Collaboration to `04`, People to `05`, Ethics to `06`.
+- People's Integration to Optimization gate drops the criterion asking for training materials with a recorded date of use, displaced by the new interaction criterion. The core criterion in the same gate already asks for training or onboarding material behind a person's proficiency, so the loss is small.
+- Counts updated throughout for six dimensions, twenty-four gates and ninety-six criteria: `README.md`, `AGENTS.md`, `framework/README.md`, both playbook files, and every dimension file's Related section.
+- Each stage file now carries the Workflow reading of that stage, and `framework/stages/03-integration.md` corrected, since four of the five interaction criteria now sit at the Integration to Optimization gate rather than three of four.
+
+### Known
+- Workflow went in on reasoning, ahead of the first assessment, and against the recommendation its own draft carried. Two of the three conditions that would remove it again need field data, and both are restated under known weaknesses in `playbook/running-an-assessment.md`. `research/open-questions.md` items 13 and 14 hold the reasoning and the doubt.
+- `visualization/haimm-executive-brief.html` renders five rows and is now stale. It is a rendering and not a source, and rebuilding it needs canvas tooling that is not in this repository.
+
 ## v0.3, 3 September 2026
 
 ### Added

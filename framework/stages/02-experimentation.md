@@ -24,6 +24,8 @@ Tuckman's storming and Satir's resistance both fall here, and both make the same
 
 The consequence for assessment is counterintuitive, so let us state it plainly. At this stage, a smooth passage is weak evidence. A pilot with universal enthusiasm and no recorded disagreement either suppressed the conflict or has not yet touched anything anyone cares about. Two dimensions test this from different directions. Human-AI Collaboration asks for a specific disagreement and how the team settled it, and People asks whether a sceptic's objection changed anything.
 
+Workflow makes a quieter demand at this stage and it catches a different team. Separating what a workflow is for from how it currently happens tends to be uncomfortable in a way that has nothing to do with AI, because a good deal of any inherited structure turns out to exist for reasons nobody can reconstruct. A team that finds the exercise easy has usually described its steps again in different words.
+
 ## The characteristic stall
 
 The first stall is the polite pilot. It ran cleanly, scored well and shipped unchanged. Every artifact of a successful experiment is there, and the experiment itself had no result. The same profile shows up in Ethics as a review checklist somebody fills in identically every time and that has never caused a change.

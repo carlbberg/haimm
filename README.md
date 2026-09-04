@@ -8,19 +8,21 @@ This repository is the canonical source, and any article is a rendering of it. W
 
 ## What the model is
 
-There are two axes: five stages and five dimensions. Gates hold the criteria for crossing between adjacent stages within a dimension, twenty of them in total. Metrics track whether a team is moving. They are barred from deciding where it sits.
+There are two axes: five stages and six dimensions. Gates hold the criteria for crossing between adjacent stages within a dimension, twenty-four of them in total. Metrics track whether a team is moving. They are barred from deciding where it sits.
 
 | Part | State |
 |---|---|
-| Five stages | One file each, with the reading of each stage across all five dimensions |
-| Five dimensions | One file each, holding that dimension's lenses, patterns, progression and gates |
-| Matrix | All five rows populated |
-| Gates | Twenty, four per dimension. Untested against a real assessment |
+| Five stages | One file each, with the reading of each stage across all six dimensions |
+| Six dimensions | One file each, holding that dimension's lenses, patterns, progression and gates |
+| Matrix | All six rows populated |
+| Gates | Twenty-four, four per dimension. Untested against a real assessment |
 | Metrics | A tracking layer, separated from placement |
 | Playbook | Assessment sequence and what to do with a result |
-| Citations | Twenty-one verified against publisher records. One group carried as positioning |
+| Citations | Twenty-two verified against publisher records. One group carried as positioning |
 
 Two things are missing, and it is better to say so here than let you find out halfway through. There is no field data, because nobody has run the model against a real team, and there is no facilitation guide. Both gaps also appear in the places where they would actually bite.
+
+Workflow is the newest dimension and the one to be most sceptical of. It went in on reasoning rather than evidence, ahead of the first assessment, and `research/open-questions.md` records the three findings that would take it back out again.
 
 ## Layout
 

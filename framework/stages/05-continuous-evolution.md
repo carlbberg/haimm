@@ -32,7 +32,7 @@ Tuckman and Jensen (1977) added adjourning as a fifth stage, where the group dis
 
 Satir's new status quo is a terminal state: stability re-established at a higher level of performance. A stage called Continuous Evolution cannot be terminal, so the lens describes the wrong shape.
 
-What replaces both is the team's own capacity to re-open a question it had settled. Ethics borrows no developmental model by design, which makes it the one dimension whose account of this stage does not lean on a lens that has run out.
+What replaces both is the team's own capacity to re-open a question it had settled. Two dimensions come through this intact, for different reasons. Ethics borrows no developmental model at all, by design. Workflow borrows Zuboff, who describes a difference in kind rather than a path through it, so there was never a trajectory to run out. Neither account of this stage leans on a lens that has stopped working.
 
 ## The characteristic stall
 

@@ -2,7 +2,9 @@
 
 *Reconsidering how work is structured*
 
-**Status.** A candidate, and not part of the model. Nothing here belongs in `framework/` until at least one real assessment has run against the five dimensions that already exist. Drafted 3 September 2026 against v0.2, revised for v0.4 in the current structure and voice.
+**Status.** Accepted for v0.4 and superseded. The dimension now lives at `framework/dimensions/02-workflow.md`, which is the only place its gates, progression and criteria should be read or edited. This file is kept for the reasoning behind the decision, which the dimension file does not carry: the independence argument, the unit-of-analysis choice, the naming comparison, the cost accounting, the three conditions that would remove the dimension again, and the account of how the first version of the draft went wrong. Drafted 3 September 2026 against v0.2, revised for v0.4, accepted 4 September 2026 against the recommendation at the foot of this file.
+
+Two things below are now out of date and deliberately not corrected, because correcting them would erase the record of what was decided. The recommendation is to hold, and it was overruled. The lens candidates are all listed as unverified, and Zuboff has since been verified and adopted while the reengineering sources were set aside unchecked. `research/evidence-log.md` and `CHANGELOG.md` carry the current position.
 
 This dimension would cover whether a team has reconsidered the shape of its work in light of what AI now makes possible, and whether it acted on the answer.
 
@@ -172,7 +174,7 @@ This gate is untested against practice, in common with every other fourth gate i
 
 Interactions live as one criterion inside the affected dimension's own gate and never as a dependency between dimensions, which is the pattern Knowledge & Context established.
 
-**Workflow and People, on roles attached to a workflow that changes shape.** Restructure or replace a workflow and the roles inside it change, and some of them stop existing. Nothing in the model asks about this today. `framework/dimensions/04-people.md` carries five criteria that mention roles, and all five concern role change and growth; none covers a role that ended. The proposal, for People's Integration to Optimization gate:
+**Workflow and People, on roles attached to a workflow that changes shape.** Restructure or replace a workflow and the roles inside it change, and some of them stop existing. Nothing in the model asked about this at the time of drafting. `framework/dimensions/05-people.md`, then numbered 04, carried five criteria mentioning roles, and all five concerned role change and growth; none covered a role that ended. The proposal, for People's Integration to Optimization gate, which was accepted as written:
 
 > **[A]** Where a workflow changed structure, the effect on the roles attached to it was named in advance, with a record of what was decided for the people in them.
 

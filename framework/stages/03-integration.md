@@ -30,11 +30,13 @@ For an assessor this is genuinely valuable, because it predicts a specific disto
 
 The first stall is integration achieved in the workflow and not in the people. Somebody rebuilt the process, the documentation exists, and the capability to run any of it sits with whoever adapted first. It passes every artifact check. It fails the moment that person leaves or the workload doubles.
 
+A related stall shows up on the Workflow reading, and it is the one most likely to be mistaken for success. The team ran a redesign, scoped it to exactly the steps AI was going to touch, and reached the answer the scope guaranteed. What comes out is a workflow with a faster fourth step and the same shape it had before, described in the write-up as a transformation.
+
 The second stall is grounding. The team treats AI as a colleague while every session still starts from a blank slate. That is trust without sufficiency, and what you have is a well-liked tool that never graduated.
 
 ## Leaving the stage
 
-You leave Integration one dimension at a time, by passing that dimension's Integration to Optimization gate. The four gates live in the dimension files under `framework/dimensions/`. Three of the four dimension-interaction criteria sit at this gate: transferability in Solution Fit, sufficiency in Human-AI Collaboration, distribution in People. That is no accident. This is the stage whose achievements are most often local, and the transition out of it is exactly where local stops being enough.
+You leave Integration one dimension at a time, by passing that dimension's Integration to Optimization gate. The four gates live in the dimension files under `framework/dimensions/`. Four of the five dimension-interaction criteria sit at this gate: transferability in Solution Fit, sufficiency in Human-AI Collaboration, and both distribution and displacement in People. That is no accident. This is the stage whose achievements are most often local, and the transition out of it is exactly where local stops being enough.
 
 ## Related
 

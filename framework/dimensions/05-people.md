@@ -52,7 +52,7 @@ There are four gates, one for each transition between adjacent stages. You pass 
 
 The evidence sources are **[A]** for artifact inspection, **[S]** for a survey or questionnaire, and **[O]** for observation or interview. Every gate carries at least one [A] or [O] criterion, because a gate that can be passed entirely by self-report will be passed.
 
-The Integration to Optimization gate carries the People / Knowledge & Context interaction criterion (distribution): whether capability is concentrated in the people who built personal context scaffolding.
+The Integration to Optimization gate carries two interaction criteria, which is more than any other gate in the model holds. The People / Knowledge & Context one (distribution) asks whether capability is concentrated in the people who built personal context scaffolding. The People / Workflow one (displacement) asks whether the effect on roles was named in advance where a workflow changed shape.
 
 ### Exploration to Experimentation
 
@@ -84,12 +84,12 @@ Teams work through resistance by co-creating pilots with the people it affects, 
 
 *Tests* Whether capability is concentrated in the people who built their own workarounds during the chaos of integration, or has actually spread.
 
-Integration, Satir's chaos, is where roles and responsibilities shift and support has to become deliberate. It is also where People and Knowledge & Context interact, since distribution asks whether capability pooled in the people who built personal context scaffolding while the workflow was still unsettled.
+Integration, Satir's chaos, is where roles and responsibilities shift and support has to become deliberate. It is also where People meets two other dimensions. Distribution asks whether capability pooled in the people who built personal context scaffolding while the workflow was still unsettled. Displacement asks a harder question, because a workflow that changes shape does not only change the roles inside it, it can end some of them, and a team that handled that well will have said so before it happened rather than afterwards.
 
 - **[A]** **(core)** At least one person who was not part of the original pilot or early adopters is now proficient with the AI-supported workflow, with training or onboarding material behind that.
 - **[S]** People across the team, not just early adopters, report they know how to get help when the AI-supported workflow does not work as expected.
 - **[O]** A recent hire or role-changer can be observed doing the AI-supported workflow at a competent level without help from the person who originally built it.
-- **[A]** Training or resource materials exist and have a recorded date of use by more than one person.
+- **[A]** Where a workflow changed structure, the effect on the roles attached to it was named in advance, with a record of what was decided for the people in them.
 
 *Failure signal.* One or two people who are visibly excellent at the new workflow, with everyone else routing work through them. On a satisfaction survey, individual mastery reads as team integration. It is not the same thing.
 
@@ -109,7 +109,7 @@ This gate is untested against practice. No assessment has yet placed a team at C
 ## Related
 
 - This dimension's row in the combined matrix: `framework/matrix.md`
-- The stages themselves, read across all five dimensions: `framework/stages/`
+- The stages themselves, read across all six dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
 - Theory anchors and verification status: `research/evidence-log.md`
 - Source article: `archive/v0.1/article.md`. The Satir diagram reproduced there is a third-party rendering and is deliberately not carried into `framework/`; see `archive/v0.1/figures/README.md`.

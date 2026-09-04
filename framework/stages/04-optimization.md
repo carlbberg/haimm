@@ -30,6 +30,8 @@ The first stall is measurement standing in for the thing it measures. You see a 
 
 The second stall is governance that was accurate at launch. The documentation for a decision-making system describes what it did on the day it went live, nobody has touched it since, and the system moved underneath it. It passes an existence check and fails a currency one. Currency is what the Ethics gate at this transition asks about.
 
+The third is the single reinvention. One large redesign, dated, and cited whenever anybody asks whether the work has changed, with everything since being tooling changes inside the shape that redesign produced. A team can sit here for years and describe itself accurately as having transformed, because it did, once. Workflow's gate at this transition asks for a cadence instead, which is a much harder thing to produce than a story.
+
 ## Leaving the stage
 
 You leave Optimization one dimension at a time, by passing that dimension's Optimization to Continuous Evolution gate. The four gates live in the dimension files under `framework/dimensions/`. Those four are the least trustworthy criteria in the model. No assessment has yet placed a team past Optimization on any dimension, so they are reasoned and not observed. There is more on this in `05-continuous-evolution.md`.

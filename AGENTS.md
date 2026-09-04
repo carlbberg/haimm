@@ -1,6 +1,6 @@
 # Working in this repository
 
-HAIMM is a maturity model for human-AI collaboration. It has two axes: five stages a team moves through, and five dimensions it is read across. A gate is the transition between two adjacent stages within one dimension, so the twenty gates fall out of the axes rather than standing beside them. Metrics are a separate layer that tracks whether a team is moving and never decides where it sits.
+HAIMM is a maturity model for human-AI collaboration. It has two axes: five stages a team moves through, and six dimensions it is read across. A gate is the transition between two adjacent stages within one dimension, so the twenty-four gates fall out of the axes rather than standing beside them. Metrics are a separate layer that tracks whether a team is moving and never decides where it sits.
 
 This repo is the canonical source and any article is a rendering of it. Read `README.md` for status and `framework/README.md` for the model.
 
@@ -33,11 +33,13 @@ archive/       released versions, frozen
 
 ## Gates
 
-A gate is a transition between two adjacent stages within one dimension. Four gates per dimension, twenty in total. Gates are never between dimensions.
+A gate is a transition between two adjacent stages within one dimension. Four gates per dimension, twenty-four in total. Gates are never between dimensions.
 
 Each dimension file holds its own gates under `## Gates`. A gate is a `###` heading naming the transition, then `*Tests*`, an optional rationale paragraph, four criteria, and a `*Failure signal.*` line. Criteria carry `**[A]**`, `**[S]**` or `**[O]**`, and exactly one is marked `**(core)**`. Keep the shape regular, because tooling will be built against it later.
 
 **Criteria must be falsifiable.** Every criterion asks for something that can be inspected, or something a person does in an observed session. "A shared terminology document exists and its last substantive change is within the quarter" is a criterion. "We maintain shared terminology" is not, because no team can fail it. Published criteria get optimised against, and the wording is the only defence.
+
+**Falsifiable is not the same as right.** The rule above pushes toward whatever is easiest to check, and the easiest thing to check is often a proxy for the thing you actually meant. The Workflow draft spent a version testing whether a step had been removed, which was sharp, hard to fake and a measure of processes getting smaller rather than of work being reconsidered. Correcting the wording did not fix it, because the error sat in the unit of analysis and not in the sentence. So when a gate changes, ask the second question after the first: is this checkable, and is the checkable thing the thing the dimension is about?
 
 **Each gate needs at least one [A] or [O] criterion,** because a gate passable entirely by self-report will be passed. Nothing enforces this, so check it by reading whenever a gate changes.
 
@@ -63,7 +65,9 @@ Match the register in `framework/`: cells and stage descriptions stay compressed
 
 ## Terminology
 
-Five stages: Exploration, Experimentation, Integration, Optimization, Continuous Evolution. Five dimensions: Solution Fit, Knowledge & Context, Human-AI Collaboration, People, Ethics, in that row order.
+Five stages: Exploration, Experimentation, Integration, Optimization, Continuous Evolution. Six dimensions: Solution Fit, Workflow, Knowledge & Context, Human-AI Collaboration, People, Ethics, in that row order.
+
+Workflow does double duty as a word. Capitalised, it is the dimension. Lowercase and everywhere else in the model, it is the setting the other five dimensions are assessed in, as in "the AI-supported workflow". `framework/README.md` names the collision for readers, and it is not to be resolved by renaming either side.
 
 ## Before committing
 

@@ -46,6 +46,8 @@ Walsh, J. P., & Ungson, G. R. (1991). Organizational memory. *Academy of Managem
 
 Wegner, D. M. (1987). Transactive memory: A contemporary analysis of the group mind. In B. Mullen & G. R. Goethals (Eds.), *Theories of group behavior* (pp. 185-208). Springer-Verlag. Some citations give 1986; the Springer volume is 1987.
 
+Zuboff, S. (1988). *In the age of the smart machine: The future of work and power*. Basic Books, New York. ISBN 0-465-03212-5. Automating and informating as a duality of information technology.
+
 ## Cited in `framework/`, not yet verified
 
 These are the enterprise maturity models HAIMM positions itself against: Council of the European Union (2024), Deloitte, Element AI, Forrester, Gartner, IBM (2024) and Microsoft (2023). They are cited as positioning and never as evidence for any claim the model makes.
