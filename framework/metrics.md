@@ -2,7 +2,7 @@
 
 Metrics track movement, and gates decide placement. Those are two different jobs, and the model works hard to keep them separate.
 
-Any overlap between the two is a liability, because a metric that also decides a stage has become a target, and a target that decides a stage will be met one way or another. The rule below is what keeps them apart.
+Any overlap between the two is a liability. A metric that also decides a stage has become a target, and a target that decides a stage will be met one way or another. The rule below keeps them apart.
 
 ## The division
 
@@ -16,13 +16,13 @@ Any overlap between the two is a liability, because a metric that also decides a
 
 **No metric is ever an entry condition for a stage.** A team does not reach Optimization because a number crossed a line, it reaches Optimization by passing the Integration to Optimization gate, assessed against evidence. What the metrics tell you is whether it is getting closer.
 
-This is Campbell's law applied deliberately (Campbell, 1979), which holds that a quantitative indicator adopted as a goal in a high-stakes setting will distort the process it was meant to observe. In this model, stage placement is the high-stakes setting, and keeping metrics out of it is what allows them to stay honest enough to be worth collecting.
+This is Campbell's law applied deliberately (Campbell, 1979): a quantitative indicator adopted as a goal in a high-stakes setting will distort the process it was meant to observe. In this model, stage placement is the high-stakes setting. Keeping metrics out of it is what lets them stay honest enough to be worth collecting.
 
 ## Choosing metrics
 
 - **Track three to five per dimension at a time, for the stage you are actually in.** A dashboard of forty numbers is a dashboard that nobody reads.
 - **Prefer counts of things that happened over percentages of people who feel something.** Both kinds appear below, but the first tends to degrade more slowly.
-- **Delete any metric that restates a gate criterion, and do not keep it as confirmation.** If the gate already asks whether a shared artifact has two substantive authors, you should not also be tracking author counts, because at that point you have quietly replaced an assessment with a number.
+- **Delete any metric that restates a gate criterion, and do not keep it as confirmation.** If the gate already asks whether a shared artifact has two substantive authors, do not also track author counts. At that point you have quietly swapped an assessment for a number.
 - **Remember that metrics vary enormously in collection cost.** Some of the ones below are cheap, such as counting workflows with AI embedded, and others are projects in their own right, so choose for what your team can actually sustain.
 - **Treat all of this as a starting point.** Teams should define their own metrics against their own context, and the lists below are illustrative and not a specification.
 
@@ -48,7 +48,7 @@ There is no field use behind any of these, so treat them as suggestions.
 | Optimization | Context artifacts reachable from the AI tools in use without manual re-supply. Instances of AI output routed back into a shared store. |
 | Continuous Evolution | Context artifacts retired or deprecated per cycle. Time for a new joiner to reach working competence. |
 
-Of these, the retirement count is the one most worth watching. Almost every organisation adds context and very few subtract any of it, which means that a cycle with zero retirements is the normal reading and it is not a good one.
+Of these, watch the retirement count. Almost every organisation adds context and very few subtract any, so a cycle with zero retirements is the normal reading. It is not a good one.
 
 ## Human-AI Collaboration
 

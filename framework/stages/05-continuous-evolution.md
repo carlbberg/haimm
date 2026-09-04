@@ -4,45 +4,45 @@
 
 **Ongoing adaptation as organisational needs and technologies change.**
 
-This is the one stage in the model that has never been observed, and everything below should be read with that fact in front of it.
+Nobody has ever observed this stage. Read everything below with that fact in front of it.
 
 ## Status
 
-No assessment has placed a team at this stage on any dimension. The four gates leading into it, one per dimension, are reasoned from the stages before them, and not checked against a team that actually passed them. Each of the five dimension files says so at that gate, `playbook/running-an-assessment.md` repeats it under known weaknesses, and it remains the single largest untested part of the model.
+No assessment has placed a team at this stage on any dimension. The four gates leading into it, one per dimension, are reasoned from the stages before them and never checked against a team that actually passed them. Each of the five dimension files says so at that gate, `playbook/running-an-assessment.md` repeats it under known weaknesses, and it remains the single largest untested part of the model.
 
-This is not a hedge attached to an otherwise finished stage. It is the reason to be sceptical of any assessment that places a team here, including your own.
+This is not a hedge attached to an otherwise finished stage. Be sceptical of any assessment that places a team here, including your own.
 
 ## What is happening
 
-Need is re-checked on a cadence instead of being assumed stable. Context is managed with ownership, refresh and deprecation. Guardrails are revised because something new arrived, not because a review happened to be scheduled. The record shows things being narrowed and retired as well as added.
+The team re-checks need on a cadence instead of assuming it stable. Context carries ownership, refresh and deprecation. Guardrails change because something new arrived, not because a review happened to fall due. The record shows things narrowed and retired as well as added.
 
-The distinguishing evidence is subtraction. Every earlier stage can be evidenced by things being built, whereas this one asks what was taken away. A team that only adds is expanding, and expansion is what capability does on its own.
+The distinguishing evidence is subtraction. You can evidence every earlier stage by what the team built. This one asks what it took away. A team that only adds is expanding, and expansion is what capability does on its own.
 
 ## What it is not
 
-- **Not the end.** The name is the argument. A model whose final stage was a resting point would be describing the adoption of a technology that had stopped changing.
-- **Not the accumulation of AI capability.** Each new model and feature adopted as it ships, with no corresponding record of a need being re-checked, is frontier drift, and it produces a convincing appearance of evolution without any of the substance.
-- **Not a level anyone should be eager to award.** Since nothing here has been observed, a confident placement at this stage tells you more about the assessment than it does about the team.
+- **Not the end.** The name is the argument. A model whose final stage was a resting point would describe the adoption of a technology that had stopped changing.
+- **Not the accumulation of AI capability.** A team that adopts each new model and feature as it ships, with no record of anyone re-checking a need, has frontier drift. It looks convincingly like evolution and has none of the substance.
+- **Not a level anyone should be eager to award.** Nobody has observed anything here, so a confident placement at this stage tells you more about the assessment than about the team.
 
 ## How the lenses read it
 
-Both of the borrowed developmental lenses run out at this point, and neither of them fails quietly.
+Both borrowed developmental lenses run out here, and neither fails quietly.
 
-Tuckman and Jensen (1977) added adjourning as a fifth stage, meaning that the group disbands. That does not map onto anything here, and hedging it as "adjourning or transforming" only papers over the mismatch. The honest reading is that Tuckman covers four of HAIMM's five stages, and that what happens at the fifth is a team deliberately re-entering forming and storming, because AI capability changed and the division of labour agreed at Optimization no longer describes the work.
+Tuckman and Jensen (1977) added adjourning as a fifth stage, where the group disbands. Nothing here maps onto that, and hedging it as "adjourning or transforming" only papers over the mismatch. The honest reading is that Tuckman covers four of HAIMM's five stages. At the fifth, a team deliberately re-enters forming and storming, because AI capability moved and the division of labour it agreed at Optimization no longer describes the work.
 
-Satir's new status quo is a terminal state, meaning stability re-established at a higher level of performance. A stage called Continuous Evolution cannot be a terminal state, so the lens is describing the wrong shape.
+Satir's new status quo is a terminal state: stability re-established at a higher level of performance. A stage called Continuous Evolution cannot be terminal, so the lens describes the wrong shape.
 
-What replaces both of them is the team's own capacity to re-open a question it had settled. Ethics, which borrows no developmental model at all by design, is the one dimension whose account of this stage does not depend on a lens that has run out.
+What replaces both is the team's own capacity to re-open a question it had settled. Ethics borrows no developmental model by design, which makes it the one dimension whose account of this stage does not lean on a lens that has run out.
 
 ## The characteristic stall
 
-Stability gets mistaken for maturity. You will see an ethics policy last substantively edited at the Integration gate and now covering use cases invented well after it was written, or a context artifact that is current only because nothing has challenged it, or a workflow that has not been questioned since the day it started working.
+Stability gets mistaken for maturity. You will see an ethics policy last edited substantively at the Integration gate, now covering use cases invented long after somebody wrote it. Or a context artifact that stays current only because nothing has challenged it. Or a workflow nobody has questioned since the day it started working.
 
-Each of these is indistinguishable from a healthy steady state on any single inspection, and the only thing that separates them is asking what changed and when it changed.
+On any single inspection, each looks exactly like a healthy steady state. Only one question separates them. What changed, and when?
 
 ## Entering the stage
 
-You enter Continuous Evolution one dimension at a time, by passing that dimension's Optimization to Continuous Evolution gate. The four gates are in the dimension files under `framework/dimensions/`, and every one of them is marked provisional.
+You enter Continuous Evolution one dimension at a time, by passing that dimension's Optimization to Continuous Evolution gate. The four gates live in the dimension files under `framework/dimensions/`, and every one carries a provisional mark.
 
 ## Related
 
