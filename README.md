@@ -39,6 +39,8 @@ archive/       released versions, frozen
 
 Start at `framework/README.md`.
 
+For an educational website with an interactive grid and a short team self-assessment, see [`microsite/`](microsite/README.md). It builds from the frozen v0.4 release and includes a GitHub Pages publishing workflow.
+
 ## Editing
 
 Everything here is hand-edited markdown. There is no separate source format, no schema and no build step, so a single dimension file gives you that dimension, its progression through the stages, and every criterion a team gets assessed against on it.

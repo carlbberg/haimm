@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101510">
+  <meta name="description" content="Explore HAIMM, the Human-AI Maturity Model. Discover six dimensions of AI adoption and build your team's profile in six clicks.">
+  <title>HAIMM — AI adoption is a human journey</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#model">Skip to the model</a>
+  <header class="nav shell">
+    <a href="#" class="wordmark" aria-label="HAIMM home">haimm<span class="logo-dot">✳</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#model">Explore the model</a>
+      <a href="#about">About HAIMM</a>
+      <a class="nav-cta" href="#assessment">Find your starting point <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true"><img src="assets/haimm-sculpture.png" alt="" width="1672" height="941" fetchpriority="high"></div>
+      <div class="shell hero-content">
+        <div class="eyebrow light"><span class="status-dot"></span> The Human-AI Maturity Model <span class="version">v0.4.0</span></div>
+        <h1 id="hero-title">AI changes work.<br>People shape<br><span>what comes next.</span></h1>
+        <p>Better tools are only part of the story. Explore how your team works, learns, and grows with AI.</p>
+        <div class="hero-actions"><a class="button lime" href="#model">Explore the model <span aria-hidden="true">↓</span></a><a class="text-link" href="#assessment">Find your team’s starting point <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="shell hero-foot"><span>A human perspective on AI adoption.</span><div><span><b>06</b> dimensions</span><span><b>05</b> stages</span><span><b>01</b> team, many starting points</span></div></div>
+    </section>
+
+    <section id="model" class="model-section section-space" aria-labelledby="model-title">
+      <div class="shell">
+        <div class="section-heading"><div><div class="eyebrow"><span>01 / Understand</span><span class="tiny-line"></span></div><h2 id="model-title">See the whole picture.</h2></div><p>Your team can be ahead in one dimension and finding its feet in another. Explore the grid to see what each stage looks like.</p></div>
+        <div class="model-toolbar"><div class="segmented" aria-label="Grid view"><button id="explore-view" aria-pressed="true">Explore the model</button><button id="example-view" aria-pressed="false">Try an example profile</button></div><span class="toolbar-help" id="grid-caption">Select any cell to look closer <span aria-hidden="true">↙</span></span></div>
+        <div class="explorer-layout">
+          <div><div class="matrix-scroll" role="region" aria-label="HAIMM interactive matrix; scroll horizontally on small screens" tabindex="0"><table id="matrix" class="matrix"><caption class="sr-only">Six dimensions of human-AI maturity across five stages. Select a cell for its description and next gate.</caption></table></div><p class="matrix-note"><span class="status-dot"></span> Dimensions move independently. An uneven profile is useful information.</p></div>
+          <aside id="cell-detail" class="cell-detail" aria-labelledby="cell-title"></aside>
+        </div>
+        <div id="stage-detail" class="stage-detail"><span class="eyebrow">The journey is iterative</span><p>Teams revisit earlier stages as tools, people, and needs change. Choose a stage heading to learn more.</p></div>
+        <div class="principles"><article><span>01</span><h3>Read across dimensions.</h3><p>Look at the shape of the profile. Each dimension tells you something different about your team.</p></article><article><span>02</span><h3>Advance through evidence.</h3><p>A gate connects two stages. Passing one takes three of four criteria, including its essential core criterion.</p></article><article><span>03</span><h3>Choose what matters now.</h3><p>Work on the gap with the greatest consequence. Your lowest stage is not automatically your first priority.</p></article></div>
+      </div>
+    </section>
+
+    <section id="assessment" class="assessment-section section-space" aria-labelledby="assessment-title">
+      <div class="shell">
+        <div class="section-heading"><div><div class="eyebrow"><span>02 / Reflect</span><span class="tiny-line"></span></div><h2 id="assessment-title">Where is your team today?</h2></div><p>Six questions. Just click the description that feels closest to your team’s everyday practice.</p></div>
+        <div class="assessment-layout" id="assessment-workspace">
+          <aside class="assessment-sidebar"><span class="eyebrow">Your team’s profile</span><ol id="question-nav"></ol><p>Think about one team and one real workflow. If you’re answering together, agree on the closest fit.</p><div class="privacy-note"><span aria-hidden="true">↳</span> Your answers stay in this page. No account. No submission.</div></aside>
+          <div class="question-card" id="question-card"></div>
+        </div>
+        <div id="results" hidden></div>
+        <p class="assessment-limit">This is a self-reported starting point, not a verified gate assessment. HAIMM v0.4.0 has not yet been field-tested. <a href="#method">How this works <span aria-hidden="true">↗</span></a></p>
+      </div>
+    </section>
+
+    <section class="about-section section-space shell" id="about" aria-labelledby="about-title">
+      <div class="about-intro"><div class="eyebrow">03 / Go deeper</div><h2 id="about-title">Keep the human<br>in the picture.</h2><p>HAIMM helps team leaders, practitioners, and facilitators have a more useful conversation about AI adoption. It brings the work, the people, and their shared understanding into view.</p><a class="text-link dark" href="https://github.com/carlbberg/haimm" target="_blank" rel="noopener noreferrer">Explore the open-source framework <span aria-hidden="true">↗</span></a></div>
+      <div class="about-faq">
+        <details open><summary>What does HAIMM measure?</summary><p>HAIMM describes how a team works with AI across Solution Fit, Workflow, Knowledge &amp; Context, Human-AI Collaboration, People, and Ethics. It complements technical and enterprise AI maturity models.</p></details>
+        <details id="method"><summary>How does this quick assessment work?</summary><p>Each answer maps directly to one of the five stage descriptions for that dimension. “I’m not sure” leaves it unplaced. We show those six independent selections without averaging them or capping one based on another.</p><p>The questions and short labels are an educational adaptation of v0.4.0. They do not test the full gate criteria. The results suggest what to inspect next, and never claim that a criterion failed.</p></details>
+        <details><summary>How do we verify our profile?</summary><p>Inspect the team’s artifacts, observe real work, and speak with people in different roles. Work upward from Exploration, stopping at the first gate that fails. Passing a gate requires three of four criteria, including the core one.</p><a href="sources/playbook/running-an-assessment.md" target="_blank" rel="noopener noreferrer">Read the assessment playbook ↗</a></details>
+        <details><summary>What should we do with the results?</summary><p>Choose one gate by its consequences for your team. Use the evidence criteria to turn the gap into a specific task, then reassess after a meaningful work cycle. There is no expectation that all six dimensions should reach the same stage.</p><a href="sources/playbook/acting-on-a-result.md" target="_blank" rel="noopener noreferrer">Read the action playbook ↗</a></details>
+        <details><summary>How established is the model?</summary><p>v0.4.0 is a complete specification with 24 gates and 96 criteria, but no field data yet. Its theory anchors are sourced; the model and its profile interpretations remain unvalidated. Workflow is the newest and most provisional dimension.</p><a href="sources/framework/references.md" target="_blank" rel="noopener noreferrer">Read the model’s references ↗</a></details>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="shell footer-top"><a href="#" class="wordmark" aria-label="Back to top">haimm<span class="logo-dot">✳</span></a><p>The Human-AI Maturity Model.<br>Built around the people doing the work.</p><a href="#" class="back-top">Back to top ↑</a></div><div class="shell footer-bottom"><span>HAIMM v0.4.0 · Open source under MIT</span><span>Six dimensions. A conversation worth having.</span><a href="https://github.com/carlbberg/haimm" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+  <noscript><div class="noscript">Enable JavaScript to explore the grid and take the assessment. You can also <a href="sources/framework/README.md">read the complete model</a>.</div></noscript>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
