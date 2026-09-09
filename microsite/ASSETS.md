@@ -2,6 +2,8 @@
 
 ## Hero sculpture
 
+Retained from the original design; no longer displayed or requested by the page.
+
 File: `public/assets/haimm-sculpture.png` (1672 × 941).
 
 Generated using the built-in Imagegen tool, then visually inspected. Prompt:
@@ -19,3 +21,7 @@ Generated using the built-in Imagegen tool, then visually inspected. Prompt:
 ## Manrope
 
 Variable font and SIL Open Font License downloaded from the [Google Fonts Manrope directory](https://github.com/google/fonts/tree/main/ofl/manrope). Files are self-hosted under `public/assets/`.
+
+## Dimension icons
+
+Six unmodified SVG icons from `lucide-static@0.468.0`: target, workflow, files, users-round, user-round, and shield-check. Downloaded from the package on unpkg and self-hosted in `public/assets/icons/` with the package license. These represent Solution Fit, Workflow, Knowledge & Context, Human-AI Collaboration, People, and Ethics respectively.

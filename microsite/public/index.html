@@ -3,33 +3,38 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#101510">
+  <meta name="theme-color" content="#f5f6f2">
   <meta name="description" content="Explore HAIMM, the Human-AI Maturity Model. Discover six dimensions of AI adoption and build your team's profile in six clicks.">
-  <title>HAIMM — AI adoption is a human journey</title>
+  <title>HAIMM | Human-AI Maturity Model</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip" href="#model">Skip to the model</a>
-  <header class="nav shell">
-    <a href="#" class="wordmark" aria-label="HAIMM home">haimm<span class="logo-dot">✳</span></a>
-    <nav aria-label="Main navigation">
-      <a href="#model">Explore the model</a>
-      <a href="#about">About HAIMM</a>
-      <a class="nav-cta" href="#assessment">Find your starting point <span aria-hidden="true">↗</span></a>
-    </nav>
-  </header>
-
+  <a class="skip" href="#learn-tabs">Skip to the interactive explanation</a>
   <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-art" aria-hidden="true"><img src="assets/haimm-sculpture.png" alt="" width="1672" height="941" fetchpriority="high"></div>
-      <div class="shell hero-content">
-        <div class="eyebrow light"><span class="status-dot"></span> The Human-AI Maturity Model <span class="version">v0.4.0</span></div>
-        <h1 id="hero-title">AI changes work.<br>People shape<br><span>what comes next.</span></h1>
-        <p>Better tools are only part of the story. Explore how your team works, learns, and grows with AI.</p>
-        <div class="hero-actions"><a class="button lime" href="#model">Explore the model <span aria-hidden="true">↓</span></a><a class="text-link" href="#assessment">Find your team’s starting point <span aria-hidden="true">↗</span></a></div>
+    <section class="learn-section" aria-labelledby="learn-title">
+      <div class="learn-shell">
+        <header class="learn-intro">
+          <div class="learn-title-row"><h1 id="learn-title">Human-AI Maturity Model</h1><span class="release-tag">v0.4.0</span></div>
+          <p>HAIMM helps teams understand how they work with AI and what to improve next. Six dimensions describe the work; five stages describe how practice develops.</p>
+        </header>
+        <div class="learn-tabs" id="learn-tabs" role="tablist" aria-label="Understand the model">
+          <button type="button" role="tab" id="dimensions-tab" aria-selected="true" aria-controls="dimensions-panel">Dimensions <span>What we look at</span></button>
+          <button type="button" role="tab" id="stages-tab" aria-selected="false" aria-controls="stages-panel" tabindex="-1">Stages <span>How practice develops</span></button>
+        </div>
+        <div id="dimensions-panel" class="learn-panel" role="tabpanel" aria-labelledby="dimensions-tab">
+          <h2>What do we look at?</h2>
+          <div id="dimension-choices" class="dimension-choices" aria-label="Choose a dimension"></div>
+          <div id="dimension-explanation" class="learn-explanation" aria-live="polite" aria-atomic="true"></div>
+          <div class="learn-bottom"><span>Each dimension gives you a different view of the team.</span><button type="button" id="learn-stages">Explore stages <span aria-hidden="true">→</span></button></div>
+        </div>
+        <div id="stages-panel" class="learn-panel" role="tabpanel" aria-labelledby="stages-tab" hidden>
+          <h2>How does practice develop?</h2>
+          <div id="stage-choices" class="stage-choices" aria-label="Choose a stage"></div>
+          <div id="stage-explanation" class="learn-explanation" aria-live="polite" aria-atomic="true"></div>
+          <div class="learn-bottom"><span>Each dimension can be at a different stage. Teams can revisit earlier stages.</span><a href="#model">Explore the full grid <span aria-hidden="true">↓</span></a></div>
+        </div>
       </div>
-      <div class="shell hero-foot"><span>A human perspective on AI adoption.</span><div><span><b>06</b> dimensions</span><span><b>05</b> stages</span><span><b>01</b> team, many starting points</span></div></div>
     </section>
 
     <section id="model" class="model-section section-space" aria-labelledby="model-title">
@@ -68,7 +73,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer"><div class="shell footer-top"><a href="#" class="wordmark" aria-label="Back to top">haimm<span class="logo-dot">✳</span></a><p>The Human-AI Maturity Model.<br>Built around the people doing the work.</p><a href="#" class="back-top">Back to top ↑</a></div><div class="shell footer-bottom"><span>HAIMM v0.4.0 · Open source under MIT</span><span>Six dimensions. A conversation worth having.</span><a href="https://github.com/carlbberg/haimm" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+  <footer class="page-footer shell"><span>Human-AI Maturity Model · v0.4.0 · MIT</span><a href="https://github.com/carlbberg/haimm" target="_blank" rel="noopener noreferrer">Read the source on GitHub ↗</a><a href="#learn-title">Back to top ↑</a></footer>
   <noscript><div class="noscript">Enable JavaScript to explore the grid and take the assessment. You can also <a href="sources/framework/README.md">read the complete model</a>.</div></noscript>
   <script type="module" src="app.js"></script>
 </body>

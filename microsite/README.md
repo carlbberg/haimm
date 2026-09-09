@@ -36,8 +36,8 @@ Answers live only in page memory and disappear on refresh. Teams can print or sa
 
 ## Design and assets
 
-The design uses oversized Manrope typography, emerald and lime, an original sculptural hero, and a quiet matrix with progressively darker stages. [Awwwards editorial work](https://www.awwwards.com/websites/single-page-1/) informed the direction; no individual site was copied.
+The opening introduces the model through Dimensions and Stages tabs, with selectable line icons, explanations, and illustrative examples. It uses Manrope typography and a restrained green palette. The full matrix and self-assessment follow below. The tabs support arrow keys, Home, and End, retain their selections, and announce updated explanations to assistive technology.
 
-`public/assets/haimm-sculpture.png` was generated with the built-in Imagegen tool. The exact prompt is in `ASSETS.md`. Manrope is self-hosted under its bundled SIL Open Font License. The favicon is a code-native letterform. No third-party figures from the archived article are included.
+Manrope is self-hosted under its bundled SIL Open Font License, and the six icons come from Lucide 0.468.0 with the license in `public/assets/icons/LICENSE`. The original generated sculpture remains as an unused asset with its prompt in `ASSETS.md`; the page no longer loads it. No third-party figures from the archived article are included.
 
 Responsive styles accommodate narrow screens with explicitly scrollable tables and a single-column assessment. Motion respects reduced-motion settings, and interactive controls use native buttons, links, and disclosure elements. Browser checks verified the desktop presentation, cell selection, and a complete six-click assessment. The automated checks cover the release extraction, assessment invariants, and static asset paths.

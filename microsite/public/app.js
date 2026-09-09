@@ -1,5 +1,6 @@
 import { model } from './model-data.js';
 import { prompts, placements, nextStep, profileInsights } from './assessment.js';
+import { initLearning } from './learning.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = text => String(text).replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
@@ -93,4 +94,4 @@ function renderResults() {
 function editAnswer(index) {state.question = index; $('#results').hidden = true; $('#assessment-workspace').hidden = false; renderQuestion(true); $('#assessment-workspace').scrollIntoView({behavior:scrollBehavior(), block:'start'});}
 
 document.querySelectorAll('a[href="#method"]').forEach(a => a.addEventListener('click', () => {$('#method').open = true;}));
-renderMatrix(); renderDetail(); renderQuestion();
+initLearning(); renderMatrix(); renderDetail(); renderQuestion();
