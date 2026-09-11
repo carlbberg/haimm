@@ -36,11 +36,11 @@ Answers live only in page memory and disappear on refresh. Teams can print or sa
 
 ## Design and assets
 
-The opening introduces the model through Dimensions and Stages tabs, with selectable line icons, explanations, and illustrative examples. It uses Manrope typography and a restrained green palette. The full matrix and self-assessment follow below. The tabs support arrow keys, Home, and End, retain their selections, and announce updated explanations to assistive technology.
+The page opens with a dark journey hero and a purpose-built illustration connecting five stages to six dimensions. The maturity model follows in two tabs: six stacked dimension rows with concise examples, then five stage columns read from left to right. The full matrix and self-assessment follow below. The tabs support arrow keys, Home, and End.
 
-Manrope is self-hosted under its bundled SIL Open Font License, and the six icons come from Lucide 0.468.0 with the license in `public/assets/icons/LICENSE`. The original generated sculpture remains as an unused asset with its prompt in `ASSETS.md`; the page no longer loads it. No third-party figures from the archived article are included.
+Manrope is self-hosted under its bundled SIL Open Font License, and the six icons come from Lucide 0.468.0 with the license in `public/assets/icons/LICENSE`. The hero illustration was generated for this site and is documented in `ASSETS.md`. The original generated sculpture remains unused. No third-party figures from the archived article are included.
 
-Responsive styles accommodate narrow screens with explicitly scrollable tables and a single-column assessment. Motion respects reduced-motion settings, and interactive controls use native buttons, links, and disclosure elements. Browser checks verified the desktop presentation, cell selection, and a complete six-click assessment. The automated checks cover the release extraction, assessment invariants, and static asset paths.
+Responsive styles accommodate narrow screens with a horizontal stage timeline, explicitly scrollable tables, and a single-column assessment. Results state the six-part diagnosis directly, offer browser PDF output, and allow a complete retake. Motion respects reduced-motion settings, and interactive controls use native buttons, links, and disclosure elements. Browser checks verified the desktop and mobile presentation, tab behavior, a complete six-click assessment, PDF control, retake path, and zero page-level mobile overflow. The automated checks cover release extraction, assessment invariants, the leadership game, and static asset paths.
 
 ## Leadership lab
 

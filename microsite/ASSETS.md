@@ -1,5 +1,21 @@
 # Assets
 
+## Journey illustration
+
+Displayed in the dark opening hero.
+
+File: `public/assets/haimm-journey-v2.png` (1774 × 887, transparent PNG).
+
+Generated using the built-in Imagegen tool, then visually inspected on the final dark background. Prompt:
+
+> Use case: infographic-diagram
+> Asset type: clean transparent hero illustration for an educational website
+> Primary request: A sparse abstract diagram representing a journey through five stages across six dimensions. Draw one smooth rising path from lower left to upper right, ending in a small arrowhead. Place exactly five small solid circular waypoints along the path. Beneath the path, draw exactly six slim, parallel horizontal planes, slightly offset like architectural layers. Connect each waypoint down toward the layered stack with one very thin vertical line.
+> Style/medium: immaculate flat editorial vector-style illustration rendered as a PNG with real alpha transparency; precise Swiss modernist geometry; clean Bézier curves; consistent thin strokes; ample negative space
+> Composition/framing: wide 2:1 landscape; artwork contained within safe margins; visually balanced for the right half of a web hero
+> Color palette: warm ivory lines, muted sage planes, acid-lime waypoints and arrowhead
+> Constraints: genuinely transparent alpha background; no visible background; exactly five waypoints and exactly six planes; no texture, glow, shadows, gradients, 3D, text, labels, numbers, logo, people, devices, or watermark.
+
 ## Hero sculpture
 
 Retained from the original design; no longer displayed or requested by the page.
