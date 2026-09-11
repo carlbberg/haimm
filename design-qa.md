@@ -42,7 +42,7 @@ No actionable P0, P1, or P2 findings remain.
 - Fix: a new clean composition was generated with verified alpha transparency, five milestones, six layers, and no embedded background. The rejected assets are not referenced by the page.
 - Post-fix evidence: `journey-desktop.png` and `journey-mobile.png` show the final asset integrated on the dark hero without halos or visible background edges.
 - Live P2: at the in-app browser's 813-pixel width, the model explanation was squeezed into an overly narrow right column.
-- Fix: the learning section heading now stacks at 950 pixels, with a readable 560-pixel paragraph measure.
+- Fix: the learning section heading now stacks at 950 pixels, with a readable 560-pixel paragraph measure. The stylesheet and application entrypoint carry a build version so returning visitors do not retain the earlier layout from cache.
 - Post-fix evidence: the published tablet-width check shows the title and explanation stacked without cramped wrapping.
 
 ## Interaction and accessibility checks

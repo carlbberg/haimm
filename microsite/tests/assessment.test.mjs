@@ -82,7 +82,7 @@ test('all static local entrypoint links resolve and support a GitHub project sub
   const links = [...html.matchAll(/(?:src|href)="([^"]+)"/g)].map(match => match[1]);
   for (const link of links.filter(s => !s.startsWith('https:') && !s.startsWith('#'))) {
     assert.ok(!link.startsWith('/'), `Absolute site-root URL: ${link}`);
-    assert.ok(existsSync(resolve('_site',link)), `Missing local asset: ${link}`);
+    assert.ok(existsSync(resolve('_site',link.split(/[?#]/)[0])), `Missing local asset: ${link}`);
   }
   assert.ok(existsSync('_site/assets/manrope.ttf'));
   assert.ok(existsSync('_site/assets/manrope-OFL.txt'));
