@@ -356,6 +356,8 @@ body:before{display:none}
 @media(max-width:950px){
   .journey-hero-inner{grid-template-columns:1fr 1fr;gap:28px;min-height:560px}
   .journey-copy h1{font-size:4.2rem}
+  .learning-heading{display:block}
+  .learning-heading>p{max-width:560px;margin-top:20px}
   .dimension-row{grid-template-columns:220px 1fr;gap:18px 30px}
   .row-example{grid-column:2;border-left:0;border-top:1px solid var(--line);padding:12px 0 0}
   .stage-timeline{grid-template-columns:repeat(5,220px);overflow-x:auto;scroll-snap-type:x mandatory}
