@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Build the dependency-free microsite from the frozen HAIMM v0.4 release."""
+import argparse
 import json
 import re
 import shutil
@@ -57,20 +58,22 @@ def model_data():
     return {"version": (SOURCE / "VERSION").read_text().strip(), "stages": stages, "dimensions": dimensions}
 
 
-def build():
+def build(output=OUT):
     data = model_data()
-    OUT.mkdir(exist_ok=True)
+    output.mkdir(exist_ok=True)
     for path in (ROOT / "microsite/public").rglob("*"):
         if path.is_file():
-            target = OUT / path.relative_to(ROOT / "microsite/public")
+            target = output / path.relative_to(ROOT / "microsite/public")
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(path, target)
-    (OUT / "model-data.js").write_text("// Generated from archive/v0.4. Do not edit.\nexport const model = " + json.dumps(data, ensure_ascii=False) + ";\n")
+    (output / "model-data.js").write_text("// Generated from archive/v0.4. Do not edit.\nexport const model = " + json.dumps(data, ensure_ascii=False) + ";\n")
     for folder in ("framework", "playbook"):
-        shutil.copytree(SOURCE / folder, OUT / "sources" / folder, dirs_exist_ok=True)
-    (OUT / ".nojekyll").touch()
-    print(f"Built HAIMM {data['version']}: 6 dimensions, 30 cells, 24 gates, 96 criteria → {OUT}")
+        shutil.copytree(SOURCE / folder, output / "sources" / folder, dirs_exist_ok=True)
+    (output / ".nojekyll").touch()
+    print(f"Built HAIMM {data['version']}: 6 dimensions, 30 cells, 24 gates, 96 criteria → {output}")
 
 
 if __name__ == "__main__":
-    build()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output", choices=("_site", "out"), default="_site", help="Static output directory relative to the repository root")
+    build(ROOT / parser.parse_args().output)

@@ -1,6 +1,6 @@
 # HAIMM educational microsite
 
-The site teaches HAIMM v0.4.0, provides a clickable six-by-five matrix, and offers a six-question self-assessment. It is a static website with no JavaScript dependencies, server, account, external font requests, or analytics.
+The site teaches HAIMM v0.4.0, provides a clickable six-by-five matrix, offers a six-question self-assessment, and includes the Leadership lab game at `game/`. It is a static website with no JavaScript dependencies, server, account, external font requests, or analytics.
 
 ## Preview locally
 
@@ -41,3 +41,17 @@ The opening introduces the model through Dimensions and Stages tabs, with select
 Manrope is self-hosted under its bundled SIL Open Font License, and the six icons come from Lucide 0.468.0 with the license in `public/assets/icons/LICENSE`. The original generated sculpture remains as an unused asset with its prompt in `ASSETS.md`; the page no longer loads it. No third-party figures from the archived article are included.
 
 Responsive styles accommodate narrow screens with explicitly scrollable tables and a single-column assessment. Motion respects reduced-motion settings, and interactive controls use native buttons, links, and disclosure elements. Browser checks verified the desktop presentation, cell selection, and a complete six-click assessment. The automated checks cover the release extraction, assessment invariants, and static asset paths.
+
+## Leadership lab
+
+Open `http://localhost:4173/game/` after the local build. The opening presents the first fictional case directly. Leaders make six decisions, one per dimension, read the evidence behind each answer, and reflect on one team or workflow using the canonical matrix descriptions. They can leave a dimension unplaced when they lack evidence.
+
+The debrief shows six independent, provisional reflections. Leaders can revise them, choose a dimension by its consequences, inspect its gate, and record an evidence-gathering action with an owner and review date. The date is a note, not a scheduled reminder. The page supports a Markdown download and browser printing. Reflections and notes stay in page memory and clear on refresh; the application has no analytics or submission endpoint.
+
+The practice result counts correct first decisions in fictional cases. It never determines a team's stage, and repeated clicks cannot increase it. Each fictional case assumes earlier gates have passed and supplies four evidence cards aligned to the selected gate's four criteria. The narrative, evidence cards, answers, and explanations in `public/game/cases.js` are teaching adaptations, not claims about real organisations. The displayed gate criteria and reflection descriptions come from the same frozen release extraction as the rest of the site.
+
+The cases cover feedback changing a solution, purpose-led reconsideration that keeps a workflow unchanged, a missing core despite three satisfied criteria, human approval during bounded AI action, capability beyond early adopters, and substantive changes to ethical practice. The debrief distinguishes monitoring practices from numerical placement thresholds. Continuous Evolution points to its entry gate and continuing review, without inventing a further stage.
+
+The interface uses the existing self-hosted Manrope font and a green case-file layout, with native buttons, radio groups, disclosures, and visible keyboard focus. It includes a narrow-screen layout, reduced-motion support, and print styles. Automated checks cover gate logic, answer locking, practice scoring, reflection bounds, source extraction, and static game links. Browser interaction and visual QA have not been performed for this addition.
+
+For Sites packaging, `python3 microsite/build.py --output out` emits the same static content into the supported output directory named in `.openai/hosting.json`. The default `_site` output and existing GitHub Pages workflow remain available.
