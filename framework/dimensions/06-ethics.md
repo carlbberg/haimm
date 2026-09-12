@@ -18,22 +18,23 @@ It sits inside a human-centric model instead of a technical one because the fail
 - **Legal compliance.** Compliance is a floor, and a different assessment altogether. A team can be entirely compliant and still unable to explain a single decision its AI influenced.
 - **Model safety.** Evaluation, red-teaming and guardrail engineering are properties of a system. This dimension is about whether an organisation uses them, acts on what they return, and carries on doing both.
 - **Sufficiency of context.** Ethics owns what context is *permissible* to expose. Whether that context is sufficient, current and shared belongs to Knowledge & Context. The two meet at provenance, because saying what grounded an AI-influenced decision is an ethical requirement and a context capability at once.
+- **How much AI is allowed to do.** Where the automation level should sit belongs to Human-AI Collaboration. This dimension asks a narrower question about whatever level a team settled on: does anything cover it that could stop it? The two meet at governance. That criterion sits in the collaboration gate and not in this one, because the dimension it holds back is the one raising the automation.
 
 ## Lens
 
-The other four dimensions each borrow a developmental model: TAM and UTAUT, Tuckman, Satir, or the composite that Knowledge & Context uses. This one borrows none. The absence is deliberate, not an omission waiting to be filled. No widely accepted theory describes how ethical practice matures inside a team, and importing one anyway would be decoration.
+The other five borrow something to lean on: TAM and UTAUT in Solution Fit, Zuboff's automating and informating in Workflow, Tuckman in Human-AI Collaboration, Satir in People, and the three partial lenses Knowledge & Context assembles. This one borrows none. The absence is deliberate, not an omission waiting to be filled. No widely accepted theory describes how ethical practice matures inside a team, and importing one anyway would be decoration.
 
 It borrows external content instead: the EU AI Act (2024) for risk categories, IBM (2024) for foundation model risks, and Microsoft's Responsible AI Maturity Model (2023) for practice areas. The progression below is not a psychological arc, so read it as a sequence of increasingly demanding tests of a single question. Can this guardrail stop something, and is it still operating?
 
 ## Patterns it detects
 
-**Unfalsifiable principles.** A values statement names fairness, transparency and accountability, and offers no example of a use case it would block. The team adopted the language and nothing else. It is unfalsifiable by construction, and it passes any check that only asks whether ethical principles exist.
+**Unfalsifiable principles.** A values statement names fairness, transparency and accountability, and offers no example of a use case it would block. The team adopted the language and nothing else. It is unfalsifiable by construction, and it passes any check that only asks whether ethical principles exist. *Example:* a one-page AI policy with three headings and no verb in it stronger than consider.
 
-**The rubber stamp.** An ethics checklist exists, somebody completes it identically every time, and it has never once caused a change. It passes an artifact audit and fails the gate on its own terms. That is why the Experimentation to Integration gate asks for a pilot that changed because of one.
+**The rubber stamp.** An ethics checklist exists, somebody completes it identically every time, and it has never once caused a change. It passes an artifact audit and fails the gate on its own terms. That is why the Experimentation to Integration gate asks for a pilot that changed because of one. *Example:* twelve completed review forms with identical answers in every field except the project name.
 
-**Stale governance.** Documentation that was accurate at launch and untouched since, describing a system that moved underneath it. It passes an existence check. It fails a currency one.
+**Stale governance.** Documentation that was accurate at launch and untouched since, describing a system that moved underneath it. It passes an existence check. It fails a currency one. *Example:* a system description listing inputs, two of which were removed in a release eight months ago.
 
-**Stability mistaken for maturity.** Somebody last edited the policy substantively when the systems it governs were half their current number, and it now gets cited as evidence of a settled practice. Continuous Evolution wants revision in response to something the team learned. An absence of complaints is not that.
+**Stability mistaken for maturity.** Somebody last edited the policy substantively when the systems it governs were half their current number, and it now gets cited as evidence of a settled practice. Continuous Evolution wants revision in response to something the team learned. An absence of complaints is not that. *Example:* a policy whose last substantive edit predates every one of the use cases it now governs.
 
 ## Stage progression
 
@@ -41,7 +42,7 @@ It borrows external content instead: the EU AI Act (2024) for risk categories, I
 
 **Experimentation.** The team applies guardrails to real pilots and revises them in light of what that exposes. Ethics review happens before rollout instead of arriving afterwards as a retrospective justification. Provenance becomes testable: for a given AI-influenced decision, somebody can say what grounded it. *Example:* a pilot narrowed after review found it would place an unreviewed model output in front of a customer.
 
-**Integration.** Governance and transparency mechanisms sit inside how the systems operate, with named owners and documentation somebody maintains instead of writing once and abandoning. The test: can somebody outside the building team use that documentation to explain how a decision affecting people gets made? *Example:* a current, dated record for each AI-driven decision system, with a named owner for its ethical compliance.
+**Integration.** Governance and transparency mechanisms sit inside how the systems operate, with named owners and documentation somebody maintains instead of writing once and abandoning. The test: can somebody outside the building team use that documentation to explain how a decision affecting people gets made? This is also the stage where coverage starts to matter, because guardrails somebody wrote for a pilot rarely mention the tasks AI picked up afterwards. *Example:* a current, dated record for each AI-driven decision system, with a named owner for its ethical compliance, and a check that every task AI now runs unsupervised appears somewhere in that set.
 
 **Optimization.** Monitoring runs continuously instead of only at review points, and it has caught something. The team handles issues as they surface instead of leaving them for the next audit. *Example:* a monitoring mechanism with a recorded instance of it flagging a case that was then handled.
 
@@ -112,5 +113,6 @@ This gate is untested against practice. No assessment has yet placed a team at C
 - This dimension's row in the combined matrix: `framework/matrix.md`
 - The stages themselves, read across all six dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
+- Dimension interactions: `framework/README.md`
 - Theory anchors and verification status: `research/evidence-log.md`
 - Source article: `archive/v0.1/article.md`

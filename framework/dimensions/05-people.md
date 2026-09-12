@@ -10,7 +10,7 @@ This dimension asks whether the people whose work changes get a say in how it ch
 
 AI adoption changes what people do all day and, for some of them, what they are for. That makes it an emotional and political transition at least as much as a technical one, running on its own timeline regardless of how well the tooling happens to work.
 
-The dimension exists because the other four can all look healthy while this one fails. Picture a well-fitted solution, cleanly integrated and soundly governed, adopted by three enthusiasts and quietly ignored by everybody else. It passes every test except this one.
+The dimension exists because the other five can all look healthy while this one fails. Picture a well-fitted solution, cleanly integrated and soundly governed, adopted by three enthusiasts and quietly ignored by everybody else. It passes every test except this one.
 
 ## What it is not
 
@@ -26,13 +26,13 @@ One terminology collision is worth naming before you go further. Satir's phases 
 
 ## Patterns it detects
 
-**Silence read as buy-in.** A well-attended kickoff, and no record anywhere of a single concern. In Satir's terms that is a late status quo holding, not agreement, and it tends to predict resistance surfacing later and much less usefully.
+**Silence read as buy-in.** A well-attended kickoff, and no record anywhere of a single concern. In Satir's terms that is a late status quo holding, not agreement, and it tends to predict resistance surfacing later and much less usefully. *Example:* a launch meeting with sixty attendees, a slide inviting questions, and minutes recording none.
 
-**Resistance acknowledged, not addressed.** A pilot shipped on schedule, with resistance noted on a slide somewhere and no visible response to it. Acknowledging resistance and acting on it produce identical documentation. The outcomes differ completely.
+**Resistance acknowledged, not addressed.** A pilot shipped on schedule, with resistance noted on a slide somewhere and no visible response to it. Acknowledging resistance and acting on it produce identical documentation. The outcomes differ completely. *Example:* a pilot report with a risks section naming staff concern, beside a rollout plan unchanged from the version written before it.
 
-**Concentrated capability.** One or two people are visibly excellent at the new workflow and everyone else routes work through them. On a satisfaction survey that reads as team integration. It is a single point of failure, and it is also where People and Knowledge & Context meet, because capability pools wherever somebody built personal context scaffolding during the unsettled period and then never shared it.
+**Concentrated capability.** One or two people are visibly excellent at the new workflow and everyone else routes work through them. On a satisfaction survey that reads as team integration. It is a single point of failure, and it is also where People and Knowledge & Context meet, because capability pools wherever somebody built personal context scaffolding during the unsettled period and then never shared it. *Example:* a shared inbox where the same two names appear on every AI-assisted reply, including the ones nominally owned by somebody else.
 
-**The one-time training.** A single well-attended session gets cited whenever the topic comes up. One event does not make a culture, and no team clears the Continuous Evolution gate without that distinction.
+**The one-time training.** A single well-attended session gets cited whenever the topic comes up. One event does not make a culture, and no team clears the Continuous Evolution gate without that distinction. *Example:* an onboarding page linking to a recording from last year, with nothing scheduled since.
 
 ## Stage progression
 
@@ -111,5 +111,6 @@ This gate is untested against practice. No assessment has yet placed a team at C
 - This dimension's row in the combined matrix: `framework/matrix.md`
 - The stages themselves, read across all six dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
+- Dimension interactions: `framework/README.md`
 - Theory anchors and verification status: `research/evidence-log.md`
 - Source article: `archive/v0.1/article.md`. The Satir diagram reproduced there is a third-party rendering and is deliberately not carried into `framework/`; see `archive/v0.1/figures/README.md`.

@@ -2,6 +2,32 @@
 
 Changes to the model. Editorial and tooling changes do not need an entry.
 
+## Unreleased
+
+A pass over the dimension and stage crossings, which had drifted since Workflow arrived. The counts were stale in several places, the stage files read each stage through two dimensions and implied six, the matrix carried two registers, and the metrics tables restated the criteria of the gate each row sits in front of.
+
+### Added
+- **A sixth dimension-interaction criterion, governance,** in Human-AI Collaboration's Integration to Optimization gate: whether the task AI runs with the least supervision has a limit written down and somebody accountable for it. The model had named this interaction twice, in `research/open-questions.md` item 8 and in the Ethics profile in `playbook/acting-on-a-result.md`, and had no criterion for it, so semi-autonomous operation on a task no guardrail mentions passed that gate cleanly. It displaces the criterion asking for a recorded instance of AI executing an action, which it absorbs: the new wording asks for a task where AI executes and for the guardrail covering it. The affected dimension owns the criterion, which is the rule the other five follow.
+- An ungoverned autonomy pattern in Human-AI Collaboration, and the matching boundary in Ethics under what it is not.
+- A section in `framework/metrics.md` on the offset between the two layers. A metrics row belongs to the stage a team is in and a gate belongs to the transition out of it, so the row being tracked is always the one whose gate comes next.
+- Knowledge & Context and Ethics readings in the stage files. Knowledge & Context was not named in any of the five, despite having the most stage-specific story in the model: the grounding-against-capability confusion at Exploration, the privatisation fork at Experimentation, arbitration surfacing at Integration one stage behind Human-AI Collaboration's storming, and unreachable sources at Optimization.
+- A concrete example for every pattern in all six dimension files, and for the new stage readings.
+- A second evidence pairing in `playbook/running-an-assessment.md` step 5, for the guardrail set that answers Ethics' gate and answers the new governance criterion only if it covers the right task. Plus the access that criterion needs, under what you need.
+
+### Changed
+- **Twenty matrix cells rewritten,** across Solution Fit, Human-AI Collaboration, People and Ethics. Those four rows predate the gates and described activities in a looser register than the Workflow and Knowledge & Context rows, and several named nothing their entering gate tests. People at Optimization read as broad acceptance, which is sentiment, and the dimension's own what-it-is-not section rules that out. Human-AI Collaboration at Continuous Evolution lost the two-directional claim the dimension and its gate both make. Solution Fit at Optimization said nothing about transferability. `framework/matrix.md` now also asks that a cell be recognisable from the gate that lets a team into it.
+- Knowledge & Context's Integration to Optimization core criterion retagged from [S] to [O]. The assessor puts one question separately to two people and to an AI session and scores it by comparing three answers they collected themselves, which is observation. It was the only [S] core in the model, and the rule about self-report exists because gates that rest on it get passed. Criteria are now 46 [A], 26 [O] and 24 [S].
+- Metrics tables pruned across all six dimensions. Entries that restated a gate criterion are replaced with properties no criterion checks: time, interval, lag, spread and abandonment. The rule against restating a criterion now says that a count is a restatement of the thing it counts.
+- Stale counts fixed. All five stage files said "the four gates" where the set is the six gates at that transition, one per dimension, and `05-continuous-evolution.md` said five dimension files. Knowledge & Context's placement section gave the row order without Workflow in it. Knowledge & Context, Ethics and People each described "the other four dimensions", and the two lens inventories left Zuboff out.
+- `framework/stages/05-continuous-evolution.md` no longer implies that both lenses running out affects the whole model. Tuckman and Satir are the only borrowings that describe a path with an end on it, so Human-AI Collaboration and People are the only dimensions with anything to lose at the fifth stage, and the other four never had a trajectory to run out of.
+- The interaction table in `framework/README.md` gains a column naming the dimension each criterion asks about, which previously had to be inferred from the wording.
+- `framework/stages/03-integration.md` and `04-optimization.md` updated for five of six interaction criteria sitting at that transition.
+
+### Known
+- `visualization/haimm-executive-brief.html` renders the old matrix cells and the old Human-AI Collaboration gate, and it is stale. It was left alone on purpose: several new cells are longer than the ones they replace, the artboard is a fixed 1440 by 900 whose cell type was already at 9.8px to fit six rows, and a hand-edit that clips would be worse than the note now in `visualization/README.md`.
+- The microsite builds from the frozen `archive/v0.4/` release, so it is unaffected and will stay on v0.4 until somebody points it at a new one.
+- Still no field data. Everything above was found by reading, which is the same limit item 12 in `research/open-questions.md` has carried since v0.2.
+
 ## v0.4, 4 September 2026
 
 ### Added

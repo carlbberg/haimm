@@ -17,6 +17,7 @@ This dimension is about that negotiation, and it asks two questions that vary in
 - **Trust in output.** Trust feeds the division of labour without being the thing itself. A team can trust AI output completely and still have no agreement about when to use it.
 - **Automation level alone.** Higher automation does not mean higher maturity, however tempting it is to read it that way. A team that operates at low automation deliberately, having considered the alternative and decided against it, is more mature than one that simply drifted upward.
 - **Grounding.** Whether AI has what it needs to be useful belongs to Knowledge & Context. A collaboration model that only works because a person re-briefs the AI every session is not a collaboration model. The Integration to Optimization gate exists to catch exactly that.
+- **Governance.** What a guardrail should say, and whether the team's ethical practice functions at all, belongs to Ethics. This dimension only asks whether governance reached the specific task AI now runs with the least human involvement, which is a narrower question and a much easier one to fail.
 
 ## Lenses
 
@@ -32,13 +33,15 @@ Tuckman and Jensen (1977) added a fifth stage, adjourning, meaning the group dis
 
 ## Patterns it detects
 
-**Access without agreement.** Everyone has the same tool and no two people describe its role the same way. It reads as forming. It is exploration with a tool attached.
+**Access without agreement.** Everyone has the same tool and no two people describe its role the same way. It reads as forming. It is exploration with a tool attached. *Example:* three colleagues describing the same assistant as a drafting tool, a research tool, and something they assume they are not allowed to use for client work.
 
-**Suppressed storming.** You see universal enthusiasm and no recorded disagreement anywhere about AI's role. Either the team skipped the conflict, or it plays out informally and never resolves. A survey cannot tell either of those cases apart from genuine consensus, which is why the Experimentation to Integration gate asks for a specific disagreement and an account of how the team settled it.
+**Suppressed storming.** You see universal enthusiasm and no recorded disagreement anywhere about AI's role. Either the team skipped the conflict, or it plays out informally and never resolves. A survey cannot tell either of those cases apart from genuine consensus, which is why the Experimentation to Integration gate asks for a specific disagreement and an account of how the team settled it. *Example:* a retrospective whose AI section contains only positives, in a team where two people have quietly stopped using it.
 
-**Trust without grounding.** Satisfaction is high, and yet every session still starts from a blank slate. A colleague you have to re-brief from scratch every single time, however much you like working with them, has not really graduated from being a tool.
+**Trust without grounding.** Satisfaction is high, and yet every session still starts from a blank slate. A colleague you have to re-brief from scratch every single time, however much you like working with them, has not really graduated from being a tool. *Example:* somebody who calls the assistant a colleague and opens every session by pasting the same four paragraphs into it.
 
-**One-way drift.** The automation level only ever rises, and nobody can describe a scenario for dialling it back. Movement in one direction is drift. It is not evidence that anyone reviewed the model.
+**One-way drift.** The automation level only ever rises, and nobody can describe a scenario for dialling it back. Movement in one direction is drift. It is not evidence that anyone reviewed the model. *Example:* an automation level that has risen at every review and never once fallen, in a team that cannot name what would make them lower it.
+
+**Ungoverned autonomy.** AI executes on a task, the team has a perfectly respectable set of guardrails, and none of them mentions that task. This is easy to miss because both halves look healthy on their own. Ethics reads well because the guardrails are specific and owned, and this dimension reads well because the automation is real and somebody reviews the output. The gap is between them, and it only shows if you ask which task runs with the least supervision and then go looking for what covers it.
 
 ## Stage progression
 
@@ -48,7 +51,7 @@ Tuckman and Jensen (1977) added a fifth stage, adjourning, meaning the group dis
 
 **Integration (norming).** Norms now cover how the team reviews and approves AI-proposed work, and they are distinct from the ad hoc checking that anyone does anyway. AI operates as a coworker on defined tasks, and the review step has become a process instead of a habit. *Example:* an agreed process for how AI-identified defects are triaged, reviewed, and merged.
 
-**Optimization (performing).** AI operates semi-autonomously in specified areas, under oversight somebody designed rather than assumed. Sufficiency is what this stage tests: can AI reach usable output without a person feeding it context in the moment? *Example:* AI adjusting logistics within set bounds, escalating what falls outside them.
+**Optimization (performing).** AI operates semi-autonomously in specified areas, under oversight somebody designed instead of assuming it. Two things are tested at once here. Sufficiency asks whether AI can reach usable output without a person feeding it context in the moment. Governance asks whether the task it runs most freely has a limit written down and a person accountable for that limit. *Example:* AI adjusting logistics within set bounds and escalating what falls outside them, with a guardrail naming the bounds and a named owner for it.
 
 **Continuous Evolution.** The team deliberately re-opens the collaboration model as capability changes, and it moves in both directions. Somebody decides to raise automation for a specific task, and the team can tell you how it would notice that AI's role needed to shrink. *Example:* a review that moves one task from proposing to executing and pulls another back after a near miss.
 
@@ -58,7 +61,7 @@ There are four gates, one for each transition between adjacent stages. You pass 
 
 The evidence sources are **[A]** for artifact inspection, **[S]** for a survey or questionnaire, and **[O]** for observation or interview. Every gate carries at least one [A] or [O] criterion, because a gate that can be passed entirely by self-report will be passed.
 
-The Integration to Optimization gate carries the Human-AI Collaboration / Knowledge & Context interaction criterion (sufficiency): whether AI can be grounded without a human supplying context in the moment.
+The Integration to Optimization gate carries two interaction criteria. The Knowledge & Context one (sufficiency) asks whether AI can be grounded without a human supplying context in the moment. The Ethics one (governance) asks whether the autonomy the team is handing over is covered by a guardrail that names a limit and by somebody accountable for it.
 
 ### Exploration to Experimentation
 
@@ -88,16 +91,16 @@ Storming is what it looks like when differences in expectations and roles come t
 
 ### Integration to Optimization
 
-*Tests* Whether AI can be grounded without a human supplying context in the moment.
+*Tests* Whether AI can be grounded without a human supplying context in the moment, and whether anything governs the autonomy the team is handing it.
 
-Norming is where AI becomes a trusted "colleague" whose outputs the team reviews and approves. It is also where Human-AI Collaboration and Knowledge & Context interact. Sufficiency asks whether AI can reach usable output without a human feeding it context in the moment, and a colleague you re-brief every session has not earned that trust.
+Norming is where AI becomes a trusted "colleague" whose outputs the team reviews and approves. Two other dimensions meet this gate. Sufficiency asks whether AI can reach usable output without a human feeding it context in the moment, and a colleague you re-brief every session has not earned that trust. Governance asks a question teams rarely face at this point. The automation level is about to rise, so does anything cover the task it rises on that could stop it? Ethics maturity in general does not answer that. A guardrail can be specific, owned and current, and still say nothing about the one task AI now runs on its own.
 
 - **[O]** **(core)** In an observed session, AI produces usable output on a routine task without the human re-explaining context they already explained in a prior session.
 - **[A]** A norm or process document exists describing how AI-proposed actions get reviewed and approved, distinct from ad hoc checking.
 - **[S]** People report they trust AI output enough to review rather than redo it from scratch, for at least one recurring task.
-- **[A]** At least one instance is recorded of AI executing an action, not just proposing one, with human approval.
+- **[A]** For at least one task AI executes instead of proposing, a guardrail names what it may not do without a person, and somebody is accountable for that guardrail.
 
-*Failure signal.* High satisfaction scores paired with every session still starting from a blank slate. Trust without grounding is not norming. You have a well-liked tool that has not yet graduated to colleague.
+*Failure signal.* High satisfaction scores paired with every session still starting from a blank slate. Trust without grounding is not norming. You have a well-liked tool that has not yet graduated to colleague. The second profile is quieter and worse. AI executes on a task nobody wrote a limit for, the team reads that as progress because nothing has gone wrong yet, and the guardrail set somebody would point you to is perfectly respectable and silent about this one task.
 
 ### Optimization to Continuous Evolution
 
@@ -117,5 +120,6 @@ This gate is untested against practice. No assessment has yet placed a team at C
 - This dimension's row in the combined matrix: `framework/matrix.md`
 - The stages themselves, read across all six dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
+- Dimension interactions: `framework/README.md`
 - Theory anchors and verification status: `research/evidence-log.md`
 - Source article: `archive/v0.1/article.md`. The automation-levels figure reproduced there is IEEE copyright and is deliberately not carried into `framework/`; see `archive/v0.1/figures/README.md`.

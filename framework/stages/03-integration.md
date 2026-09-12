@@ -26,6 +26,8 @@ Both are correct, and they are correct about different objects. The working agre
 
 For an assessor this is genuinely valuable, because it predicts a specific distortion. The Human-AI Collaboration reading will tend to look better than the People reading. That gap is real, so do not try to reconcile it, and do not read only one of the two. It also explains why capability pools at this stage. When routines are unsettled, the people who build their own workarounds fastest pull ahead, and the distribution criterion in the People dimension exists to catch that.
 
+Knowledge & Context has a storming of its own here, one stage behind Human-AI Collaboration's, and the offset is worth expecting. Context artifacts stop being private and become team-owned, and the moment they do, two documents that had been quietly disagreeing for months are both in use and somebody has to decide which one wins. Teams often read that argument as evidence the documentation has gone wrong. It is usually the first evidence that anybody is reading it. *Example:* an AI-drafted spec that pulls three different names for the same feature out of three stale sources, which is how a good many teams discover they never agreed on the first one.
+
 ## The characteristic stall
 
 The first stall is integration achieved in the workflow and not in the people. Somebody rebuilt the process, the documentation exists, and the capability to run any of it sits with whoever adapted first. It passes every artifact check. It fails the moment that person leaves or the workload doubles.
@@ -36,7 +38,7 @@ The second stall is grounding. The team treats AI as a colleague while every ses
 
 ## Leaving the stage
 
-You leave Integration one dimension at a time, by passing that dimension's Integration to Optimization gate. The four gates live in the dimension files under `framework/dimensions/`. Four of the five dimension-interaction criteria sit at this gate: transferability in Solution Fit, sufficiency in Human-AI Collaboration, and both distribution and displacement in People. That is no accident. This is the stage whose achievements are most often local, and the transition out of it is exactly where local stops being enough.
+You leave Integration one dimension at a time, by passing that dimension's Integration to Optimization gate. Six gates lead out of this stage, one in each file under `framework/dimensions/`. Five of the six dimension-interaction criteria sit here: transferability in Solution Fit, sufficiency and governance in Human-AI Collaboration, and both distribution and displacement in People. That is no accident. This is the stage whose achievements are most often local, and the transition out of it is exactly where local stops being enough.
 
 ## Related
 

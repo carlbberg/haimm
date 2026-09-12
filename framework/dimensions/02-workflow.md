@@ -36,13 +36,13 @@ One lens does not cover the whole dimension. Zuboff describes what the differenc
 
 ## Patterns it detects
 
-**The recited process.** Ask what a workflow is for and the team walks you through its steps. The answer sounds complete and contains no purpose, so every subsequent question about the work can only be answered as an edit to the sequence. From inside, nothing looks wrong.
+**The recited process.** Ask what a workflow is for and the team walks you through its steps. The answer sounds complete and contains no purpose, so every subsequent question about the work can only be answered as an edit to the sequence. From inside, nothing looks wrong. *Example:* asked what the weekly report is for, the team explains that it starts with pulling the numbers on Monday.
 
-**The scoped review.** A redesign exercise that examined exactly the steps AI was already going to touch. Scoping the review to the intervention guarantees the answer, and in the write-up it looks identical to a genuine reconsideration.
+**The scoped review.** A redesign exercise that examined exactly the steps AI was already going to touch. Scoping the review to the intervention guarantees the answer, and in the write-up it looks identical to a genuine reconsideration. *Example:* a redesign whose stated scope is steps three to five, which are the steps the assistant was already going to handle.
 
-**Substitution dressed as redesign.** A before-and-after in which every old element maps onto exactly one new element and only the executor changed. The team experiences this as transformation because the work feels different. Structurally, nothing moved.
+**Substitution dressed as redesign.** A before-and-after in which every old element maps onto exactly one new element and only the executor changed. The team experiences this as transformation because the work feels different. Structurally, nothing moved. *Example:* a before-and-after diagram with the same seven boxes in the same order, and a different colour on two of them.
 
-**The single reinvention.** One large redesign, dated, cited whenever the question comes up, with everything since being tooling changes inside the shape it produced. A team can stay here for years and describe itself accurately as having transformed.
+**The single reinvention.** One large redesign, dated, cited whenever the question comes up, with everything since being tooling changes inside the shape it produced. A team can stay here for years and describe itself accurately as having transformed. *Example:* a transformation deck from two years ago still being presented, with everything since described as a tooling upgrade.
 
 ## Stage progression
 
@@ -127,5 +127,6 @@ Calling this dimension Workflow puts one word to two jobs inside a single model:
 - This dimension's row in the combined matrix: `framework/matrix.md`
 - The stages themselves, read across all six dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
+- Dimension interactions: `framework/README.md`
 - Theory anchors and verification status: `research/evidence-log.md`
 - The candidate draft this dimension came from, kept for its reasoning: `research/drafts/workflow-candidate-dimension.md`

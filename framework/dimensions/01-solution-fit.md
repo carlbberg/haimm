@@ -26,13 +26,13 @@ You are balancing two forces. *Demand pull* is a need that exists whether or not
 
 ## Patterns it detects
 
-**Capability push.** You find a backlog of use cases mapping neatly onto what AI does well, such as summarisation, drafting and classification, with no user-research artifact behind any of them. It passes a self-report check every time. Nobody ever has to admit they did not ask.
+**Capability push.** You find a backlog of use cases mapping neatly onto what AI does well, such as summarisation, drafting and classification, with no user-research artifact behind any of them. It passes a self-report check every time. Nobody ever has to admit they did not ask. *Example:* a quarter's roadmap of six AI features, every one of them a summariser, and a user-research folder whose most recent file predates the roadmap by a year.
 
-**The polite pilot.** The pilot ran cleanly, scored well and shipped unchanged. High effort-expectancy scores paired with zero documented product changes usually mean the survey measured politeness rather than fit, and a pilot that could not have contradicted anyone never really tested anything.
+**The polite pilot.** The pilot ran cleanly, scored well and shipped unchanged. High effort-expectancy scores paired with zero documented product changes usually mean the survey measured politeness rather than fit, and a pilot that could not have contradicted anyone never really tested anything. *Example:* a pilot survey returning 4.6 out of 5 on ease of use, beside a changelog for the same period with no entries in it.
 
-**Non-transferable fit.** A solution worked in the pilot and stalls the moment a second team picks it up, because the fit sat between the AI and the pilot team's accumulated context and never between the AI and the workflow. Solution Fit and Knowledge & Context meet here. That is why the Integration to Optimization gate asks whether that context exists anywhere outside the pilot team.
+**Non-transferable fit.** A solution worked in the pilot and stalls the moment a second team picks it up, because the fit sat between the AI and the pilot team's accumulated context and never between the AI and the workflow. Solution Fit and Knowledge & Context meet here. That is why the Integration to Optimization gate asks whether that context exists anywhere outside the pilot team. *Example:* a second team that gets working output only after somebody from the pilot sits with them for an afternoon, which nobody writes down as a finding.
 
-**Frontier drift.** The team adopts each new model or feature as it ships, and nothing anywhere in the record shows a single person going back to re-check a need. Capability expanded. Fit did not, and the two get reported as though they were the same thing.
+**Frontier drift.** The team adopts each new model or feature as it ships, and nothing anywhere in the record shows a single person going back to re-check a need. Capability expanded. Fit did not, and the two get reported as though they were the same thing. *Example:* three model upgrades in a year, each with a note about what the model can now do, and none with a note about what anybody needed.
 
 ## Stage progression
 
@@ -111,5 +111,6 @@ This gate is untested against practice. No assessment has yet placed a team at C
 - This dimension's row in the combined matrix: `framework/matrix.md`
 - The stages themselves, read across all six dimensions: `framework/stages/`
 - Metrics for this dimension: `framework/metrics.md`
+- Dimension interactions: `framework/README.md`
 - Theory anchors and verification status: `research/evidence-log.md`
 - Source article: `archive/v0.1/article.md`

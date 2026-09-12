@@ -8,7 +8,7 @@ Nobody has ever observed this stage. Read everything below with that fact in fro
 
 ## Status
 
-No assessment has placed a team at this stage on any dimension. The four gates leading into it, one per dimension, are reasoned from the stages before them and never checked against a team that actually passed them. Each of the five dimension files says so at that gate, `playbook/running-an-assessment.md` repeats it under known weaknesses, and it remains the single largest untested part of the model.
+No assessment has placed a team at this stage on any dimension. The six gates leading into it, one per dimension, are reasoned from the stages before them and never checked against a team that actually passed them. Each of the six dimension files says so at that gate, `playbook/running-an-assessment.md` repeats it under known weaknesses, and it remains the single largest untested part of the model.
 
 This is not a hedge attached to an otherwise finished stage. Be sceptical of any assessment that places a team here, including your own.
 
@@ -32,17 +32,19 @@ Tuckman and Jensen (1977) added adjourning as a fifth stage, where the group dis
 
 Satir's new status quo is a terminal state: stability re-established at a higher level of performance. A stage called Continuous Evolution cannot be terminal, so the lens describes the wrong shape.
 
-What replaces both is the team's own capacity to re-open a question it had settled. Two dimensions come through this intact, for different reasons. Ethics borrows no developmental model at all, by design. Workflow borrows Zuboff, who describes a difference in kind rather than a path through it, so there was never a trajectory to run out. Neither account of this stage leans on a lens that has stopped working.
+What replaces both is the team's own capacity to re-open a question it had settled.
+
+It is worth being exact about how much of the model this affects, because "both lenses run out" sounds like it covers everything and it covers a third. Tuckman and Satir are the only borrowings in HAIMM that describe a path with an end on it, so Human-AI Collaboration and People are the only two dimensions with anything to lose here. The other four never had a trajectory to run out of. Solution Fit borrows acceptance models, which predict whether people will use a thing and say nothing about a sequence. Workflow borrows one distinction from Zuboff and no route between its two halves. Knowledge & Context assembles three partial lenses, none of which is an arc. Ethics borrows nothing at all, by design. So this is not the stage where the model's theory gives out. It is the stage where two borrowed arcs end, and where the account of Continuous Evolution in Human-AI Collaboration and People becomes ours to defend, as the account in the other four always was.
 
 ## The characteristic stall
 
-Stability gets mistaken for maturity. You will see an ethics policy last edited substantively at the Integration gate, now covering use cases invented long after somebody wrote it. Or a context artifact that stays current only because nothing has challenged it. Or a workflow nobody has questioned since the day it started working.
+Stability gets mistaken for maturity. You will see an ethics policy last edited substantively at the Integration gate, now covering use cases invented long after somebody wrote it. Or a context artifact that stays current only because nothing has challenged it. Or a workflow nobody has questioned since the day it started working. Or a single training session from eighteen months ago, still cited whenever anyone asks how the team keeps up. Or a stream of new models adopted the week each one shipped, with nothing in the record showing a single person going back to check the need was still there.
 
 On any single inspection, each looks exactly like a healthy steady state. Only one question separates them. What changed, and when?
 
 ## Entering the stage
 
-You enter Continuous Evolution one dimension at a time, by passing that dimension's Optimization to Continuous Evolution gate. The four gates live in the dimension files under `framework/dimensions/`, and every one carries a provisional mark.
+You enter Continuous Evolution one dimension at a time, by passing that dimension's Optimization to Continuous Evolution gate. Six gates lead into this stage, one in each file under `framework/dimensions/`, and every one carries a provisional mark.
 
 ## Related
 

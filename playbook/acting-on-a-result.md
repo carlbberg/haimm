@@ -22,7 +22,7 @@ Gate criteria describe states you can inspect, so each one already contains its 
 
 ## Reading the shape
 
-Seven profiles are worth learning to recognise. The pairwise ones matter considerably more than any single dimension's level.
+Seven profiles are worth learning to recognise. The pairwise ones matter considerably more than any single dimension's level, and that is not a coincidence, since five of the model's six interaction criteria sit on the gates out of Integration and a pairwise profile is what an assessor sees just before one of them bites.
 
 **Solution Fit ahead, Knowledge & Context behind.** The tools fit the work and the grounding lives in a few people's heads. It usually presents as "our pilot worked and the rollout stalled". The move is transferability: document what made the pilot work before scaling anything else. Attacking it as a training or tooling problem is the standard mistake, and an expensive one.
 
@@ -32,7 +32,7 @@ Seven profiles are worth learning to recognise. The pairwise ones matter conside
 
 **People behind everything else.** Capability has pooled. One or two people carry the AI-supported workflow, and the profile looks healthy largely because those are the people you happened to interview. The move is distribution: onboarding material, and a named person who is not the original builder running the workflow unaided.
 
-**Ethics behind everything else.** The risk compounds as automation rises, so this profile gets worse over time with nothing else changing. A team at Optimization on Human-AI Collaboration and Exploration on Ethics is running semi-autonomous operation behind unfalsifiable guardrails. The move is one specific guardrail naming an action it prohibits, applied to the highest-automation use case in play.
+**Ethics behind everything else.** The risk compounds as automation rises, so this profile gets worse over time with nothing else changing. A team at Optimization on Human-AI Collaboration and Exploration on Ethics is running semi-autonomous operation behind unfalsifiable guardrails. The model no longer lets that pass quietly: the governance criterion in Human-AI Collaboration's Integration to Optimization gate asks whether the task AI runs most freely has a limit written down and somebody accountable for it, so a team in this shape should be held at that gate as well. The move is one specific guardrail naming an action it prohibits, applied to the highest-automation use case in play.
 
 **Flat and low.** All six dimensions sit at Exploration or Experimentation. This is the normal state of a team that started recently. It is not a crisis. Work Solution Fit and Knowledge & Context first, because the other four have less to bite on until something real is in use.
 

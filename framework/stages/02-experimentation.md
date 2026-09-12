@@ -26,6 +26,10 @@ The consequence for assessment is counterintuitive, so let us state it plainly. 
 
 Workflow makes a quieter demand at this stage and it catches a different team. Separating what a workflow is for from how it currently happens tends to be uncomfortable in a way that has nothing to do with AI, because a good deal of any inherited structure turns out to exist for reasons nobody can reconstruct. A team that finds the exercise easy has usually described its steps again in different words.
 
+Knowledge & Context reaches its own fork here, and it is the one place in the model where a single person succeeding is a risk. The first durable context artifacts appear and they belong to individuals. Somebody writes a brief or an instruction file that makes their own AI work noticeably better, and what happens to it next decides a good deal. Published, it becomes the team's first shared grounding and the Experimentation to Integration gate has something to inspect. Kept, it becomes the seed of the concentrated capability that People's gate two stages later will have to go looking for. Nobody experiences the second outcome as a failure, because from inside it the work is going well. *Example:* a designer whose personal prompt library consistently beats everyone else's output, and who is never asked to share it, because nobody has registered that this is what happened.
+
+Ethics gets its cheapest moment at this stage, and most teams let it go by. Reviewing a pilot before it rolls out costs a conversation. Reviewing the same thing once it is embedded in the work costs a negotiation with everyone who now depends on it. That is why the gate asks for a review that predates rollout and then checks the dates, since a real review and a retrospective justification produce a document that reads the same either way.
+
 ## The characteristic stall
 
 The first stall is the polite pilot. It ran cleanly, scored well and shipped unchanged. Every artifact of a successful experiment is there, and the experiment itself had no result. The same profile shows up in Ethics as a review checklist somebody fills in identically every time and that has never caused a change.
@@ -34,7 +38,7 @@ A team can also stall by never leaving pilot at all. Continuous experimentation 
 
 ## Leaving the stage
 
-You leave Experimentation one dimension at a time, by passing that dimension's Experimentation to Integration gate, and the four gates are in the dimension files under `framework/dimensions/`. Ethics carries the provenance criterion at this gate, which asks whether the team can say what grounded an AI-influenced decision.
+You leave Experimentation one dimension at a time, by passing that dimension's Experimentation to Integration gate, and the six gates out of this stage sit one apiece in the dimension files under `framework/dimensions/`. Ethics carries the provenance criterion at this gate, which asks whether the team can say what grounded an AI-influenced decision.
 
 ## Related
 

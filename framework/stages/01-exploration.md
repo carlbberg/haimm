@@ -26,13 +26,17 @@ For Solution Fit, the acceptance lenses put performance expectancy first: do peo
 
 Workflow has no lens to offer at this stage, which is itself the finding. Zuboff's distinction between automating and informating only becomes legible once something has been built, and at Exploration nothing has. What the dimension asks for here is prior to either: whether anyone can say what a workflow is for without walking you through its steps.
 
+Knowledge & Context has no lens either, and it brings a blind spot to warn you about instead. A team at Exploration usually cannot tell a grounding failure apart from a capability failure, so both get filed under one heading: the model is not good enough yet. An assistant that writes a poor release note because nobody told it who the release is for looks identical, from outside, to an assistant that cannot write release notes. One of those is fixed by a paragraph and the other is not. A team that has not learned to tell them apart will spend its Exploration comparing tools, and the comparison will keep coming out the same way.
+
+Ethics borrows no developmental model at all, by design, and this is the stage where the absence shows most. Every other lens here predicts something about how people will feel. None of them predicts what a team does first with a guardrail, because no accepted theory describes how ethical practice matures inside a team. That leaves one blunt question, and it is a good one. Does the guardrail name something it would stop?
+
 ## The characteristic stall
 
-A team stalls in Exploration by producing every artifact of the stage without doing the enquiry. A backlog of use cases matched to known AI capabilities, a values statement nobody would disagree with, a well-attended kickoff with no concern recorded anywhere, a process map that lists every step and never says what the process is for: all of them pass a superficial reading. Each dimension's Exploration to Experimentation gate examines one, and each fails for the same reason. Nothing in the record could have come out differently.
+A team stalls in Exploration by producing every artifact of the stage without doing the enquiry. A backlog of use cases matched to known AI capabilities, a values statement nobody would disagree with, a well-attended kickoff with no concern recorded anywhere, a process map that lists every step and never says what the process is for, a tool comparison that rejected four assistants on output quality without noting what any of them was given to work with: all of them pass a superficial reading. Each dimension's Exploration to Experimentation gate examines one, and each fails for the same reason. Nothing in the record could have come out differently.
 
 ## Leaving the stage
 
-You leave Exploration one dimension at a time, by passing that dimension's Exploration to Experimentation gate. The four gates live in the dimension files under `framework/dimensions/`. A team never leaves the stage as a whole, and the scatter that produces across the six dimensions is the result you are looking for.
+You leave Exploration one dimension at a time, by passing that dimension's Exploration to Experimentation gate. Six gates lead out of this stage, one in each file under `framework/dimensions/`. A team never leaves the stage as a whole, and the scatter that produces across the six dimensions is the result you are looking for.
 
 ## Related
 

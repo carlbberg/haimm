@@ -51,19 +51,20 @@ We considered an alternative design, in which Knowledge & Context gated the othe
 
 ## Where dimensions genuinely interact
 
-The interactions are real. Each one appears as a criterion inside the affected dimension's own gates, one among the four in that gate, so no dimension's placement is ever hostage to another's.
+The interactions are real. Each one appears as a criterion inside the affected dimension's own gates, one among the four in that gate, so no dimension's placement is ever hostage to another's. Read the table as: the criterion sits in the first dimension's gate, and what it asks about is the second dimension.
 
-| Interaction | Lives in | What it asks |
-|---|---|---|
-| Transferability | Solution Fit, Integration to Optimization | Whether the context that made a pilot work exists anywhere other than the pilot team |
-| Sufficiency | Human-AI Collaboration, Integration to Optimization | Whether AI can be grounded without a human supplying context in the moment |
-| Distribution | People, Integration to Optimization | Whether capability is concentrated in the people who built personal context scaffolding |
-| Provenance | Ethics, Experimentation to Integration | Whether the team can say what grounded an AI-influenced decision |
-| Displacement | People, Integration to Optimization | Whether the effect on roles was named in advance when a workflow changed shape |
+| Interaction | Criterion sits in | Asks about | What it asks |
+|---|---|---|---|
+| Provenance | Ethics, Experimentation to Integration | Knowledge & Context | Whether the team can say what grounded an AI-influenced decision |
+| Transferability | Solution Fit, Integration to Optimization | Knowledge & Context | Whether the context that made a pilot work exists anywhere other than the pilot team |
+| Sufficiency | Human-AI Collaboration, Integration to Optimization | Knowledge & Context | Whether AI can be grounded without a human supplying context in the moment |
+| Governance | Human-AI Collaboration, Integration to Optimization | Ethics | Whether the task AI runs most freely has a limit written down and somebody accountable for it |
+| Distribution | People, Integration to Optimization | Knowledge & Context | Whether capability is concentrated in the people who built personal context scaffolding |
+| Displacement | People, Integration to Optimization | Workflow | Whether the effect on roles was named in advance where a workflow changed shape |
 
-All five sit as a single criterion inside the named gate, in the affected dimension's own file under `framework/dimensions/`.
+All six sit as a single criterion inside the named gate, in the affected dimension's own file under `framework/dimensions/`. Two gates hold two apiece, Human-AI Collaboration and People at the Integration to Optimization transition, and five of the six sit at that transition altogether. `framework/stages/03-integration.md` says why that concentration is not a coincidence.
 
-Are the interactions that do not involve Knowledge & Context common enough to justify a relationship layer of their own? We have deferred that question until there is more than reasoning behind an answer, and `research/open-questions.md` records where it stands.
+Four of the six involve Knowledge & Context, which is what you would expect of a dimension the model treats as a ceiling on the others. The two that do not are newer and were each found by asking a different question: displacement came from noticing that People had five criteria about roles changing and none about a role ending, and governance from noticing that a team can raise the automation level on a task no guardrail mentions. Are there enough of these to justify a relationship layer of its own, with a diagram to match? We have deferred that until there is more than reasoning behind an answer, and `research/open-questions.md` records where it stands.
 
 ## Assessment
 

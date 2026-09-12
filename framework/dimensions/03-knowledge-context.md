@@ -8,11 +8,11 @@ This dimension covers the organisation's maturity in making the understanding th
 
 ## Why the model needed it
 
-HAIMM's original four dimensions all mature through a change in behaviour. Solution Fit matures by running research and pilots, Human-AI Collaboration matures by negotiating roles and trust, People matures by working through a cultural transition, and Ethics matures by writing and then enforcing guardrails.
+Most of the dimensions mature through a change in behaviour. Solution Fit matures by running research and pilots, Human-AI Collaboration matures by negotiating roles and trust, People matures by working through a cultural transition, and Ethics matures by writing and then enforcing guardrails. Workflow is the near neighbour, since it matures through a change in the shape of the work itself.
 
-This dimension is different, because it matures through a change in representation. It concerns what the organisation has made explicit, where that explicit knowledge lives, who owns it, and whether it stays true over time.
+This dimension is different again, because it matures through a change in representation. It concerns what the organisation has made explicit, where that explicit knowledge lives, who owns it, and whether it stays true over time.
 
-The reason it cannot simply fold into the other four is structural. Human collaborators infer context through channels an AI system does not have: shared history, overheard conversation, knowing who to ask, repairing a misunderstanding halfway through a sentence. Bring AI into the team and those channels vanish, leaving whatever somebody wrote down and made reachable. An organisation's ratio of tacit to explicit knowledge therefore caps how far it can progress anywhere else, however strong its culture, its ethics or its tool selection.
+The reason it cannot simply fold into the other five is structural. Human collaborators infer context through channels an AI system does not have: shared history, overheard conversation, knowing who to ask, repairing a misunderstanding halfway through a sentence. Bring AI into the team and those channels vanish, leaving whatever somebody wrote down and made reachable. An organisation's ratio of tacit to explicit knowledge therefore caps how far it can progress anywhere else, however strong its culture, its ethics or its tool selection.
 
 Every other HAIMM dimension would look at an organisation with excellent practices and entirely undocumented knowledge and score it healthy. It is not healthy. It has hit a ceiling that no amount of culture, governance or tool selection will raise, and this is the only dimension that will tell you so.
 
@@ -62,19 +62,19 @@ Reachability is not fully independent of locus, the way interaction mode and aut
 
 There are five patterns here that no other HAIMM dimension will surface for you.
 
-**Tacit ceiling.** Work whose grounding lives in a few people's heads cannot move up the automation ladder, however good the tools, the trust or the governance may be. It is usually misread as a trust or capability problem and treated with training or better tools, and neither of those addresses it.
+**Tacit ceiling.** Work whose grounding lives in a few people's heads cannot move up the automation ladder, however good the tools, the trust or the governance may be. It is usually misread as a trust or capability problem and treated with training or better tools, and neither of those addresses it. *Example:* the one workflow nobody will hand over, defended on quality grounds, whose quality rests on what two people know about a customer and have never written down.
 
-**Stale grounding.** Somebody wrote the context once and nobody has refreshed it since. That is worse than having none, because it carries the authority of a document and, unlike a colleague, the AI will not tell you it has gone out of date. Refresh tends to be the weakest activity in most organisations and the hardest to sustain, largely because nothing naturally triggers it.
+**Stale grounding.** Somebody wrote the context once and nobody has refreshed it since. That is worse than having none, because it carries the authority of a document and, unlike a colleague, the AI will not tell you it has gone out of date. Refresh tends to be the weakest activity in most organisations and the hardest to sustain, largely because nothing naturally triggers it. *Example:* an instruction file naming a product that was renamed a year ago, still producing confident output under the old name.
 
-**Privatised grounding.** Individuals accumulate rich context in their personal histories and prompt scaffolding. Output quality rises. Shared understanding among people does not, and it may well decline, because work that once needed a conversation no longer needs one. The artifact still appears, so the negotiation that used to build common ground quietly stops. Output metrics miss this, and so do all four of the original dimensions, which is exactly why the fifth one exists.
+**Privatised grounding.** Individuals accumulate rich context in their personal histories and prompt scaffolding. Output quality rises. Shared understanding among people does not, and it may well decline, because work that once needed a conversation no longer needs one. The artifact still appears, so the negotiation that used to build common ground quietly stops. Output metrics miss it, and so does every other dimension in the model, which is the clearest single argument for this one existing. *Example:* two colleagues who used to talk through every brief, and who now each send a better version of it to the same assistant, separately.
 
-**Unreachable sources of record.** The team externalised the knowledge, agreed on it, and then filed it somewhere the AI actually in use cannot reach. People re-supply it by hand, inconsistently, from memory.
+**Unreachable sources of record.** The team externalised the knowledge, agreed on it, and then filed it somewhere the AI actually in use cannot reach. People re-supply it by hand, inconsistently, from memory. *Example:* an agreed glossary in a wiki, and four people typing the terms they need from memory because nothing connects the two.
 
-**Unarbitrated conflict.** Two context sources disagree, both stay in use, and nothing decides between them. This differs from stale grounding, because each source may be perfectly current and maintained. What the team lacks is a way to make one of them authoritative. It surfaces once artifacts become team-owned instead of individual, and it is what the Integration to Optimization gate wants when it asks for a specific conflict and an account of how somebody settled it.
+**Unarbitrated conflict.** Two context sources disagree, both stay in use, and nothing decides between them. This differs from stale grounding, because each source may be perfectly current and maintained. What the team lacks is a way to make one of them authoritative. It surfaces once artifacts become team-owned instead of individual, and it is what the Integration to Optimization gate wants when it asks for a specific conflict and an account of how somebody settled it. *Example:* two current, owned and maintained specifications for the same interface, and a standing habit of asking which one somebody means.
 
 ## Stage progression
 
-The other four dimensions each borrow a single developmental model: TAM and UTAUT for Solution Fit, Tuckman for Human-AI Collaboration, Satir for People, and, in the case of Ethics, no model at all by design. This dimension has no single lens either, and the symmetry would not be worth manufacturing.
+What the other five borrow varies more than it looks. Solution Fit takes TAM and UTAUT, Human-AI Collaboration takes Tuckman, People takes Satir, Workflow takes one distinction from Zuboff and no path through it, and Ethics takes no model at all, by design. So there is no house pattern to match, and this dimension does not have a single lens either.
 
 It uses three partial lenses instead, each covering ground the others do not. In other words, none of them gets stretched to cover the whole dimension:
 
@@ -130,12 +130,12 @@ This is the fork at which privatised grounding either takes hold or does not.
 
 *Tests* Whether shared context is owned, current, arbitrated, and reachable at the moment of work.
 
-The fourth criterion tests shared understanding directly instead of inferring it from artifacts, which makes it the strongest single item anywhere in the instrument and, for exactly the same reason, the one people skip most readily. That is why it carries the core mark.
+The fourth criterion tests shared understanding directly instead of inferring it from artifacts, which makes it the strongest single item anywhere in the instrument and, for exactly the same reason, the one people skip most readily. That is why it carries the core mark. It counts as observation and not as a survey, because nobody is reporting on themselves. You put one question to two people and to an AI session, separately, and then you compare three answers you collected yourself.
 
 - **[A]** Every context artifact the team relies on has a named owner and a last substantive change inside an agreed freshness window.
 - **[O]** The team can describe a specific conflict between two context sources and how one was made authoritative.
 - **[A]** The context the team has agreed on is reachable from the AI tools people actually use, without manual re-supply.
-- **[S]** **(core)** Two people and one AI session, asked the same question the work depends on, produce substantially the same answer.
+- **[O]** **(core)** Two people and one AI session, asked the same question the work depends on, produce substantially the same answer.
 
 *Failure signal.* Context that is documented, owned and current, and that people still re-supply by hand in every single session. That profile passes an artifact audit and fails this gate. It is the unreachable sources pattern.
 
@@ -154,7 +154,7 @@ This gate is untested against practice. No assessment has yet placed a team at C
 
 ## Placement in the model
 
-Row order is Solution Fit, **Knowledge & Context**, Human-AI Collaboration, People, Ethics.
+Row order is Solution Fit, Workflow, **Knowledge & Context**, Human-AI Collaboration, People, Ethics.
 
 Adjacency does the work here. The bands in the visualisation all carry equal weight, so the bottom of the chart offers no foundation-layer language, and putting this dimension last would just read as least important. Sitting immediately above Human-AI Collaboration puts the two markers on neighbouring rows, which makes any gap between them readable at a glance.
 
